@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface WearHacksUtility : NSObject
+@interface WHUtility : NSObject
 
 //Facebook
 + (void)processFacebookProfilePictureData:(NSData *)newProfilePictureData;

@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Samsao. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "WHAppDelegate.h"
 
-@interface AppDelegate ()
+@interface WHAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation WHAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

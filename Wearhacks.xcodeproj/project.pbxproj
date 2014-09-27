@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		1F5C137219D72B1F00746670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137119D72B1F00746670 /* main.m */; };
-		1F5C137519D72B1F00746670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137419D72B1F00746670 /* AppDelegate.m */; };
+		1F5C137519D72B1F00746670 /* WHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137419D72B1F00746670 /* WHAppDelegate.m */; };
 		1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137619D72B1F00746670 /* Wearhacks.xcdatamodeld */; };
-		1F5C137B19D72B1F00746670 /* WearHacksHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137A19D72B1F00746670 /* WearHacksHomeViewController.m */; };
+		1F5C137B19D72B1F00746670 /* WHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137A19D72B1F00746670 /* WHHomeViewController.m */; };
 		1F5C137E19D72B1F00746670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C137C19D72B1F00746670 /* Main.storyboard */; };
 		1F5C138019D72B1F00746670 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C137F19D72B1F00746670 /* Images.xcassets */; };
 		1F5C138319D72B1F00746670 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C138119D72B1F00746670 /* LaunchScreen.xib */; };
 		1F5C138F19D72B1F00746670 /* WearhacksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C138E19D72B1F00746670 /* WearhacksTests.m */; };
 		B3DC4617C0CE8B01A21BDFEB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE751E578293B9110274168 /* libPods.a */; };
-		D26EF47F19D757E200046EBB /* WearHacksLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF47D19D757E200046EBB /* WearHacksLoginViewController.m */; };
-		D26EF48319D7599800046EBB /* WearHacksUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF48219D7599800046EBB /* WearHacksUtility.m */; };
+		D26EF47F19D757E200046EBB /* WHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF47D19D757E200046EBB /* WHLoginViewController.m */; };
+		D26EF48319D7599800046EBB /* WHUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF48219D7599800046EBB /* WHUtility.m */; };
 		D26EF48D19D75A0C00046EBB /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF48619D75A0C00046EBB /* UIImage+Alpha.m */; };
 		D26EF48E19D75A0C00046EBB /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF48819D75A0C00046EBB /* UIImage+Resize.m */; };
 		D26EF48F19D75A0C00046EBB /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF48A19D75A0C00046EBB /* UIImage+RoundedCorner.m */; };
 		D26EF49019D75A0C00046EBB /* UIImageView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF48C19D75A0C00046EBB /* UIImageView+Border.m */; };
-		D26EF49319D75A1E00046EBB /* WearHacksConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF49219D75A1E00046EBB /* WearHacksConstants.m */; };
+		D26EF49319D75A1E00046EBB /* WHConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF49219D75A1E00046EBB /* WHConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +40,11 @@
 		1F5C136C19D72B1E00746670 /* Wearhacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wearhacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5C137019D72B1E00746670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5C137119D72B1F00746670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F5C137319D72B1F00746670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1F5C137419D72B1F00746670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F5C137319D72B1F00746670 /* WHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHAppDelegate.h; sourceTree = "<group>"; };
+		1F5C137419D72B1F00746670 /* WHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHAppDelegate.m; sourceTree = "<group>"; };
 		1F5C137719D72B1F00746670 /* Wearhacks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wearhacks.xcdatamodel; sourceTree = "<group>"; };
-		1F5C137919D72B1F00746670 /* WearHacksHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WearHacksHomeViewController.h; sourceTree = "<group>"; };
-		1F5C137A19D72B1F00746670 /* WearHacksHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WearHacksHomeViewController.m; sourceTree = "<group>"; };
+		1F5C137919D72B1F00746670 /* WHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHHomeViewController.h; sourceTree = "<group>"; };
+		1F5C137A19D72B1F00746670 /* WHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHHomeViewController.m; sourceTree = "<group>"; };
 		1F5C137D19D72B1F00746670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F5C137F19D72B1F00746670 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1F5C138219D72B1F00746670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -52,10 +52,10 @@
 		1F5C138D19D72B1F00746670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5C138E19D72B1F00746670 /* WearhacksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WearhacksTests.m; sourceTree = "<group>"; };
 		5EE751E578293B9110274168 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D26EF47C19D757E200046EBB /* WearHacksLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WearHacksLoginViewController.h; sourceTree = "<group>"; };
-		D26EF47D19D757E200046EBB /* WearHacksLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WearHacksLoginViewController.m; sourceTree = "<group>"; };
-		D26EF48119D7599800046EBB /* WearHacksUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WearHacksUtility.h; sourceTree = "<group>"; };
-		D26EF48219D7599800046EBB /* WearHacksUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WearHacksUtility.m; sourceTree = "<group>"; };
+		D26EF47C19D757E200046EBB /* WHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLoginViewController.h; sourceTree = "<group>"; };
+		D26EF47D19D757E200046EBB /* WHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLoginViewController.m; sourceTree = "<group>"; };
+		D26EF48119D7599800046EBB /* WHUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUtility.h; sourceTree = "<group>"; };
+		D26EF48219D7599800046EBB /* WHUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUtility.m; sourceTree = "<group>"; };
 		D26EF48519D75A0C00046EBB /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
 		D26EF48619D75A0C00046EBB /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
 		D26EF48719D75A0C00046EBB /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 		D26EF48A19D75A0C00046EBB /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		D26EF48B19D75A0C00046EBB /* UIImageView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Border.h"; sourceTree = "<group>"; };
 		D26EF48C19D75A0C00046EBB /* UIImageView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Border.m"; sourceTree = "<group>"; };
-		D26EF49119D75A1E00046EBB /* WearHacksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WearHacksConstants.h; sourceTree = "<group>"; };
-		D26EF49219D75A1E00046EBB /* WearHacksConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WearHacksConstants.m; sourceTree = "<group>"; };
+		D26EF49119D75A1E00046EBB /* WHConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHConstants.h; sourceTree = "<group>"; };
+		D26EF49219D75A1E00046EBB /* WHConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHConstants.m; sourceTree = "<group>"; };
 		D26EF49619D75E6200046EBB /* WearHacks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WearHacks-Prefix.pch"; sourceTree = "<group>"; };
 		DBC9213B26E4B0D8EA85374C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,10 +123,10 @@
 				D26EF49519D75A4400046EBB /* Interfaces */,
 				D26EF49419D75A2500046EBB /* Login */,
 				D26EF48419D759BA00046EBB /* Categories */,
-				1F5C137319D72B1F00746670 /* AppDelegate.h */,
-				1F5C137419D72B1F00746670 /* AppDelegate.m */,
-				1F5C137919D72B1F00746670 /* WearHacksHomeViewController.h */,
-				1F5C137A19D72B1F00746670 /* WearHacksHomeViewController.m */,
+				1F5C137319D72B1F00746670 /* WHAppDelegate.h */,
+				1F5C137419D72B1F00746670 /* WHAppDelegate.m */,
+				1F5C137919D72B1F00746670 /* WHHomeViewController.h */,
+				1F5C137A19D72B1F00746670 /* WHHomeViewController.m */,
 				1F5C137F19D72B1F00746670 /* Images.xcassets */,
 				1F5C137619D72B1F00746670 /* Wearhacks.xcdatamodeld */,
 				1F5C136F19D72B1E00746670 /* Supporting Files */,
@@ -137,10 +137,10 @@
 		1F5C136F19D72B1E00746670 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D26EF48119D7599800046EBB /* WearHacksUtility.h */,
-				D26EF48219D7599800046EBB /* WearHacksUtility.m */,
-				D26EF49119D75A1E00046EBB /* WearHacksConstants.h */,
-				D26EF49219D75A1E00046EBB /* WearHacksConstants.m */,
+				D26EF48119D7599800046EBB /* WHUtility.h */,
+				D26EF48219D7599800046EBB /* WHUtility.m */,
+				D26EF49119D75A1E00046EBB /* WHConstants.h */,
+				D26EF49219D75A1E00046EBB /* WHConstants.m */,
 				1F5C137019D72B1E00746670 /* Info.plist */,
 				1F5C137119D72B1F00746670 /* main.m */,
 				D26EF49619D75E6200046EBB /* WearHacks-Prefix.pch */,
@@ -192,8 +192,8 @@
 		D26EF49419D75A2500046EBB /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				D26EF47C19D757E200046EBB /* WearHacksLoginViewController.h */,
-				D26EF47D19D757E200046EBB /* WearHacksLoginViewController.m */,
+				D26EF47C19D757E200046EBB /* WHLoginViewController.h */,
+				D26EF47D19D757E200046EBB /* WHLoginViewController.m */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -365,14 +365,14 @@
 				1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */,
 				D26EF48F19D75A0C00046EBB /* UIImage+RoundedCorner.m in Sources */,
 				D26EF48E19D75A0C00046EBB /* UIImage+Resize.m in Sources */,
-				1F5C137519D72B1F00746670 /* AppDelegate.m in Sources */,
-				1F5C137B19D72B1F00746670 /* WearHacksHomeViewController.m in Sources */,
-				D26EF49319D75A1E00046EBB /* WearHacksConstants.m in Sources */,
+				1F5C137519D72B1F00746670 /* WHAppDelegate.m in Sources */,
+				1F5C137B19D72B1F00746670 /* WHHomeViewController.m in Sources */,
+				D26EF49319D75A1E00046EBB /* WHConstants.m in Sources */,
 				1F5C137219D72B1F00746670 /* main.m in Sources */,
 				D26EF48D19D75A0C00046EBB /* UIImage+Alpha.m in Sources */,
-				D26EF48319D7599800046EBB /* WearHacksUtility.m in Sources */,
+				D26EF48319D7599800046EBB /* WHUtility.m in Sources */,
 				D26EF49019D75A0C00046EBB /* UIImageView+Border.m in Sources */,
-				D26EF47F19D757E200046EBB /* WearHacksLoginViewController.m in Sources */,
+				D26EF47F19D757E200046EBB /* WHLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Samsao. All rights reserved.
 //
 
-#import "WearHacksUtility.h"
+#import "WHUtility.h"
 #import "UIImage+Resize.h"
 
-@implementation WearHacksUtility
+@implementation WHUtility
 
 
 #pragma mark - Facebook

@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
 
-@interface WearHacksLoginViewController : PFLogInViewController
+@interface WHLoginViewController : PFLogInViewController
 
 @end

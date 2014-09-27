@@ -6,17 +6,17 @@
 //  Copyright (c) 2014 Samsao. All rights reserved.
 //
 
-#import "WearHacksHomeViewController.h"
-#import "WearHacksLoginViewController.h"
+#import "WHHomeViewController.h"
+#import "WHLoginViewController.h"
 #import "Facebook.h"
 
-@interface WearHacksHomeViewController () {
+@interface WHHomeViewController () {
     NSMutableData *_data;
 }
 
 @end
 
-@implementation WearHacksHomeViewController
+@implementation WHHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -36,7 +36,7 @@
     
     if (![PFUser currentUser]) {
         // Customize the Log In View Controller
-        WearHacksLoginViewController *logInViewController = [[WearHacksLoginViewController alloc] init];
+        WHLoginViewController *logInViewController = [[WHLoginViewController alloc] init];
         [logInViewController setDelegate:self];
         [logInViewController setFacebookPermissions:[NSArray arrayWithObjects:@"friends_about_me", nil]];
         [logInViewController setFields:  PFLogInFieldsFacebook];
@@ -138,7 +138,7 @@
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-    [WearHacksUtility processFacebookProfilePictureData:_data];
+    [WHUtility processFacebookProfilePictureData:_data];
 }
 
 
