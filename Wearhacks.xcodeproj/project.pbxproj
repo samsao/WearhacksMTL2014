@@ -427,7 +427,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1ff8e528-d6df-49a2-8763-67184a5d65b4";
+				PROVISIONING_PROFILE = "756cf358-a569-4c8a-9198-4e00a8cf4ab4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,7 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1ff8e528-d6df-49a2-8763-67184a5d65b4";
+				PROVISIONING_PROFILE = "756cf358-a569-4c8a-9198-4e00a8cf4ab4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -522,7 +522,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1ff8e528-d6df-49a2-8763-67184a5d65b4";
+				PROVISIONING_PROFILE = "756cf358-a569-4c8a-9198-4e00a8cf4ab4";
 				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wearhacks.app/Wearhacks";
 			};
@@ -567,7 +567,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1ff8e528-d6df-49a2-8763-67184a5d65b4";
+				PROVISIONING_PROFILE = "756cf358-a569-4c8a-9198-4e00a8cf4ab4";
 				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wearhacks.app/Wearhacks";
 				VALIDATE_PRODUCT = YES;
