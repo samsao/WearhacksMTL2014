@@ -1,19 +1,19 @@
 //
-//  WearhacksTests.m
-//  WearhacksTests
+//  wearhacksTests.m
+//  wearhacksTests
 //
 //  Created by Gabriel Cartier on 2014-09-27.
-//
+//  Copyright (c) 2014 Samsao. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface WearhacksTests : XCTestCase
+@interface wearhacksTests : XCTestCase
 
 @end
 
-@implementation WearhacksTests
+@implementation wearhacksTests
 
 - (void)setUp {
     [super setUp];

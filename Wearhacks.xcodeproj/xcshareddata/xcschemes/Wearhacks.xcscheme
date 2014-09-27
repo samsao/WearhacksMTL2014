@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1FD7E7C419D6F3DF00231A19"
-               BuildableName = "Wearhacks.app"
-               BlueprintName = "Wearhacks"
-               ReferencedContainer = "container:Wearhacks.xcodeproj">
+               BlueprintIdentifier = "1F5C133519D723EE00746670"
+               BuildableName = "wearhacks.app"
+               BlueprintName = "wearhacks"
+               ReferencedContainer = "container:wearhacks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1FD7E7E019D6F3DF00231A19"
-               BuildableName = "WearhacksTests.xctest"
-               BlueprintName = "WearhacksTests"
-               ReferencedContainer = "container:Wearhacks.xcodeproj">
+               BlueprintIdentifier = "1F5C135119D723EE00746670"
+               BuildableName = "wearhacksTests.xctest"
+               BlueprintName = "wearhacksTests"
+               ReferencedContainer = "container:wearhacks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1FD7E7E019D6F3DF00231A19"
-               BuildableName = "WearhacksTests.xctest"
-               BlueprintName = "WearhacksTests"
-               ReferencedContainer = "container:Wearhacks.xcodeproj">
+               BlueprintIdentifier = "1F5C135119D723EE00746670"
+               BuildableName = "wearhacksTests.xctest"
+               BlueprintName = "wearhacksTests"
+               ReferencedContainer = "container:wearhacks.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1FD7E7C419D6F3DF00231A19"
-            BuildableName = "Wearhacks.app"
-            BlueprintName = "Wearhacks"
-            ReferencedContainer = "container:Wearhacks.xcodeproj">
+            BlueprintIdentifier = "1F5C133519D723EE00746670"
+            BuildableName = "wearhacks.app"
+            BlueprintName = "wearhacks"
+            ReferencedContainer = "container:wearhacks.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1FD7E7C419D6F3DF00231A19"
-            BuildableName = "Wearhacks.app"
-            BlueprintName = "Wearhacks"
-            ReferencedContainer = "container:Wearhacks.xcodeproj">
+            BlueprintIdentifier = "1F5C133519D723EE00746670"
+            BuildableName = "wearhacks.app"
+            BlueprintName = "wearhacks"
+            ReferencedContainer = "container:wearhacks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1FD7E7C419D6F3DF00231A19"
-            BuildableName = "Wearhacks.app"
-            BlueprintName = "Wearhacks"
-            ReferencedContainer = "container:Wearhacks.xcodeproj">
+            BlueprintIdentifier = "1F5C133519D723EE00746670"
+            BuildableName = "wearhacks.app"
+            BlueprintName = "wearhacks"
+            ReferencedContainer = "container:wearhacks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

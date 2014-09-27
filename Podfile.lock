@@ -3,8 +3,6 @@ PODS:
   - CrashlyticsFramework (2.2.4)
   - ISO8601DateFormatterValueTransformer (0.6.0):
     - RKValueTransformers (~> 1.1.0)
-  - Kiwi (2.3.0)
-  - Nocilla (0.8.1)
   - PonyDebugger (0.4.0):
     - SocketRocket
   - RestKit (0.23.3):
@@ -37,8 +35,6 @@ PODS:
 
 DEPENDENCIES:
   - CrashlyticsFramework (~> 2.1)
-  - Kiwi (~> 2.2)
-  - Nocilla (~> 0.8)
   - PonyDebugger (from `https://github.com/square/PonyDebugger.git`)
   - RestKit (~> 0.23)
   - SDWebImage (~> 3.x)
@@ -52,8 +48,6 @@ SPEC CHECKSUMS:
   AFNetworking: 80c4e0652b08eb34e25b9c0ff3c82556fe5967b4
   CrashlyticsFramework: 0c28a2c07a51b7691e6668b83824b0b0be77f307
   ISO8601DateFormatterValueTransformer: a705384ea6531255258e25b6480ba1180db703a0
-  Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
-  Nocilla: e573c2bf9113c8d77782b695a2f9362b7bc44e72
   PonyDebugger: 66f053d403cef52e8ed3c669d651b213b2617326
   RestKit: 193a35cddae5198388977abaedad129f8acb978b
   RKValueTransformers: b705e7b4651b9206b94600408462b74554bba969
@@ -63,4 +57,4 @@ SPEC CHECKSUMS:
   SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
   TransitionKit: 6a6f3ddda38ae758778aa889dcb930e4f8d64edc
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.34.1
