@@ -374,12 +374,14 @@
 		1FD7E7BF19D6F3C000231A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 			};
 			name = Debug;
 		};
 		1FD7E7C019D6F3C000231A19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 			};
 			name = Release;
 		};
