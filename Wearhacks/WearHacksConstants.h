@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Samsao. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface WearHacksConstants : NSObject
-
-@end
+extern NSString *const kWearHacksUserNameKey;
+extern NSString *const kWearHacksUserFacebookIDKey;
+extern NSString *const kWearHacksUserProfilePicSmallKey;
+extern NSString *const kWearHacksUserProfilePicMediumKey;
+extern NSString *const kWearHacksUserFacebookFriendsKey;

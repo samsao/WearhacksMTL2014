@@ -68,6 +68,7 @@
 		D26EF48C19D75A0C00046EBB /* UIImageView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Border.m"; sourceTree = "<group>"; };
 		D26EF49119D75A1E00046EBB /* WearHacksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WearHacksConstants.h; sourceTree = "<group>"; };
 		D26EF49219D75A1E00046EBB /* WearHacksConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WearHacksConstants.m; sourceTree = "<group>"; };
+		D26EF49619D75E6200046EBB /* WearHacks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WearHacks-Prefix.pch"; sourceTree = "<group>"; };
 		DBC9213B26E4B0D8EA85374C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +145,7 @@
 				D26EF49219D75A1E00046EBB /* WearHacksConstants.m */,
 				1F5C137019D72B1E00746670 /* Info.plist */,
 				1F5C137119D72B1F00746670 /* main.m */,
+				D26EF49619D75E6200046EBB /* WearHacks-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -264,6 +266,7 @@
 					};
 					1F5C138719D72B1F00746670 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 8UQUNTB23H;
 						TestTargetID = 1F5C136B19D72B1E00746670;
 					};
 				};
@@ -499,9 +502,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "Wearhacks/WearHacks-Prefix.pch";
 				INFOPLIST_FILE = Wearhacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -511,9 +517,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "Wearhacks/WearHacks-Prefix.pch";
 				INFOPLIST_FILE = Wearhacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -521,6 +530,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -532,6 +543,7 @@
 				INFOPLIST_FILE = WearhacksTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wearhacks.app/Wearhacks";
 			};
 			name = Debug;
@@ -540,6 +552,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -547,6 +561,7 @@
 				INFOPLIST_FILE = WearhacksTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wearhacks.app/Wearhacks";
 			};
 			name = Release;

@@ -1,14 +1,16 @@
 //
-//  LoginViewController.h
+//  WearHacks-Prefix.h
 //  Wearhacks
 //
 //  Created by Francois-Julien Alcaraz on 2014-09-27.
 //  Copyright (c) 2014 Samsao. All rights reserved.
 //
 
+#ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import <Parse/Parse.h>
+#import "WearHacksUtility.h"
+#import "WearHacksConstants.h"
+#endif
 
-@interface LoginViewController : PFLogInViewController
-
-@end

@@ -7,6 +7,7 @@
 //
 
 #import "WearHacksUtility.h"
+#import "UIImage+Resize.h"
 
 @implementation WearHacksUtility
 
@@ -47,7 +48,7 @@
         [fileMediumImage saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
             if (!error) {
                 NSLog(@"medium image profile saved");
-                [[PFUser currentUser] setObject:fileMediumImage forKey:kWaverUserProfilePicMediumKey];
+                [[PFUser currentUser] setObject:fileMediumImage forKey:kWearHacksUserProfilePicMediumKey];
                 [[PFUser currentUser] saveEventually];
             }
         }];
@@ -58,7 +59,7 @@
         [fileSmallRoundedImage saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
             if (!error) {
                 NSLog(@"small image profile saved");
-                [[PFUser currentUser] setObject:fileSmallRoundedImage forKey:kWaverUserProfilePicSmallKey];
+                [[PFUser currentUser] setObject:fileSmallRoundedImage forKey:kWearHacksUserProfilePicSmallKey];
                 [[PFUser currentUser] saveEventually];
             }
         }];

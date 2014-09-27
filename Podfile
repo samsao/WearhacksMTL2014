@@ -1,4 +1,3 @@
-source 'git@gitlab.samsaodev.com:ios-development/private-pods.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'

@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 Samsao. All rights reserved.
 //
 
-#import "WearHacksConstants.h"
-
-@implementation WearHacksConstants
-
-@end
+#pragma mark - User Class
+// Field keys
+NSString *const kWearHacksUserNameKey                                 = @"name";
+NSString *const kWearHacksUserFacebookIDKey                           = @"facebookId";
+NSString *const kWearHacksUserProfilePicSmallKey                      = @"profilePictureSmall";
+NSString *const kWearHacksUserProfilePicMediumKey                     = @"profilePictureMedium";
+NSString *const kWearHacksUserFacebookFriendsKey                      = @"facebookFriends";
