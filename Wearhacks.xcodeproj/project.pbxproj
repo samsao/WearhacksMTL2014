@@ -16,6 +16,14 @@
 		1F5C138319D72B1F00746670 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C138119D72B1F00746670 /* LaunchScreen.xib */; };
 		1F5C138F19D72B1F00746670 /* WearhacksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C138E19D72B1F00746670 /* WearhacksTests.m */; };
 		B3DC4617C0CE8B01A21BDFEB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE751E578293B9110274168 /* libPods.a */; };
+		D26EF47F19D757E200046EBB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF47D19D757E200046EBB /* LoginViewController.m */; };
+		D26EF48019D757E200046EBB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26EF47E19D757E200046EBB /* LoginViewController.xib */; };
+		D26EF48319D7599800046EBB /* WearHacksUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF48219D7599800046EBB /* WearHacksUtility.m */; };
+		D26EF48D19D75A0C00046EBB /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF48619D75A0C00046EBB /* UIImage+Alpha.m */; };
+		D26EF48E19D75A0C00046EBB /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF48819D75A0C00046EBB /* UIImage+Resize.m */; };
+		D26EF48F19D75A0C00046EBB /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF48A19D75A0C00046EBB /* UIImage+RoundedCorner.m */; };
+		D26EF49019D75A0C00046EBB /* UIImageView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF48C19D75A0C00046EBB /* UIImageView+Border.m */; };
+		D26EF49319D75A1E00046EBB /* WearHacksConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF49219D75A1E00046EBB /* WearHacksConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,21 @@
 		1F5C138D19D72B1F00746670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5C138E19D72B1F00746670 /* WearhacksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WearhacksTests.m; sourceTree = "<group>"; };
 		5EE751E578293B9110274168 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26EF47C19D757E200046EBB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D26EF47D19D757E200046EBB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D26EF47E19D757E200046EBB /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D26EF48119D7599800046EBB /* WearHacksUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WearHacksUtility.h; sourceTree = "<group>"; };
+		D26EF48219D7599800046EBB /* WearHacksUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WearHacksUtility.m; sourceTree = "<group>"; };
+		D26EF48519D75A0C00046EBB /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		D26EF48619D75A0C00046EBB /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		D26EF48719D75A0C00046EBB /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		D26EF48819D75A0C00046EBB /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		D26EF48919D75A0C00046EBB /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		D26EF48A19D75A0C00046EBB /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		D26EF48B19D75A0C00046EBB /* UIImageView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Border.h"; sourceTree = "<group>"; };
+		D26EF48C19D75A0C00046EBB /* UIImageView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Border.m"; sourceTree = "<group>"; };
+		D26EF49119D75A1E00046EBB /* WearHacksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WearHacksConstants.h; sourceTree = "<group>"; };
+		D26EF49219D75A1E00046EBB /* WearHacksConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WearHacksConstants.m; sourceTree = "<group>"; };
 		DBC9213B26E4B0D8EA85374C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,13 +121,14 @@
 		1F5C136E19D72B1E00746670 /* Wearhacks */ = {
 			isa = PBXGroup;
 			children = (
+				D26EF49519D75A4400046EBB /* Interfaces */,
+				D26EF49419D75A2500046EBB /* Login */,
+				D26EF48419D759BA00046EBB /* Categories */,
 				1F5C137319D72B1F00746670 /* AppDelegate.h */,
 				1F5C137419D72B1F00746670 /* AppDelegate.m */,
 				1F5C137919D72B1F00746670 /* ViewController.h */,
 				1F5C137A19D72B1F00746670 /* ViewController.m */,
-				1F5C137C19D72B1F00746670 /* Main.storyboard */,
 				1F5C137F19D72B1F00746670 /* Images.xcassets */,
-				1F5C138119D72B1F00746670 /* LaunchScreen.xib */,
 				1F5C137619D72B1F00746670 /* Wearhacks.xcdatamodeld */,
 				1F5C136F19D72B1E00746670 /* Supporting Files */,
 			);
@@ -114,6 +138,10 @@
 		1F5C136F19D72B1E00746670 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D26EF48119D7599800046EBB /* WearHacksUtility.h */,
+				D26EF48219D7599800046EBB /* WearHacksUtility.m */,
+				D26EF49119D75A1E00046EBB /* WearHacksConstants.h */,
+				D26EF49219D75A1E00046EBB /* WearHacksConstants.m */,
 				1F5C137019D72B1E00746670 /* Info.plist */,
 				1F5C137119D72B1F00746670 /* main.m */,
 			);
@@ -144,6 +172,40 @@
 				0C2D6A8956D61BB8A0C29720 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D26EF48419D759BA00046EBB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D26EF48519D75A0C00046EBB /* UIImage+Alpha.h */,
+				D26EF48619D75A0C00046EBB /* UIImage+Alpha.m */,
+				D26EF48719D75A0C00046EBB /* UIImage+Resize.h */,
+				D26EF48819D75A0C00046EBB /* UIImage+Resize.m */,
+				D26EF48919D75A0C00046EBB /* UIImage+RoundedCorner.h */,
+				D26EF48A19D75A0C00046EBB /* UIImage+RoundedCorner.m */,
+				D26EF48B19D75A0C00046EBB /* UIImageView+Border.h */,
+				D26EF48C19D75A0C00046EBB /* UIImageView+Border.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		D26EF49419D75A2500046EBB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D26EF47C19D757E200046EBB /* LoginViewController.h */,
+				D26EF47D19D757E200046EBB /* LoginViewController.m */,
+				D26EF47E19D757E200046EBB /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D26EF49519D75A4400046EBB /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C137C19D72B1F00746670 /* Main.storyboard */,
+				1F5C138119D72B1F00746670 /* LaunchScreen.xib */,
+			);
+			name = Interfaces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26EF48019D757E200046EBB /* LoginViewController.xib in Resources */,
 				1F5C137E19D72B1F00746670 /* Main.storyboard in Resources */,
 				1F5C138319D72B1F00746670 /* LaunchScreen.xib in Resources */,
 				1F5C138019D72B1F00746670 /* Images.xcassets in Resources */,
@@ -301,9 +364,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */,
+				D26EF48F19D75A0C00046EBB /* UIImage+RoundedCorner.m in Sources */,
+				D26EF48E19D75A0C00046EBB /* UIImage+Resize.m in Sources */,
 				1F5C137519D72B1F00746670 /* AppDelegate.m in Sources */,
 				1F5C137B19D72B1F00746670 /* ViewController.m in Sources */,
+				D26EF49319D75A1E00046EBB /* WearHacksConstants.m in Sources */,
 				1F5C137219D72B1F00746670 /* main.m in Sources */,
+				D26EF48D19D75A0C00046EBB /* UIImage+Alpha.m in Sources */,
+				D26EF48319D7599800046EBB /* WearHacksUtility.m in Sources */,
+				D26EF49019D75A0C00046EBB /* UIImageView+Border.m in Sources */,
+				D26EF47F19D757E200046EBB /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
