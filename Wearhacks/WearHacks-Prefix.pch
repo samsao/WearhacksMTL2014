@@ -12,6 +12,7 @@
 #import <Parse/Parse.h>
 #import <ParseFacebookUtils/PFFacebookUtils.h>
 #import "WearHacksUtility.h"
-#import "WearHacksConstants.h"
+#import "Constants.h"
+#import "StoryboardConstants.h"
 #endif
 

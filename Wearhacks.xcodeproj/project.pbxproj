@@ -19,14 +19,14 @@
 		1F4D5CA819D76A69002C40A2 /* RehabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9B19D76A69002C40A2 /* RehabViewController.m */; };
 		1F4D5CA919D76A69002C40A2 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9E19D76A69002C40A2 /* ScheduleViewController.m */; };
 		1F5C137219D72B1F00746670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137119D72B1F00746670 /* main.m */; };
-		1F5C137519D72B1F00746670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137419D72B1F00746670 /* AppDelegate.m */; };
 		1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137619D72B1F00746670 /* Wearhacks.xcdatamodeld */; };
 		1F5C137E19D72B1F00746670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C137C19D72B1F00746670 /* Main.storyboard */; };
 		1F5C138019D72B1F00746670 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C137F19D72B1F00746670 /* Images.xcassets */; };
 		1F5C138319D72B1F00746670 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C138119D72B1F00746670 /* LaunchScreen.xib */; };
 		1F5C138F19D72B1F00746670 /* WearhacksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C138E19D72B1F00746670 /* WearhacksTests.m */; };
+		1F8FBA1619D76C07001531C2 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FBA1519D76C07001531C2 /* Constants.m */; };
+		1F8FBA1919D76C18001531C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FBA1819D76C18001531C2 /* AppDelegate.m */; };
 		B3DC4617C0CE8B01A21BDFEB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE751E578293B9110274168 /* libPods.a */; };
-		D26EF49319D75A1E00046EBB /* WearHacksConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF49219D75A1E00046EBB /* WearHacksConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +66,6 @@
 		1F5C136C19D72B1E00746670 /* Wearhacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wearhacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5C137019D72B1E00746670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5C137119D72B1F00746670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F5C137319D72B1F00746670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1F5C137419D72B1F00746670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1F5C137719D72B1F00746670 /* Wearhacks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wearhacks.xcdatamodel; sourceTree = "<group>"; };
 		1F5C137D19D72B1F00746670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F5C137F19D72B1F00746670 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -75,9 +73,11 @@
 		1F5C138819D72B1F00746670 /* WearhacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WearhacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5C138D19D72B1F00746670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5C138E19D72B1F00746670 /* WearhacksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WearhacksTests.m; sourceTree = "<group>"; };
+		1F8FBA1419D76C07001531C2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1F8FBA1519D76C07001531C2 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		1F8FBA1719D76C18001531C2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F8FBA1819D76C18001531C2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5EE751E578293B9110274168 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D26EF49119D75A1E00046EBB /* WearHacksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WearHacksConstants.h; sourceTree = "<group>"; };
-		D26EF49219D75A1E00046EBB /* WearHacksConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WearHacksConstants.m; sourceTree = "<group>"; };
 		D26EF49619D75E6200046EBB /* WearHacks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WearHacks-Prefix.pch"; sourceTree = "<group>"; };
 		DBC9213B26E4B0D8EA85374C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -224,8 +224,6 @@
 				1F4D5C8019D76A69002C40A2 /* Categories */,
 				1F4D5C8B19D76A69002C40A2 /* Helper */,
 				1F4D5C8E19D76A69002C40A2 /* ViewControllers */,
-				1F5C137319D72B1F00746670 /* AppDelegate.h */,
-				1F5C137419D72B1F00746670 /* AppDelegate.m */,
 				1F5C137C19D72B1F00746670 /* Main.storyboard */,
 				1F5C137F19D72B1F00746670 /* Images.xcassets */,
 				1F5C138119D72B1F00746670 /* LaunchScreen.xib */,
@@ -238,8 +236,10 @@
 		1F5C136F19D72B1E00746670 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D26EF49119D75A1E00046EBB /* WearHacksConstants.h */,
-				D26EF49219D75A1E00046EBB /* WearHacksConstants.m */,
+				1F8FBA1719D76C18001531C2 /* AppDelegate.h */,
+				1F8FBA1819D76C18001531C2 /* AppDelegate.m */,
+				1F8FBA1419D76C07001531C2 /* Constants.h */,
+				1F8FBA1519D76C07001531C2 /* Constants.m */,
 				1F5C137019D72B1E00746670 /* Info.plist */,
 				1F4D5C7D19D76A60002C40A2 /* StoryboardConstants.h */,
 				1F4D5C7E19D76A60002C40A2 /* StoryboardConstants.m */,
@@ -435,16 +435,16 @@
 				1F4D5CA119D76A69002C40A2 /* UIImage+RoundedCorner.m in Sources */,
 				1F4D5CA619D76A69002C40A2 /* LoginViewController.m in Sources */,
 				1F4D5CA019D76A69002C40A2 /* UIImage+Resize.m in Sources */,
+				1F8FBA1619D76C07001531C2 /* Constants.m in Sources */,
 				1F4D5CA719D76A69002C40A2 /* ProfileViewController.m in Sources */,
-				1F5C137519D72B1F00746670 /* AppDelegate.m in Sources */,
 				1F4D5C7F19D76A60002C40A2 /* StoryboardConstants.m in Sources */,
 				1F4D5C9F19D76A69002C40A2 /* UIImage+Alpha.m in Sources */,
 				1F4D5CA519D76A69002C40A2 /* HomeViewController.m in Sources */,
-				D26EF49319D75A1E00046EBB /* WearHacksConstants.m in Sources */,
 				1F4D5CA919D76A69002C40A2 /* ScheduleViewController.m in Sources */,
 				1F4D5CA219D76A69002C40A2 /* UIImageView+Border.m in Sources */,
 				1F5C137219D72B1F00746670 /* main.m in Sources */,
 				1F4D5CA319D76A69002C40A2 /* WearHacksUtility.m in Sources */,
+				1F8FBA1919D76C18001531C2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
