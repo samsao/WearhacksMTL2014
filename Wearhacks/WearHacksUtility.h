@@ -10,4 +10,7 @@
 
 @interface WearHacksUtility : NSObject
 
+//Facebook
++ (void)processFacebookProfilePictureData:(NSData *)newProfilePictureData;
+
 @end

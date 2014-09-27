@@ -19,24 +19,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    self.view.backgroundColor = [UIColor colorWithRed:0.129412F green:0.713725F blue:0.737255F alpha:1.0F];
 }
 
 - (void)viewDidLayoutSubviews {
     
     [super viewDidLayoutSubviews];
+
     
-    //Set facebook button image
-//    self.facebookOnStateImage = [[self facebookImageForSelector: @selector(drawOnState) forSize:self.logInView.facebookButton.bounds.size whenHighlight:NO] resizableImageWithCapInsets: [self capInsets]];
-//    self.facebookOffStateImage = [[self facebookImageForSelector: @selector(drawOnState) forSize:self.logInView.facebookButton.bounds.size whenHighlight:YES] resizableImageWithCapInsets: [self capInsets]];
-//    [self.logInView.facebookButton setBackgroundImage:self.facebookOnStateImage forState: UIControlStateNormal];
-//    [self.logInView.facebookButton setBackgroundImage:self.facebookOffStateImage forState: UIControlStateHighlighted];
+    UILabel * title = [[UILabel alloc] init];
+    title.text = @"WEARHACKS";
+    title.frame = self.logInView.logo.frame;
     
-    //Change title/image of facebook button
-//    [self.logInView.facebookButton setTitle:nil forState:UIControlStateNormal];
-//    [self.logInView.facebookButton setImage:nil forState:UIControlStateNormal];
+    [self.logInView setLogo:title];
     
-    //    [self.logInView setLogo:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"waver_icon"]]];
-    //    [self.logInView.logo setCenter:CGPointMake(self.view.center.x, self.view.center.y - 20)];
+    [title sizeToFit];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -55,5 +54,7 @@
 */
 
 - (IBAction)facebookTapped:(id)sender {
+    
 }
+
 @end
