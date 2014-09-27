@@ -26,30 +26,72 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3M8-rd-nPU" id="o05-zO-s5l">
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="wEc-r2-HD5" kind="show" id="9j7-fz-Zba"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
-                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="PaC-xB-JcL" id="54U-TV-LmS"/>
+                                    <outlet property="delegate" destination="PaC-xB-JcL" id="0qo-dK-Nbl"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5dP-fI-SPq" firstAttribute="top" secondItem="hfL-91-EKN" secondAttribute="top" id="8wJ-LS-BIf"/>
+                            <constraint firstItem="5dP-fI-SPq" firstAttribute="trailing" secondItem="QzE-dc-Zcu" secondAttribute="trailing" id="BHX-DV-Zay"/>
+                            <constraint firstItem="5dP-fI-SPq" firstAttribute="leading" secondItem="QzE-dc-Zcu" secondAttribute="leading" id="CHa-V7-obb"/>
+                            <constraint firstItem="5dP-fI-SPq" firstAttribute="bottom" secondItem="N3F-qV-8IT" secondAttribute="top" id="HV4-nk-ejJ"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="5dP-fI-SPq"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="8wJ-LS-BIf"/>
+                                <exclude reference="BHX-DV-Zay"/>
+                                <exclude reference="CHa-V7-obb"/>
+                                <exclude reference="HV4-nk-ejJ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="5dP-fI-SPq"/>
                             </mask>
+                            <mask key="constraints">
+                                <include reference="8wJ-LS-BIf"/>
+                                <include reference="BHX-DV-Zay"/>
+                                <include reference="CHa-V7-obb"/>
+                                <include reference="HV4-nk-ejJ"/>
+                            </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Schedule" id="HZo-A4-Cu0"/>
+                    <connections>
+                        <outlet property="tableView" destination="5dP-fI-SPq" id="hIM-Wt-Ubx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wht-gf-iVZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1161" y="390"/>
+        </scene>
+        <!--Exercise Detail View Controller-->
+        <scene sceneID="NxR-CV-VR0">
+            <objects>
+                <viewController storyboardIdentifier="EXERCISE_DETAIL_VIEW_CONTROLLER" id="wEc-r2-HD5" customClass="ExerciseDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kyk-VE-fhS"/>
+                        <viewControllerLayoutGuide type="bottom" id="UQg-ZF-AwH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Cy-3m-0Wu">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UTV-x6-TuJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2061" y="390"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Loc-xZ-uiU">
