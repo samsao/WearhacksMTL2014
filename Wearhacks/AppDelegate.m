@@ -17,6 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Parse setApplicationId:@"UL1HrX8pATNbmoEfREItjPf9ZVWT5hsc0cSw0Y1T"
+                  clientKey:@"YwqY4N5NnBxZ3YVaNoMCvX4QkKLcP0AS0TXaUyHE"];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    [PFFacebookUtils initializeFacebook];
+
+    
     return YES;
 }
 
@@ -36,6 +45,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [FBSession.activeSession handleDidBecomeActive];
+
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
@@ -122,6 +133,17 @@
             abort();
         }
     }
+}
+
+#pragma mark - Facebook oauth callback
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return [PFFacebookUtils handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [PFFacebookUtils handleOpenURL:url];
 }
 
 @end
