@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 Samsao. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "WearHacksLoginViewController.h"
 
-@interface LoginViewController ()
+@interface WearHacksLoginViewController ()
 
 - (IBAction)facebookTapped:(id)sender;
 
 @end
 
-@implementation LoginViewController
+@implementation WearHacksLoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

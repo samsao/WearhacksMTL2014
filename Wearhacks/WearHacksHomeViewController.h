@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <PFLogInViewControllerDelegate>
+@interface WearHacksHomeViewController : UIViewController <PFLogInViewControllerDelegate>
 
 
 @end
