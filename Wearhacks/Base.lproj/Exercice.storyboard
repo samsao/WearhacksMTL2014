@@ -124,6 +124,7 @@
                     <connections>
                         <outlet property="circleGaugeView" destination="S2v-XJ-orM" id="9Ou-7p-IOZ"/>
                         <segue destination="836-TR-bwD" kind="custom" identifier="EXERCISE_TO_MODAL" customClass="BlurryModalSegue" id="RZQ-OL-B0h"/>
+                        <segue destination="awa-qN-PVh" kind="custom" identifier="EXERCISER_TO_CONNECTING_MYO" customClass="BlurryModalSegue" id="IEg-fk-CpA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSi-bI-oOg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -334,5 +335,112 @@
             </objects>
             <point key="canvasLocation" x="339" y="1006.5"/>
         </scene>
+        <!--Connecting Myo Modal View Controller-->
+        <scene sceneID="FVs-ZY-SpB">
+            <objects>
+                <viewController id="awa-qN-PVh" customClass="ConnectingMyoModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PFG-Xj-eo6"/>
+                        <viewControllerLayoutGuide type="bottom" id="EVX-qV-uNy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YVR-H3-7dO">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Hs0-Wm-HYc">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="340" id="8iV-wy-jC6"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="8iV-wy-jC6"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="8iV-wy-jC6"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connecting the Myo..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGm-pE-if5">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="gEl-qL-W4L">
+                                <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="1yS-j3-2VE"/>
+                                    <constraint firstAttribute="width" constant="60" id="3ik-cx-EbR"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1yS-j3-2VE"/>
+                                        <exclude reference="3ik-cx-EbR"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1yS-j3-2VE"/>
+                                        <include reference="3ik-cx-EbR"/>
+                                    </mask>
+                                </variation>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="aGm-pE-if5" secondAttribute="trailing" id="2jd-Vc-7Tz"/>
+                            <constraint firstItem="Hs0-Wm-HYc" firstAttribute="top" secondItem="PFG-Xj-eo6" secondAttribute="bottom" constant="8" symbolic="YES" id="79m-cx-XGT"/>
+                            <constraint firstItem="aGm-pE-if5" firstAttribute="top" secondItem="Hs0-Wm-HYc" secondAttribute="bottom" constant="8" symbolic="YES" id="BLw-1d-R1L"/>
+                            <constraint firstItem="gEl-qL-W4L" firstAttribute="top" secondItem="aGm-pE-if5" secondAttribute="bottom" constant="8" symbolic="YES" id="Gqb-cV-dhT"/>
+                            <constraint firstItem="aGm-pE-if5" firstAttribute="leading" secondItem="YVR-H3-7dO" secondAttribute="leadingMargin" id="QmO-RA-J5z"/>
+                            <constraint firstItem="Hs0-Wm-HYc" firstAttribute="leading" secondItem="YVR-H3-7dO" secondAttribute="leadingMargin" id="RC8-Nr-Nbb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hs0-Wm-HYc" secondAttribute="trailing" id="Yqa-5X-lKi"/>
+                            <constraint firstAttribute="centerX" secondItem="gEl-qL-W4L" secondAttribute="centerX" id="h8h-ze-jCw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Hs0-Wm-HYc"/>
+                                <exclude reference="aGm-pE-if5"/>
+                                <exclude reference="gEl-qL-W4L"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="79m-cx-XGT"/>
+                                <exclude reference="RC8-Nr-Nbb"/>
+                                <exclude reference="Yqa-5X-lKi"/>
+                                <exclude reference="2jd-Vc-7Tz"/>
+                                <exclude reference="BLw-1d-R1L"/>
+                                <exclude reference="QmO-RA-J5z"/>
+                                <exclude reference="Gqb-cV-dhT"/>
+                                <exclude reference="h8h-ze-jCw"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Hs0-Wm-HYc"/>
+                                <include reference="aGm-pE-if5"/>
+                                <include reference="gEl-qL-W4L"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="79m-cx-XGT"/>
+                                <include reference="RC8-Nr-Nbb"/>
+                                <include reference="Yqa-5X-lKi"/>
+                                <include reference="2jd-Vc-7Tz"/>
+                                <include reference="BLw-1d-R1L"/>
+                                <include reference="QmO-RA-J5z"/>
+                                <include reference="Gqb-cV-dhT"/>
+                                <include reference="h8h-ze-jCw"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jDn-3L-Mxd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1051.5" y="1006.5"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="myo_icon" width="512" height="384"/>
+    </resources>
 </document>

@@ -1,6 +1,7 @@
 /* Generated document. DO NOT CHANGE */
 
 /* Segue identifier constants */
+extern NSString * const EXERCISER_TO_CONNECTING_MYO;
 extern NSString * const EXERCISE_TO_MODAL;
 
 /* Controller identifier constants */

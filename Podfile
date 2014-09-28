@@ -15,5 +15,6 @@ pod 'CHCircleGaugeView', :git => 'https://github.com/GabrielCartier/CHCircleGaug
 pod 'UIColor-HTMLColors'
 pod 'BlurryModalSegue'
 pod 'GraphKit'
+pod 'MBProgressHUD'
 
 

@@ -10,6 +10,8 @@
 #import "GaugeAppearanceHelper.h"
 #import "CHCircleGaugeView+Zentice.h"
 #import "ExerciseDoneOverlayViewController.h"
+#import "ConnectingMyoModalViewController.h"
+#import "MyoManager.h"
 
 @interface ExerciseViewController ()
 @property(weak, nonatomic) IBOutlet CHCircleGaugeView *circleGaugeView;
@@ -31,6 +33,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    if (![MyoManager sharedInstance].myo) {
+        //@TODO: Should be in a mediator
+        [self performSegueWithIdentifier:EXERCISER_TO_CONNECTING_MYO sender:self];
+    }
+}
+
 #pragma mark - Utilities
 
 /**
@@ -45,6 +55,7 @@
  *  Initialize the gauges
  */
 - (void)initializeGauge {
+
     [GaugeAppearanceHelper setupGaugeViewForExercice:self.circleGaugeView];
     [self.circleGaugeView setValue:0.5 animated:YES assignLabel:NO];
     [self.circleGaugeView setValueLabelWithNumber:[NSNumber numberWithInteger:100]];
