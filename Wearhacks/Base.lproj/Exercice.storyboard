@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="60J-yI-SMe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="60J-yI-SMe">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -10,7 +10,7 @@
         <!--Exercice view controller-->
         <scene sceneID="Wwh-L1-84t">
             <objects>
-                <viewController title="Exercice view controller" id="60J-yI-SMe" customClass="ExerciseViewController" sceneMemberID="viewController">
+                <viewController title="Exercice view controller" id="60J-yI-SMe" customClass="ExercisePracticeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Qw-wW-MvR"/>
                         <viewControllerLayoutGuide type="bottom" id="0Tq-b2-37a"/>
@@ -122,14 +122,14 @@
                                 <exclude reference="RBP-Bf-pkB"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="A6J-KH-HaB"/>
-                                <exclude reference="DRY-3W-rCN"/>
-                                <exclude reference="mrS-4h-Ctf"/>
+                                <exclude reference="0Ef-q3-qn5"/>
+                                <exclude reference="vff-ki-9a8"/>
                                 <exclude reference="Xqp-XZ-KtB"/>
                                 <exclude reference="kTH-eu-Gb7"/>
                                 <exclude reference="ncq-u3-HNX"/>
-                                <exclude reference="0Ef-q3-qn5"/>
-                                <exclude reference="vff-ki-9a8"/>
+                                <exclude reference="A6J-KH-HaB"/>
+                                <exclude reference="DRY-3W-rCN"/>
+                                <exclude reference="mrS-4h-Ctf"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -138,22 +138,22 @@
                                 <include reference="RBP-Bf-pkB"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="A6J-KH-HaB"/>
-                                <include reference="DRY-3W-rCN"/>
-                                <include reference="mrS-4h-Ctf"/>
+                                <include reference="0Ef-q3-qn5"/>
+                                <exclude reference="vff-ki-9a8"/>
                                 <include reference="Xqp-XZ-KtB"/>
                                 <include reference="kTH-eu-Gb7"/>
                                 <include reference="ncq-u3-HNX"/>
-                                <include reference="0Ef-q3-qn5"/>
-                                <exclude reference="vff-ki-9a8"/>
+                                <include reference="A6J-KH-HaB"/>
+                                <include reference="DRY-3W-rCN"/>
+                                <include reference="mrS-4h-Ctf"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="circleGaugeView" destination="S2v-XJ-orM" id="9Ou-7p-IOZ"/>
-                        <outlet property="doneButton" destination="RBP-Bf-pkB" id="c6P-BP-mgj"/>
+                        <outlet property="circleChartView" destination="S2v-XJ-orM" id="D04-0f-Zc7"/>
+                        <outlet property="startButton" destination="RBP-Bf-pkB" id="bz0-gE-s7D"/>
                         <segue destination="836-TR-bwD" kind="custom" identifier="EXERCISE_TO_MODAL" customClass="BlurryModalSegue" id="RZQ-OL-B0h"/>
-                        <segue destination="awa-qN-PVh" kind="custom" identifier="EXERCISER_TO_CONNECTING_MYO" customClass="BlurryModalSegue" id="IEg-fk-CpA"/>
+                        <segue destination="awa-qN-PVh" kind="custom" identifier="EXERCISE_TO_CONNECTING_MYO" customClass="BlurryModalSegue" id="IEg-fk-CpA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSi-bI-oOg" userLabel="First Responder" sceneMemberID="firstResponder"/>

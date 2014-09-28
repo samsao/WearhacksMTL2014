@@ -26,25 +26,14 @@
 		1F538D3019D87C4200F03204 /* UIViewRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CEE19D87C4200F03204 /* UIViewRounded.m */; };
 		1F538D3119D87C4200F03204 /* ConnectingMyoModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CF219D87C4200F03204 /* ConnectingMyoModalViewController.m */; };
 		1F538D3219D87C4200F03204 /* ExerciseDoneOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CF419D87C4200F03204 /* ExerciseDoneOverlayViewController.m */; };
-		1F538D3319D87C4200F03204 /* ExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CF619D87C4200F03204 /* ExerciseViewController.m */; };
 		1F538D3419D87C4200F03204 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CF919D87C4200F03204 /* HomeViewController.m */; };
 		1F538D3519D87C4200F03204 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CFB19D87C4200F03204 /* LoginViewController.m */; };
-		1F538D3619D87C4200F03204 /* SSAChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CFF19D87C4200F03204 /* SSAChartViewController.m */; };
-		1F538D3719D87C4200F03204 /* SSAChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F538D0019D87C4200F03204 /* SSAChartViewController.xib */; };
-		1F538D3819D87C4200F03204 /* SSAExerciceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538D0319D87C4200F03204 /* SSAExerciceViewController.m */; };
-		1F538D3919D87C4200F03204 /* SSAExerciceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F538D0419D87C4200F03204 /* SSAExerciceViewController.xib */; };
-		1F538D3A19D87C4200F03204 /* SSAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538D0719D87C4200F03204 /* SSAHomeViewController.m */; };
-		1F538D3B19D87C4200F03204 /* SSAHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F538D0819D87C4200F03204 /* SSAHomeViewController.xib */; };
-		1F538D3C19D87C4200F03204 /* SSAReccordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538D0B19D87C4200F03204 /* SSAReccordViewController.m */; };
-		1F538D3D19D87C4200F03204 /* SSAReccordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F538D0C19D87C4200F03204 /* SSAReccordViewController.xib */; };
-		1F538D3E19D87C4200F03204 /* SSAResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538D0F19D87C4200F03204 /* SSAResultViewController.m */; };
-		1F538D3F19D87C4200F03204 /* SSAStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538D1219D87C4200F03204 /* SSAStartViewController.m */; };
-		1F538D4019D87C4200F03204 /* SSAStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F538D1319D87C4200F03204 /* SSAStartViewController.xib */; };
 		1F538D4119D87C4200F03204 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538D1619D87C4200F03204 /* ProfileViewController.m */; };
 		1F538D4219D87C4200F03204 /* RehabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538D1919D87C4200F03204 /* RehabViewController.m */; };
 		1F538D4319D87C4200F03204 /* DayDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538D1C19D87C4200F03204 /* DayDetailTableViewController.m */; };
 		1F538D4419D87C4200F03204 /* ExerciseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538D1E19D87C4200F03204 /* ExerciseDetailViewController.m */; };
 		1F538D4519D87C4200F03204 /* ScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538D2019D87C4200F03204 /* ScheduleTableViewController.m */; };
+		1F538D4819D8800300F03204 /* ExercisePracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538D4719D8800300F03204 /* ExercisePracticeViewController.m */; };
 		1F5C137219D72B1F00746670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137119D72B1F00746670 /* main.m */; };
 		1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137619D72B1F00746670 /* Wearhacks.xcdatamodeld */; };
 		1F5C138019D72B1F00746670 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C137F19D72B1F00746670 /* Images.xcassets */; };
@@ -110,29 +99,10 @@
 		1F538CF219D87C4200F03204 /* ConnectingMyoModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectingMyoModalViewController.m; sourceTree = "<group>"; };
 		1F538CF319D87C4200F03204 /* ExerciseDoneOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseDoneOverlayViewController.h; sourceTree = "<group>"; };
 		1F538CF419D87C4200F03204 /* ExerciseDoneOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDoneOverlayViewController.m; sourceTree = "<group>"; };
-		1F538CF519D87C4200F03204 /* ExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseViewController.h; sourceTree = "<group>"; };
-		1F538CF619D87C4200F03204 /* ExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseViewController.m; sourceTree = "<group>"; };
 		1F538CF819D87C4200F03204 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		1F538CF919D87C4200F03204 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		1F538CFA19D87C4200F03204 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1F538CFB19D87C4200F03204 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		1F538CFE19D87C4200F03204 /* SSAChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAChartViewController.h; sourceTree = "<group>"; };
-		1F538CFF19D87C4200F03204 /* SSAChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAChartViewController.m; sourceTree = "<group>"; };
-		1F538D0019D87C4200F03204 /* SSAChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSAChartViewController.xib; sourceTree = "<group>"; };
-		1F538D0219D87C4200F03204 /* SSAExerciceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAExerciceViewController.h; sourceTree = "<group>"; };
-		1F538D0319D87C4200F03204 /* SSAExerciceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAExerciceViewController.m; sourceTree = "<group>"; };
-		1F538D0419D87C4200F03204 /* SSAExerciceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSAExerciceViewController.xib; sourceTree = "<group>"; };
-		1F538D0619D87C4200F03204 /* SSAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAHomeViewController.h; sourceTree = "<group>"; };
-		1F538D0719D87C4200F03204 /* SSAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAHomeViewController.m; sourceTree = "<group>"; };
-		1F538D0819D87C4200F03204 /* SSAHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSAHomeViewController.xib; sourceTree = "<group>"; };
-		1F538D0A19D87C4200F03204 /* SSAReccordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAReccordViewController.h; sourceTree = "<group>"; };
-		1F538D0B19D87C4200F03204 /* SSAReccordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAReccordViewController.m; sourceTree = "<group>"; };
-		1F538D0C19D87C4200F03204 /* SSAReccordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSAReccordViewController.xib; sourceTree = "<group>"; };
-		1F538D0E19D87C4200F03204 /* SSAResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAResultViewController.h; sourceTree = "<group>"; };
-		1F538D0F19D87C4200F03204 /* SSAResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAResultViewController.m; sourceTree = "<group>"; };
-		1F538D1119D87C4200F03204 /* SSAStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAStartViewController.h; sourceTree = "<group>"; };
-		1F538D1219D87C4200F03204 /* SSAStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAStartViewController.m; sourceTree = "<group>"; };
-		1F538D1319D87C4200F03204 /* SSAStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSAStartViewController.xib; sourceTree = "<group>"; };
 		1F538D1519D87C4200F03204 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		1F538D1619D87C4200F03204 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		1F538D1819D87C4200F03204 /* RehabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RehabViewController.h; sourceTree = "<group>"; };
@@ -143,6 +113,8 @@
 		1F538D1E19D87C4200F03204 /* ExerciseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDetailViewController.m; sourceTree = "<group>"; };
 		1F538D1F19D87C4200F03204 /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewController.h; sourceTree = "<group>"; };
 		1F538D2019D87C4200F03204 /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewController.m; sourceTree = "<group>"; };
+		1F538D4619D8800300F03204 /* ExercisePracticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExercisePracticeViewController.h; sourceTree = "<group>"; };
+		1F538D4719D8800300F03204 /* ExercisePracticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExercisePracticeViewController.m; sourceTree = "<group>"; };
 		1F5C136C19D72B1E00746670 /* Wearhacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wearhacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5C137019D72B1E00746670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5C137119D72B1F00746670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -330,7 +302,6 @@
 			children = (
 				1F538CF019D87C4200F03204 /* Exercice */,
 				1F538CF719D87C4200F03204 /* Login */,
-				1F538CFC19D87C4200F03204 /* MyoPrototype */,
 				1F538D1419D87C4200F03204 /* Profile */,
 				1F538D1719D87C4200F03204 /* Rehab */,
 				1F538D1A19D87C4200F03204 /* Schedule */,
@@ -345,8 +316,8 @@
 				1F538CF219D87C4200F03204 /* ConnectingMyoModalViewController.m */,
 				1F538CF319D87C4200F03204 /* ExerciseDoneOverlayViewController.h */,
 				1F538CF419D87C4200F03204 /* ExerciseDoneOverlayViewController.m */,
-				1F538CF519D87C4200F03204 /* ExerciseViewController.h */,
-				1F538CF619D87C4200F03204 /* ExerciseViewController.m */,
+				1F538D4619D8800300F03204 /* ExercisePracticeViewController.h */,
+				1F538D4719D8800300F03204 /* ExercisePracticeViewController.m */,
 			);
 			path = Exercice;
 			sourceTree = "<group>";
@@ -360,78 +331,6 @@
 				1F538CFB19D87C4200F03204 /* LoginViewController.m */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		1F538CFC19D87C4200F03204 /* MyoPrototype */ = {
-			isa = PBXGroup;
-			children = (
-				1F538CFD19D87C4200F03204 /* ChartVC */,
-				1F538D0119D87C4200F03204 /* ExerciceVC */,
-				1F538D0519D87C4200F03204 /* HomeVC */,
-				1F538D0919D87C4200F03204 /* ReccordVC */,
-				1F538D0D19D87C4200F03204 /* ResultVC */,
-				1F538D1019D87C4200F03204 /* StartVC */,
-			);
-			path = MyoPrototype;
-			sourceTree = "<group>";
-		};
-		1F538CFD19D87C4200F03204 /* ChartVC */ = {
-			isa = PBXGroup;
-			children = (
-				1F538CFE19D87C4200F03204 /* SSAChartViewController.h */,
-				1F538CFF19D87C4200F03204 /* SSAChartViewController.m */,
-				1F538D0019D87C4200F03204 /* SSAChartViewController.xib */,
-			);
-			path = ChartVC;
-			sourceTree = "<group>";
-		};
-		1F538D0119D87C4200F03204 /* ExerciceVC */ = {
-			isa = PBXGroup;
-			children = (
-				1F538D0219D87C4200F03204 /* SSAExerciceViewController.h */,
-				1F538D0319D87C4200F03204 /* SSAExerciceViewController.m */,
-				1F538D0419D87C4200F03204 /* SSAExerciceViewController.xib */,
-			);
-			path = ExerciceVC;
-			sourceTree = "<group>";
-		};
-		1F538D0519D87C4200F03204 /* HomeVC */ = {
-			isa = PBXGroup;
-			children = (
-				1F538D0619D87C4200F03204 /* SSAHomeViewController.h */,
-				1F538D0719D87C4200F03204 /* SSAHomeViewController.m */,
-				1F538D0819D87C4200F03204 /* SSAHomeViewController.xib */,
-			);
-			path = HomeVC;
-			sourceTree = "<group>";
-		};
-		1F538D0919D87C4200F03204 /* ReccordVC */ = {
-			isa = PBXGroup;
-			children = (
-				1F538D0A19D87C4200F03204 /* SSAReccordViewController.h */,
-				1F538D0B19D87C4200F03204 /* SSAReccordViewController.m */,
-				1F538D0C19D87C4200F03204 /* SSAReccordViewController.xib */,
-			);
-			path = ReccordVC;
-			sourceTree = "<group>";
-		};
-		1F538D0D19D87C4200F03204 /* ResultVC */ = {
-			isa = PBXGroup;
-			children = (
-				1F538D0E19D87C4200F03204 /* SSAResultViewController.h */,
-				1F538D0F19D87C4200F03204 /* SSAResultViewController.m */,
-			);
-			path = ResultVC;
-			sourceTree = "<group>";
-		};
-		1F538D1019D87C4200F03204 /* StartVC */ = {
-			isa = PBXGroup;
-			children = (
-				1F538D1119D87C4200F03204 /* SSAStartViewController.h */,
-				1F538D1219D87C4200F03204 /* SSAStartViewController.m */,
-				1F538D1319D87C4200F03204 /* SSAStartViewController.xib */,
-			);
-			path = StartVC;
 			sourceTree = "<group>";
 		};
 		1F538D1419D87C4200F03204 /* Profile */ = {
@@ -645,13 +544,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC0EE9419D87B5300114DEA /* Exercice.storyboard in Resources */,
-				1F538D4019D87C4200F03204 /* SSAStartViewController.xib in Resources */,
 				1FC0EE9519D87B5300114DEA /* LaunchScreen.xib in Resources */,
 				1F5C138019D72B1F00746670 /* Images.xcassets in Resources */,
-				1F538D3D19D87C4200F03204 /* SSAReccordViewController.xib in Resources */,
-				1F538D3719D87C4200F03204 /* SSAChartViewController.xib in Resources */,
-				1F538D3919D87C4200F03204 /* SSAExerciceViewController.xib in Resources */,
-				1F538D3B19D87C4200F03204 /* SSAHomeViewController.xib in Resources */,
 				1FC0EE9719D87B5300114DEA /* Rehab.storyboard in Resources */,
 				1FC0EE9619D87B5300114DEA /* Main.storyboard in Resources */,
 				1FC0EE9819D87B5300114DEA /* Schedule.storyboard in Resources */,
@@ -729,7 +623,6 @@
 				1F538D4319D87C4200F03204 /* DayDetailTableViewController.m in Sources */,
 				1F538D4419D87C4200F03204 /* ExerciseDetailViewController.m in Sources */,
 				1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */,
-				1F538D3C19D87C4200F03204 /* SSAReccordViewController.m in Sources */,
 				1F8FBA1619D76C07001531C2 /* Constants.m in Sources */,
 				1F538D2819D87C4200F03204 /* UIImageView+Border.m in Sources */,
 				1F538D3519D87C4200F03204 /* LoginViewController.m in Sources */,
@@ -740,27 +633,22 @@
 				1F538D2D19D87C4200F03204 /* SSACoordinates.m in Sources */,
 				1F538D2419D87C4200F03204 /* UIColor+Zentice.m in Sources */,
 				1F538D2C19D87C4200F03204 /* MyoManager.m in Sources */,
-				1F538D3A19D87C4200F03204 /* SSAHomeViewController.m in Sources */,
 				1F538D2719D87C4200F03204 /* UIImage+RoundedCorner.m in Sources */,
 				1F538D3119D87C4200F03204 /* ConnectingMyoModalViewController.m in Sources */,
 				1F538D2B19D87C4200F03204 /* WearHacksUtility.m in Sources */,
 				1F538D3019D87C4200F03204 /* UIViewRounded.m in Sources */,
 				1F538D2E19D87C4200F03204 /* SSAMyoUtils.m in Sources */,
 				1F538D4519D87C4200F03204 /* ScheduleTableViewController.m in Sources */,
-				1F538D3319D87C4200F03204 /* ExerciseViewController.m in Sources */,
 				1F538D2519D87C4200F03204 /* UIImage+Alpha.m in Sources */,
 				1F538D2A19D87C4200F03204 /* GaugeAppearanceHelper.m in Sources */,
 				1F4D5C7F19D76A60002C40A2 /* StoryboardConstants.m in Sources */,
 				1F5C137219D72B1F00746670 /* main.m in Sources */,
-				1F538D3E19D87C4200F03204 /* SSAResultViewController.m in Sources */,
 				1F538D4119D87C4200F03204 /* ProfileViewController.m in Sources */,
-				1F538D3819D87C4200F03204 /* SSAExerciceViewController.m in Sources */,
-				1F538D3619D87C4200F03204 /* SSAChartViewController.m in Sources */,
 				1F538D3219D87C4200F03204 /* ExerciseDoneOverlayViewController.m in Sources */,
-				1F538D3F19D87C4200F03204 /* SSAStartViewController.m in Sources */,
 				1F8FBA1919D76C18001531C2 /* AppDelegate.m in Sources */,
 				1F538D2919D87C4200F03204 /* UIStoryboard+WearHacks.m in Sources */,
 				1F538D3419D87C4200F03204 /* HomeViewController.m in Sources */,
+				1F538D4819D8800300F03204 /* ExercisePracticeViewController.m in Sources */,
 				1F538D4219D87C4200F03204 /* RehabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

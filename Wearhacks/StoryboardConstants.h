@@ -1,8 +1,8 @@
 /* Generated document. DO NOT CHANGE */
 
 /* Segue identifier constants */
-extern NSString * const EXERCISER_TO_CONNECTING_MYO;
 extern NSString * const EXERCISE_SEGUE;
+extern NSString * const EXERCISE_TO_CONNECTING_MYO;
 extern NSString * const EXERCISE_TO_MODAL;
 extern NSString * const WEEK_DAY_SEGUE;
 
