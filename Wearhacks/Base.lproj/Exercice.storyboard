@@ -48,7 +48,9 @@
                                     <constraint firstAttribute="trailing" secondItem="S2v-XJ-orM" secondAttribute="trailing" id="Gye-rn-4sc">
                                         <variation key="heightClass=regular-widthClass=compact" constant="20" symbolic="YES"/>
                                     </constraint>
-                                    <constraint firstAttribute="height" constant="500" id="aS0-rv-ZVx"/>
+                                    <constraint firstAttribute="height" constant="500" id="aS0-rv-ZVx">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="450"/>
+                                    </constraint>
                                     <constraint firstItem="S2v-XJ-orM" firstAttribute="top" secondItem="DPE-Hd-oEG" secondAttribute="top" id="h6Z-D2-Whi">
                                         <variation key="heightClass=regular-widthClass=compact" constant="20" symbolic="YES"/>
                                     </constraint>
@@ -76,11 +78,26 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBP-Bf-pkB">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBP-Bf-pkB" customClass="UIButtonRounded">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.52156862749999999" green="0.96470588239999999" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GcV-Og-z2R"/>
+                                </constraints>
                                 <state key="normal" title="start exercise button">
+                                    <color key="titleColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="GcV-Og-z2R"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="GcV-Og-z2R"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <action selector="exerciseButtonTouchUpInside:" destination="60J-yI-SMe" eventType="touchUpInside" id="2tr-mW-AUe"/>
                                 </connections>
@@ -88,11 +105,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="RBP-Bf-pkB" firstAttribute="top" secondItem="DPE-Hd-oEG" secondAttribute="bottom" constant="8" symbolic="YES" id="2xf-2F-kzU"/>
+                            <constraint firstItem="0Tq-b2-37a" firstAttribute="top" secondItem="RBP-Bf-pkB" secondAttribute="bottom" constant="40" id="0Ef-q3-qn5"/>
                             <constraint firstAttribute="trailing" secondItem="DPE-Hd-oEG" secondAttribute="trailing" id="A6J-KH-HaB"/>
                             <constraint firstItem="DPE-Hd-oEG" firstAttribute="leading" secondItem="fJ6-ym-TWP" secondAttribute="leading" id="DRY-3W-rCN"/>
                             <constraint firstAttribute="centerX" secondItem="RBP-Bf-pkB" secondAttribute="centerX" id="Xqp-XZ-KtB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RBP-Bf-pkB" secondAttribute="trailing" constant="50" id="kTH-eu-Gb7"/>
                             <constraint firstItem="DPE-Hd-oEG" firstAttribute="top" secondItem="2Qw-wW-MvR" secondAttribute="bottom" id="mrS-4h-Ctf"/>
+                            <constraint firstItem="RBP-Bf-pkB" firstAttribute="leading" secondItem="fJ6-ym-TWP" secondAttribute="leadingMargin" constant="50" id="ncq-u3-HNX"/>
+                            <constraint firstItem="0Tq-b2-37a" firstAttribute="top" secondItem="RBP-Bf-pkB" secondAttribute="bottom" constant="80" id="vff-ki-9a8">
+                                <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                            </constraint>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -100,11 +122,14 @@
                                 <exclude reference="RBP-Bf-pkB"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="2xf-2F-kzU"/>
-                                <exclude reference="Xqp-XZ-KtB"/>
                                 <exclude reference="A6J-KH-HaB"/>
                                 <exclude reference="DRY-3W-rCN"/>
                                 <exclude reference="mrS-4h-Ctf"/>
+                                <exclude reference="Xqp-XZ-KtB"/>
+                                <exclude reference="kTH-eu-Gb7"/>
+                                <exclude reference="ncq-u3-HNX"/>
+                                <exclude reference="0Ef-q3-qn5"/>
+                                <exclude reference="vff-ki-9a8"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -113,16 +138,20 @@
                                 <include reference="RBP-Bf-pkB"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="2xf-2F-kzU"/>
-                                <include reference="Xqp-XZ-KtB"/>
                                 <include reference="A6J-KH-HaB"/>
                                 <include reference="DRY-3W-rCN"/>
                                 <include reference="mrS-4h-Ctf"/>
+                                <include reference="Xqp-XZ-KtB"/>
+                                <include reference="kTH-eu-Gb7"/>
+                                <include reference="ncq-u3-HNX"/>
+                                <include reference="0Ef-q3-qn5"/>
+                                <exclude reference="vff-ki-9a8"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="circleGaugeView" destination="S2v-XJ-orM" id="9Ou-7p-IOZ"/>
+                        <outlet property="doneButton" destination="RBP-Bf-pkB" id="c6P-BP-mgj"/>
                         <segue destination="836-TR-bwD" kind="custom" identifier="EXERCISE_TO_MODAL" customClass="BlurryModalSegue" id="RZQ-OL-B0h"/>
                         <segue destination="awa-qN-PVh" kind="custom" identifier="EXERCISER_TO_CONNECTING_MYO" customClass="BlurryModalSegue" id="IEg-fk-CpA"/>
                     </connections>

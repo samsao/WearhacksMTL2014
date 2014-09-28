@@ -12,10 +12,12 @@
 #import "ExerciseDoneOverlayViewController.h"
 #import "ConnectingMyoModalViewController.h"
 #import "MyoManager.h"
+#import "UIButtonRounded.h"
 
 @interface ExerciseViewController ()
 @property(weak, nonatomic) IBOutlet CHCircleGaugeView *circleGaugeView;
 @property(strong, nonatomic) NSNumber *currentRepetitionCount;
+@property (weak, nonatomic) IBOutlet UIButtonRounded *doneButton;
 
 @end
 
@@ -31,6 +33,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    
+    [super viewWillAppear:animated];
+    
+    [self.doneButton.titleLabel setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:18.0]];
+
 }
 
 - (void)viewDidAppear:(BOOL)animated {
