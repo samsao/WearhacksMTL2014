@@ -49,10 +49,11 @@
         self.exerciseData = [NSArray new];
     }
     // Mock the exercise data
-//    [self mockExerciseData];
+    //    [self mockExerciseData];
 
     // Set the line graph width anbd draw it
     self.lineGraph.lineWidth = 3.0;
+    self.lineGraph.startFromZero = YES;
 
     [self.lineGraph draw];
 }

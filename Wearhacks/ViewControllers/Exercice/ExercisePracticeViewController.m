@@ -57,6 +57,7 @@ static int const kExerciceRemoteId = 10;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = NSLocalizedString(@"Exercise", nil);
     [self initialize];
 }
 
@@ -131,8 +132,6 @@ static int const kExerciceRemoteId = 10;
 - (void)initializeGauge {
 
     [GaugeAppearanceHelper setupGaugeViewForExercice:self.circleChartView];
-    [self.circleChartView setValue:0.5 animated:YES assignLabel:NO];
-    [self.circleChartView setValueLabelWithNumber:[NSNumber numberWithInteger:100]];
 }
 
 #pragma mark - IBAction

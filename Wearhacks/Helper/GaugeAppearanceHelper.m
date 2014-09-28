@@ -30,7 +30,7 @@
     [view setTrackWidth:20];
     [view setGaugeWidth:20];
     [view setTextColor:[UIColor whiteColor]];
-    [view setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:30.0]];
+    [view setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:75.0]];
 }
 
 @end

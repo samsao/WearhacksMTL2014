@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="60J-yI-SMe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="60J-yI-SMe">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -52,7 +52,7 @@
                                         <variation key="heightClass=regular-widthClass=compact" constant="450"/>
                                     </constraint>
                                     <constraint firstItem="S2v-XJ-orM" firstAttribute="top" secondItem="DPE-Hd-oEG" secondAttribute="top" id="h6Z-D2-Whi">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="20" symbolic="YES"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="50"/>
                                     </constraint>
                                 </constraints>
                                 <variation key="default">
@@ -402,9 +402,12 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connecting the Myo..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGm-pE-if5">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="16" y="376" width="368" height="20.5"/>
+                                </variation>
                             </label>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="gEl-qL-W4L">
                                 <rect key="frame" x="-10" y="-10" width="20" height="20"/>
@@ -418,7 +421,8 @@
                                         <exclude reference="3ik-cx-EbR"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="170" y="404" width="60" height="60"/>
                                     <mask key="constraints">
                                         <include reference="1yS-j3-2VE"/>
                                         <include reference="3ik-cx-EbR"/>
@@ -426,7 +430,7 @@
                                 </variation>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.24313727020000001" green="0.24313727020000001" blue="0.24313727020000001" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="aGm-pE-if5" secondAttribute="trailing" id="2jd-Vc-7Tz"/>
                             <constraint firstItem="Hs0-Wm-HYc" firstAttribute="top" secondItem="PFG-Xj-eo6" secondAttribute="bottom" constant="8" symbolic="YES" id="79m-cx-XGT"/>
