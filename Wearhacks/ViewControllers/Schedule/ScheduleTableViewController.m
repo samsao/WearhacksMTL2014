@@ -122,7 +122,6 @@
     
     if ([[segue identifier] isEqualToString:WEEK_DAY_SEGUE]) {
         
-        self.title = @"";
         DayDetailTableViewController *detailViewController = [segue destinationViewController];
         detailViewController.parseObject = [self.exerciseDates objectAtIndex:self.tableView.indexPathForSelectedRow.row];
         
