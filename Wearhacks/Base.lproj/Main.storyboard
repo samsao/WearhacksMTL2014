@@ -209,7 +209,9 @@
                             <constraint firstItem="yHI-0T-1QI" firstAttribute="leading" secondItem="FBe-IF-irs" secondAttribute="leadingMargin" constant="50" id="7UD-T8-f2z"/>
                             <constraint firstAttribute="centerX" secondItem="Usl-X8-Qu8" secondAttribute="centerX" id="cAn-vI-R0m"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yHI-0T-1QI" secondAttribute="trailing" constant="50" id="fk2-UV-dph"/>
-                            <constraint firstAttribute="centerY" secondItem="Usl-X8-Qu8" secondAttribute="centerY" id="ibB-zG-ORk"/>
+                            <constraint firstAttribute="centerY" secondItem="Usl-X8-Qu8" secondAttribute="centerY" id="ibB-zG-ORk">
+                                <variation key="heightClass=regular-widthClass=compact" constant="32"/>
+                            </constraint>
                             <constraint firstItem="Ece-Nw-LHc" firstAttribute="top" secondItem="yHI-0T-1QI" secondAttribute="bottom" constant="37" id="pFo-BB-jWg"/>
                         </constraints>
                         <variation key="default">

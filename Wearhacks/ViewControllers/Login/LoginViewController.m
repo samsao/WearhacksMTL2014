@@ -36,14 +36,21 @@
     
     [title sizeToFit];
     
+
     [self.logInView.facebookButton setTitle:@"Sign with Facebook" forState:UIControlStateNormal];
     [self.logInView.facebookButton setImageEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 70)];
     
     UIImageView * logo = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"login_logo"]];
-    [logo setCenter:CGPointMake(self.view.center.x, self.view.center.y - 180)];
+    [logo setCenter:CGPointMake(self.view.center.x, 80)];
     
     [self.logInView setLogo:nil];
     [self.logInView addSubview:logo];
+    
+    UIImageView * fakeContent = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"login_fake"]];
+    [fakeContent setCenter:CGPointMake(self.view.center.x, 370)];
+    [self.logInView addSubview:fakeContent];
+    
+    [self.logInView.facebookButton setCenter:CGPointMake(self.view.center.x, 190)];
     
     self.view.backgroundColor = [UIColor colorWithHexString:@"#3e3e3e"];
 
