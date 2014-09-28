@@ -6,22 +6,35 @@
 //  Copyright (c) 2014 Samsao. All rights reserved.
 //
 
-#import "DayDetailViewController.h"
+#import "ExerciseDetailViewController.h"
 
-@interface DayDetailViewController ()
+@interface ExerciseDetailViewController ()
 
 @end
 
-@implementation DayDetailViewController
+@implementation ExerciseDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self loadExerciseData];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)loadExerciseData {
+    
+    PFQuery *exerciseDataQuery = [WearHacksUtility allDataForExercice:self.exercise];
+    [exerciseDataQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+       
+        if (!error) {
+            
+            NSLog(@"Exercise Data count : %lul", (unsigned long)objects.count);
+            
+        }
+        
+    }];
+    
 }
 
 /*

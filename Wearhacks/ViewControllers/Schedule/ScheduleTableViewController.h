@@ -1,5 +1,5 @@
 //
-//  ExerciseDetailViewController.h
+//  ScheduleTableViewController.h
 //  Wearhacks
 //
 //  Created by Adrien CARANTA on 27/09/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DayDetailViewController : UIViewController
+@interface ScheduleTableViewController : UITableViewController 
 
 @end

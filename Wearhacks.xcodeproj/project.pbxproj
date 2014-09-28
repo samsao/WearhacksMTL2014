@@ -17,7 +17,6 @@
 		1F4D5CA619D76A69002C40A2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9519D76A69002C40A2 /* LoginViewController.m */; };
 		1F4D5CA719D76A69002C40A2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9819D76A69002C40A2 /* ProfileViewController.m */; };
 		1F4D5CA819D76A69002C40A2 /* RehabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9B19D76A69002C40A2 /* RehabViewController.m */; };
-		1F4D5CA919D76A69002C40A2 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9E19D76A69002C40A2 /* ScheduleViewController.m */; };
 		1F5C137219D72B1F00746670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137119D72B1F00746670 /* main.m */; };
 		1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137619D72B1F00746670 /* Wearhacks.xcdatamodeld */; };
 		1F5C137E19D72B1F00746670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C137C19D72B1F00746670 /* Main.storyboard */; };
@@ -28,7 +27,9 @@
 		1F8FBA1919D76C18001531C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FBA1819D76C18001531C2 /* AppDelegate.m */; };
 		1F8FBA1B19D76D64001531C2 /* Rehab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8FBA1A19D76D64001531C2 /* Rehab.storyboard */; };
 		580FD63F19D76FA200502C94 /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580FD63D19D76FA200502C94 /* Schedule.storyboard */; };
-		58CACD8619D7983E00BB8228 /* DayDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CACD8519D7983E00BB8228 /* DayDetailViewController.m */; };
+		58CACD8919D7A97000BB8228 /* ExerciseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CACD8819D7A97000BB8228 /* ExerciseDetailViewController.m */; };
+		58FE3F6519D7B7F100A2F120 /* ScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3F6419D7B7F100A2F120 /* ScheduleTableViewController.m */; };
+		58FE3F6819D7BCD400A2F120 /* DayDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3F6719D7BCD400A2F120 /* DayDetailTableViewController.m */; };
 		B3DC4617C0CE8B01A21BDFEB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE751E578293B9110274168 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -64,8 +65,6 @@
 		1F4D5C9819D76A69002C40A2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		1F4D5C9A19D76A69002C40A2 /* RehabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RehabViewController.h; sourceTree = "<group>"; };
 		1F4D5C9B19D76A69002C40A2 /* RehabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RehabViewController.m; sourceTree = "<group>"; };
-		1F4D5C9D19D76A69002C40A2 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
-		1F4D5C9E19D76A69002C40A2 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
 		1F5C136C19D72B1E00746670 /* Wearhacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wearhacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5C137019D72B1E00746670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5C137119D72B1F00746670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,8 +81,12 @@
 		1F8FBA1819D76C18001531C2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1F8FBA1A19D76D64001531C2 /* Rehab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Rehab.storyboard; sourceTree = "<group>"; };
 		580FD63E19D76FA200502C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Wearhacks/Base.lproj/Schedule.storyboard; sourceTree = "<group>"; };
-		58CACD8419D7983E00BB8228 /* DayDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayDetailViewController.h; sourceTree = "<group>"; };
-		58CACD8519D7983E00BB8228 /* DayDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayDetailViewController.m; sourceTree = "<group>"; };
+		58CACD8719D7A97000BB8228 /* ExerciseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseDetailViewController.h; sourceTree = "<group>"; };
+		58CACD8819D7A97000BB8228 /* ExerciseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDetailViewController.m; sourceTree = "<group>"; };
+		58FE3F6319D7B7F100A2F120 /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewController.h; sourceTree = "<group>"; };
+		58FE3F6419D7B7F100A2F120 /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewController.m; sourceTree = "<group>"; };
+		58FE3F6619D7BCD400A2F120 /* DayDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayDetailTableViewController.h; sourceTree = "<group>"; };
+		58FE3F6719D7BCD400A2F120 /* DayDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayDetailTableViewController.m; sourceTree = "<group>"; };
 		5EE751E578293B9110274168 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26EF49619D75E6200046EBB /* WearHacks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WearHacks-Prefix.pch"; sourceTree = "<group>"; };
 		DBC9213B26E4B0D8EA85374C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -199,10 +202,12 @@
 		1F4D5C9C19D76A69002C40A2 /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
-				1F4D5C9D19D76A69002C40A2 /* ScheduleViewController.h */,
-				1F4D5C9E19D76A69002C40A2 /* ScheduleViewController.m */,
-				58CACD8419D7983E00BB8228 /* DayDetailViewController.h */,
-				58CACD8519D7983E00BB8228 /* DayDetailViewController.m */,
+				58FE3F6319D7B7F100A2F120 /* ScheduleTableViewController.h */,
+				58FE3F6419D7B7F100A2F120 /* ScheduleTableViewController.m */,
+				58FE3F6619D7BCD400A2F120 /* DayDetailTableViewController.h */,
+				58FE3F6719D7BCD400A2F120 /* DayDetailTableViewController.m */,
+				58CACD8719D7A97000BB8228 /* ExerciseDetailViewController.h */,
+				58CACD8819D7A97000BB8228 /* ExerciseDetailViewController.m */,
 			);
 			path = Schedule;
 			sourceTree = "<group>";
@@ -453,17 +458,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */,
+				58FE3F6819D7BCD400A2F120 /* DayDetailTableViewController.m in Sources */,
 				1F4D5CA819D76A69002C40A2 /* RehabViewController.m in Sources */,
+				58CACD8919D7A97000BB8228 /* ExerciseDetailViewController.m in Sources */,
 				1F4D5CA119D76A69002C40A2 /* UIImage+RoundedCorner.m in Sources */,
 				1F4D5CA619D76A69002C40A2 /* LoginViewController.m in Sources */,
-				58CACD8619D7983E00BB8228 /* DayDetailViewController.m in Sources */,
 				1F4D5CA019D76A69002C40A2 /* UIImage+Resize.m in Sources */,
 				1F8FBA1619D76C07001531C2 /* Constants.m in Sources */,
+				58FE3F6519D7B7F100A2F120 /* ScheduleTableViewController.m in Sources */,
 				1F4D5CA719D76A69002C40A2 /* ProfileViewController.m in Sources */,
 				1F4D5C7F19D76A60002C40A2 /* StoryboardConstants.m in Sources */,
 				1F4D5C9F19D76A69002C40A2 /* UIImage+Alpha.m in Sources */,
 				1F4D5CA519D76A69002C40A2 /* HomeViewController.m in Sources */,
-				1F4D5CA919D76A69002C40A2 /* ScheduleViewController.m in Sources */,
 				1F4D5CA219D76A69002C40A2 /* UIImageView+Border.m in Sources */,
 				1F5C137219D72B1F00746670 /* main.m in Sources */,
 				1F4D5CA319D76A69002C40A2 /* WearHacksUtility.m in Sources */,
