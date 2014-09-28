@@ -237,7 +237,9 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="What do you want to check?" id="Pp2-6x-E0I"/>
+                    <navigationItem key="navigationItem" title="What do you want to check?" id="Pp2-6x-E0I">
+                        <barButtonItem key="backBarButtonItem" title=" " id="z7X-6Q-oQL"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="profileButton" destination="plB-rh-vST" id="jh1-15-bBs"/>
                         <outlet property="signOutButton" destination="yHI-0T-1QI" id="WHE-6F-43t"/>
