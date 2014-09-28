@@ -11,11 +11,9 @@
 
 @implementation WearHacksUtility
 
-+ (PFQuery *)allInjuries {
++ (PFQuery *)allExerciceDate {
     
-    PFQuery *query = [PFQuery queryWithClassName:@"Injury"];
-    [query includeKey:@"exercices"];
-    [query includeKey:@"user"];
+    PFQuery *query = [PFQuery queryWithClassName:@"ExerciceDate"];
     [query orderByDescending:@"createdAt"];
     
     //Only fetch the one I created
@@ -24,10 +22,10 @@
     return query;
 }
 
-+ (PFQuery *)allExercicesForInjury:(PFObject *)injury {
++ (PFQuery *)allExercicesForExerciceDate:(PFObject *)injury {
     
     PFQuery *query = [PFQuery queryWithClassName:@"Exercise"];
-    [query whereKey:@"injury" containedIn:@[injury]];
+    [query whereKey:@"exerciceDate" containedIn:@[injury]];
     [query includeKey:@"type"];
     [query orderByDescending:@"createdAt"];
     
@@ -46,8 +44,7 @@
 + (PFQuery *)exerciseTypeForExercise:(PFObject *)exercise {
     
     PFQuery *query = [PFQuery queryWithClassName:@"ExerciseType"];
-    [query includeKey:@"exercices"];
-    [query includeKey:@"user"];
+
     [query orderByDescending:@"createdAt"];
     
     //Only fetch the one I created
