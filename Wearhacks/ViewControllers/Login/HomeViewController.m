@@ -55,7 +55,7 @@
 - (void)loadInjuries {
     
     
-    PFQuery *query = [WearHacksUtility allInjuries];
+    PFQuery *query = [WearHacksUtility allExerciceDate];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             // The find succeeded.
@@ -63,13 +63,13 @@
             
             for (PFObject * obj in objects) {
                 
-                NSLog(@"injury name %@", [obj objectForKey:@"name"]);
+                NSLog(@"exercice date %@", [obj objectForKey:@"date"]);
                 
 //                NSArray * exercices = [obj objectForKey:@"exercices"];
 //                
 //                NSLog(@"injury count exercices %lu", [exercices count]);
                 
-                PFQuery * exerciseQuery = [WearHacksUtility allExercicesForInjury:obj];
+                PFQuery * exerciseQuery = [WearHacksUtility allExercicesForExerciceDate:obj];
                 
                 [exerciseQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
                     
@@ -77,10 +77,8 @@
                     
                     for (PFObject *obj in objects) {
                         
-                        PFObject * type = [obj objectForKey:@"type"];
                         
-                        NSLog(@"exerciceType name %@", [type objectForKey:@"name"]);
-                        NSLog(@"exercice start date %@", [obj objectForKey:@"startDate"]);
+                        NSLog(@"exercice name %@", [obj objectForKey:@"name"]);
                         
                         PFQuery * exerciseDataQuery = [WearHacksUtility allDataForExercice:obj];
 
