@@ -32,7 +32,7 @@
         
         if (!error) {
             
-            self.exerciseDates = objects;
+            self.exerciseDates = [self sortArray:objects];
             
             NSLog(@"Exercise Dates : %lu", (unsigned long)self.exerciseDates.count);
             
@@ -41,6 +41,16 @@
         }
         
     }];
+    
+}
+
+- (NSArray *)sortArray:(NSArray *)arrayToSort {
+    
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"date" ascending:YES];
+    NSArray *descriptors = @[sortDescriptor];
+    NSArray *sortedArray = [arrayToSort sortedArrayUsingDescriptors:descriptors];
+    
+    return sortedArray;
     
 }
 
@@ -104,6 +114,7 @@
     
     if ([[segue identifier] isEqualToString:WEEK_DAY_SEGUE]) {
         
+        self.title = @"";
         DayDetailTableViewController *detailViewController = [segue destinationViewController];
         detailViewController.parseObject = [self.exerciseDates objectAtIndex:self.tableView.indexPathForSelectedRow.row];
         
@@ -112,7 +123,7 @@
 }
 
 - (NSString *)daySuffixForDate:(NSDate *)date {
-    NSInteger day_of_month = [[[NSCalendar currentCalendar] components:NSDayCalendarUnit fromDate:date] day];
+    NSInteger day_of_month = [[[NSCalendar currentCalendar] components:NSCalendarUnitDay fromDate:date] day];
     switch (day_of_month) {
         case 1:
         case 21:

@@ -20,34 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    self.title = [NSString stringWithFormat:@"%@", [self.parseObject objectForKey:@"date"]];
-    
-    
-    NSDate *exerciseDate = [self.parseObject objectForKey:@"date"];
-    
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateStyle:NSDateFormatterFullStyle];
-    [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
-    dateFormatter.timeZone = [NSTimeZone localTimeZone];
-    
-    NSString *preferredLanguage = [[NSLocale preferredLanguages] objectAtIndex:0];
-    NSLog(@"%@", preferredLanguage);
-    
-    if ([preferredLanguage isEqualToString:@"en_US"] || [preferredLanguage isEqualToString:@"en"])
-    {
-        // English
-        dateFormatter.dateFormat = [NSString stringWithFormat:@"EEEE dd'%@'", [self daySuffixForDate:exerciseDate]];
-    }
-    else if([preferredLanguage isEqualToString:@"fr"])
-    {
-        // Spanish
-        dateFormatter.dateFormat = @"EEEE dd";
-    }
-    
-    NSString *formattedDateString = [dateFormatter stringFromDate:exerciseDate];
-    NSLog(@"formattedDateString: %@", formattedDateString);
-    
-    self.title = formattedDateString;
+    self.title = @"Assignements";
     
     _exercises = [[NSArray alloc] init];
     
@@ -118,8 +91,33 @@
         
         cell = [tableView dequeueReusableCellWithIdentifier:@"dateCell" forIndexPath:indexPath];
         
+        NSDate *exerciseDate = [self.parseObject objectForKey:@"date"];
+        
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateStyle:NSDateFormatterFullStyle];
+        [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
+        dateFormatter.timeZone = [NSTimeZone localTimeZone];
+        
+        NSString *preferredLanguage = [[NSLocale preferredLanguages] objectAtIndex:0];
+        NSLog(@"%@", preferredLanguage);
+        
+        if ([preferredLanguage isEqualToString:@"en_US"] || [preferredLanguage isEqualToString:@"en"])
+        {
+            // English
+            dateFormatter.dateFormat = [NSString stringWithFormat:@"EEEE dd'%@'", [self daySuffixForDate:exerciseDate]];
+        }
+        else if([preferredLanguage isEqualToString:@"fr"])
+        {
+            // Spanish
+            dateFormatter.dateFormat = @"EEEE dd";
+        }
+        
+        NSString *formattedDateString = [dateFormatter stringFromDate:exerciseDate];
+        NSLog(@"formattedDateString: %@", formattedDateString);
+
+        
         UILabel *dateLabel = (UILabel *)[cell viewWithTag:200];
-        dateLabel.text = @"blabla";
+        dateLabel.text = formattedDateString;
         
     } else {
         
@@ -128,7 +126,7 @@
         NSString *exerciseType = [[self.exercises objectAtIndex:indexPath.row] objectForKey:@"name"];
         
         UILabel *exerciseTypeLabel = (UILabel *)[cell viewWithTag:100];
-        exerciseTypeLabel.text = exerciseType;
+        exerciseTypeLabel.text = [exerciseType capitalizedString];
         
     }
     
@@ -142,8 +140,9 @@
     
     if ([[segue identifier] isEqualToString:EXERCISE_SEGUE]) {
         
+        self.title = @"";
         ExerciseDetailViewController *exerciseDetailViewController = [segue destinationViewController];
-        exerciseDetailViewController.title = [[self.exercises objectAtIndex:self.tableView.indexPathForSelectedRow.row] objectForKey:@"name"];
+        exerciseDetailViewController.title = [[[self.exercises objectAtIndex:self.tableView.indexPathForSelectedRow.row] objectForKey:@"name"] capitalizedString];
         exerciseDetailViewController.exercise = [self.exercises objectAtIndex:self.tableView.indexPathForSelectedRow.row];
         
     }
@@ -151,7 +150,7 @@
 }
 
 - (NSString *)daySuffixForDate:(NSDate *)date {
-    NSInteger day_of_month = [[[NSCalendar currentCalendar] components:NSDayCalendarUnit fromDate:date] day];
+    NSInteger day_of_month = [[[NSCalendar currentCalendar] components:NSCalendarUnitDay fromDate:date] day];
     switch (day_of_month) {
         case 1:
         case 21:
