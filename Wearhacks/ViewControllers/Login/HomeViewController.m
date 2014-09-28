@@ -38,7 +38,7 @@
         // Customize the Log In View Controller
         LoginViewController *logInViewController = [[LoginViewController alloc] init];
         [logInViewController setDelegate:self];
-        [logInViewController setFacebookPermissions:[NSArray arrayWithObjects:@"friends_about_me", nil]];
+//        [logInViewController setFacebookPermissions:[NSArray arrayWithObjects:@"friends_about_me", nil]];
         [logInViewController setFields:  PFLogInFieldsFacebook];
         
         // Present Log In View Controller
@@ -47,6 +47,64 @@
     else {
         [self downloadUserProfilePictures];
     }
+    
+}
+
+#pragma mark - TEST METHODS
+
+- (void)loadInjuries {
+    
+    
+    PFQuery *query = [WearHacksUtility allInjuries];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            // The find succeeded.
+            NSLog(@"WStreamRootViewController Successfully retrieved %lu injuries.", (unsigned long)objects.count);
+            
+            for (PFObject * obj in objects) {
+                
+                NSLog(@"injury name %@", [obj objectForKey:@"name"]);
+                
+//                NSArray * exercices = [obj objectForKey:@"exercices"];
+//                
+//                NSLog(@"injury count exercices %lu", [exercices count]);
+                
+                PFQuery * exerciseQuery = [WearHacksUtility allExercicesForInjury:obj];
+                
+                [exerciseQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+                    
+                    NSLog(@"exercices count %lu", [objects count]);
+                    
+                    for (PFObject *obj in objects) {
+                        
+                        PFObject * type = [obj objectForKey:@"type"];
+                        
+                        NSLog(@"exerciceType name %@", [type objectForKey:@"name"]);
+                        NSLog(@"exercice start date %@", [obj objectForKey:@"startDate"]);
+                        
+                        PFQuery * exerciseDataQuery = [WearHacksUtility allDataForExercice:obj];
+
+                        
+                        [exerciseDataQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+                            
+                            NSLog(@"exercices data count %lu", [objects count]);
+                            
+                            for (PFObject * data in objects) {
+                                NSLog(@"exercice data x %@ y %@ z %@", [data objectForKey:@"x"], [data objectForKey:@"y"], [data objectForKey:@"z"]);
+                            }
+                        }];
+
+                    }
+                }];
+            }
+        } else {
+            
+            // Log details of the failure
+            NSLog(@"WStreamRootViewController Error: %@ %@", error, [error userInfo]);
+            
+        }
+    }];
+    
     
 }
 
@@ -139,6 +197,7 @@
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
     [WearHacksUtility processFacebookProfilePictureData:_data];
+    [self loadInjuries];
 }
 
 
