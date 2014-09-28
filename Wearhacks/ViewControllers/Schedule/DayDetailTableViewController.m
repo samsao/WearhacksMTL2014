@@ -8,6 +8,8 @@
 
 #import "DayDetailTableViewController.h"
 #import "ExerciseDetailViewController.h"
+#import "UIColor+WearHackColors.h"
+#import <UIColor+HTMLColors.h>
 
 @interface DayDetailTableViewController ()
 
@@ -64,21 +66,21 @@
     
 }
 
-- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    
-    UIView *customHeader = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 60)];
-    [customHeader setBackgroundColor:[UIColor blueColor]];
-    
-    return customHeader;
-    
-}
+//- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+//    
+//    UIView *customHeader = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 20)];
+////    [customHeader setBackgroundColor:[UIColor blueColor]];
+//    
+//    return customHeader;
+//    
+//}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (indexPath.section == 0) {
-        return 100;
+        return 150;
     } else {
-        return 60;
+        return 100;
     }
     
 }
@@ -119,14 +121,31 @@
         UILabel *dateLabel = (UILabel *)[cell viewWithTag:200];
         dateLabel.text = formattedDateString;
         
+        [dateLabel setTextAlignment:NSTextAlignmentRight];
+        [dateLabel setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:32.0]];
+        [dateLabel setTextColor:[UIColor colorWithHexString:@"#3e3e3e"]];
+
+        
+        UIView * background = (UIView *)[cell viewWithTag:69];
+        
+        [background setBackgroundColor:[UIColor color1]];
+        
     } else {
         
         cell = [tableView dequeueReusableCellWithIdentifier:@"exerciseCell" forIndexPath:indexPath];
         
         NSString *exerciseType = [[self.exercises objectAtIndex:indexPath.row] objectForKey:@"name"];
-        
+//        NSString *exerciseType = @"KIKOOOOO";
+
         UILabel *exerciseTypeLabel = (UILabel *)[cell viewWithTag:100];
         exerciseTypeLabel.text = [exerciseType capitalizedString];
+        [exerciseTypeLabel setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:32.0]];
+        [exerciseTypeLabel setTextColor:[UIColor colorWithHexString:@"#3e3e3e"]];
+        [exerciseTypeLabel setTextAlignment:NSTextAlignmentLeft];
+        
+        UIView * background = (UIView *)[cell viewWithTag:69];
+        
+        [background setBackgroundColor:[self colorForIndexPath:indexPath]];
         
     }
     
@@ -161,6 +180,57 @@
         case 23: return @"rd";
         default: return @"th";
     }
+}
+
+- (UIColor *)colorForIndexPath:(NSIndexPath *)indexPath {
+    
+    UIColor * color;
+    
+    switch (indexPath.row) {
+        case 0:
+            color = [UIColor color2];
+            break;
+        case 1:
+            color = [UIColor color3];
+            break;
+        case 2:
+            color = [UIColor color4];
+            break;
+        case 3:
+            color = [UIColor color5];
+            break;
+        case 4:
+            color = [UIColor color4];
+            break;
+        case 5:
+            color = [UIColor color3];
+            break;
+        case 6:
+            color = [UIColor color2];
+            break;
+        case 7:
+            color = [UIColor color1];
+            break;
+        case 8:
+            color = [UIColor color1];
+            break;
+        case 9:
+            color = [UIColor color2];
+            break;
+        case 10:
+            color = [UIColor color3];
+            break;
+        case 11:
+            color = [UIColor color4];
+            break;
+        case 12:
+            color = [UIColor color5];
+            break;
+        default:
+            color = [UIColor color1];
+            break;
+    }
+    return color;
 }
 
 @end

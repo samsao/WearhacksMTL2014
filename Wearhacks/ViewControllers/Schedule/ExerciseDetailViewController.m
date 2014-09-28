@@ -11,6 +11,7 @@
 
 @interface ExerciseDetailViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
 @property (weak, nonatomic) IBOutlet UIView *videoContainer;
 @property (weak, nonatomic) IBOutlet UIButtonRounded *startButton;
@@ -46,7 +47,11 @@
     
     [super viewWillAppear:animated];
 
+    [self.titleLabel setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:32.0]];
     
+    [self.startButton.titleLabel setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:18.0]];
+
+    [self.descriptionTextView setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:15.0]];
 
     
 }
