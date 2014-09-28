@@ -12,4 +12,10 @@ pod 'RestKit', '~> 0.23'
 pod 'SVProgressHUD', '~> 1.0'
 pod 'SDWebImage', '~> 3.x'
 pod 'PonyDebugger', :git => 'https://github.com/square/PonyDebugger.git'
+pod 'CHCircleGaugeView', :git => 'https://github.com/GabrielCartier/CHCircleGaugeView'
+pod 'UIColor-HTMLColors'
+pod 'BlurryModalSegue'
+pod 'GraphKit'
+pod 'MBProgressHUD'
+
 
