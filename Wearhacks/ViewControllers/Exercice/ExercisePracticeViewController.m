@@ -97,6 +97,7 @@ static int const kExerciceRemoteId = 10;
                                              selector:@selector(didReceiveOrientationEvent:)
                                                  name:TLMMyoDidReceiveOrientationEventNotification
                                                object:nil];
+    [self initializeGauge];
 }
 
 - (void)loadExerciseWithHUD:(BOOL)displayHUD {
@@ -180,6 +181,7 @@ static int const kExerciceRemoteId = 10;
         [self updateLog];
 
         if (_userRepetitions == kRepetitions) {
+            [self performSegueWithIdentifier:EXERCISE_TO_MODAL sender:self];
         }
 
         [_startButton setTitle:@"Restart exercice" forState:UIControlStateNormal];
@@ -193,6 +195,9 @@ static int const kExerciceRemoteId = 10;
     if ([segue.destinationViewController isKindOfClass:[ExerciseDoneOverlayViewController class]]) {
         ExerciseDoneOverlayViewController *destinationVC = (ExerciseDoneOverlayViewController *)segue.destinationViewController;
         destinationVC.delegate = self;
+
+        NSLog(@"MAX COORDS %d", _userMaxCoords.count);
+        destinationVC.exerciseData = [_userMaxCoords valueForKeyPath:@"pitch"];
     }
 }
 
