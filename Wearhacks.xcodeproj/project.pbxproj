@@ -404,7 +404,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Wearhacks/Base.lproj/Main.storyboard",
 				"$(SRCROOT)/Wearhacks/Base.lproj/Schedule.storyboard",
-				"$(SRCROOT)/Wearhacks/Base.lproj/Rehad.storyboard",
+				"$(SRCROOT)/Wearhacks/Base.lproj/Rehab.storyboard",
 				"$(SRCROOT)/Wearhacks/Base.lproj/Exercice.storyboard",
 			);
 			name = "Generate storyboard files";
