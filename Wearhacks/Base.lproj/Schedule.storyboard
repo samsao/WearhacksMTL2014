@@ -2,6 +2,8 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A361p" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Schedule-->
@@ -25,9 +27,45 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3M8-rd-nPU" id="o05-zO-s5l">
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ccy-hi-qgv">
+                                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Ccy-hi-qgv" firstAttribute="leading" secondItem="o05-zO-s5l" secondAttribute="leadingMargin" constant="64" id="J4F-gT-pUU"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Ccy-hi-qgv" secondAttribute="bottom" constant="5" id="K2c-jI-Ega"/>
+                                                <constraint firstItem="Ccy-hi-qgv" firstAttribute="centerX" secondItem="o05-zO-s5l" secondAttribute="centerX" id="RW7-33-bvm"/>
+                                                <constraint firstItem="Ccy-hi-qgv" firstAttribute="top" secondItem="o05-zO-s5l" secondAttribute="topMargin" constant="6" id="TS4-wR-LXI"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="Ccy-hi-qgv"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="J4F-gT-pUU"/>
+                                                    <exclude reference="K2c-jI-Ega"/>
+                                                    <exclude reference="RW7-33-bvm"/>
+                                                    <exclude reference="TS4-wR-LXI"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="heightClass=regular-widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="Ccy-hi-qgv"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="J4F-gT-pUU"/>
+                                                    <include reference="K2c-jI-Ega"/>
+                                                    <include reference="RW7-33-bvm"/>
+                                                    <include reference="TS4-wR-LXI"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="wEc-r2-HD5" kind="show" id="9j7-fz-Zba"/>
+                                            <segue destination="wEc-r2-HD5" kind="show" identifier="weekDaySegue" id="9j7-fz-Zba"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -76,15 +114,16 @@
             </objects>
             <point key="canvasLocation" x="1161" y="390"/>
         </scene>
-        <!--Exercise Detail View Controller-->
+        <!--Day Detail View Controller-->
         <scene sceneID="NxR-CV-VR0">
             <objects>
-                <viewController storyboardIdentifier="EXERCISE_DETAIL_VIEW_CONTROLLER" id="wEc-r2-HD5" customClass="ExerciseDetailViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EXERCISE_DETAIL_VIEW_CONTROLLER" id="wEc-r2-HD5" customClass="DayDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kyk-VE-fhS"/>
                         <viewControllerLayoutGuide type="bottom" id="UQg-ZF-AwH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2Cy-3m-0Wu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Samsao. All rights reserved.
 //
 
-#import "ExerciseDetailViewController.h"
+#import "DayDetailViewController.h"
 
-@interface ExerciseDetailViewController ()
+@interface DayDetailViewController ()
 
 @end
 
-@implementation ExerciseDetailViewController
+@implementation DayDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

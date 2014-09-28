@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ExerciseDetailViewController : UIViewController
+@interface DayDetailViewController : UIViewController
 
 @end
