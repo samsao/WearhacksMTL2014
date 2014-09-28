@@ -11,7 +11,6 @@
 		1F538D2119D87C4200F03204 /* CHCircleGaugeView+Zentice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CC419D87C4200F03204 /* CHCircleGaugeView+Zentice.m */; };
 		1F538D2219D87C4200F03204 /* NSMutableArray+SSAQueueStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CC719D87C4200F03204 /* NSMutableArray+SSAQueueStack.m */; };
 		1F538D2319D87C4200F03204 /* UIColor+WearHackColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CCA19D87C4200F03204 /* UIColor+WearHackColors.m */; };
-		1F538D2419D87C4200F03204 /* UIColor+Zentice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CCC19D87C4200F03204 /* UIColor+Zentice.m */; };
 		1F538D2519D87C4200F03204 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CCF19D87C4200F03204 /* UIImage+Alpha.m */; };
 		1F538D2619D87C4200F03204 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CD119D87C4200F03204 /* UIImage+Resize.m */; };
 		1F538D2719D87C4200F03204 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F538CD319D87C4200F03204 /* UIImage+RoundedCorner.m */; };
@@ -69,8 +68,6 @@
 		1F538CC719D87C4200F03204 /* NSMutableArray+SSAQueueStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SSAQueueStack.m"; sourceTree = "<group>"; };
 		1F538CC919D87C4200F03204 /* UIColor+WearHackColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WearHackColors.h"; sourceTree = "<group>"; };
 		1F538CCA19D87C4200F03204 /* UIColor+WearHackColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WearHackColors.m"; sourceTree = "<group>"; };
-		1F538CCB19D87C4200F03204 /* UIColor+Zentice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Zentice.h"; sourceTree = "<group>"; };
-		1F538CCC19D87C4200F03204 /* UIColor+Zentice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Zentice.m"; sourceTree = "<group>"; };
 		1F538CCE19D87C4200F03204 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
 		1F538CCF19D87C4200F03204 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
 		1F538CD019D87C4200F03204 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
@@ -174,8 +171,6 @@
 				1F538CC419D87C4200F03204 /* CHCircleGaugeView+Zentice.m */,
 				1F538CC519D87C4200F03204 /* QueueStack */,
 				1F538CC819D87C4200F03204 /* UIColor */,
-				1F538CCB19D87C4200F03204 /* UIColor+Zentice.h */,
-				1F538CCC19D87C4200F03204 /* UIColor+Zentice.m */,
 				1F538CCD19D87C4200F03204 /* UIImage */,
 				1F538CD419D87C4200F03204 /* UIImageView */,
 				1F538CD719D87C4200F03204 /* UIStoryboard */,
@@ -631,7 +626,6 @@
 				1F538D2119D87C4200F03204 /* CHCircleGaugeView+Zentice.m in Sources */,
 				1F538D2F19D87C4200F03204 /* UIButtonRounded.m in Sources */,
 				1F538D2D19D87C4200F03204 /* SSACoordinates.m in Sources */,
-				1F538D2419D87C4200F03204 /* UIColor+Zentice.m in Sources */,
 				1F538D2C19D87C4200F03204 /* MyoManager.m in Sources */,
 				1F538D2719D87C4200F03204 /* UIImage+RoundedCorner.m in Sources */,
 				1F538D3119D87C4200F03204 /* ConnectingMyoModalViewController.m in Sources */,

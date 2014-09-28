@@ -149,16 +149,16 @@ static int const kExerciceRemoteId = 10;
 
         // get max and min values
         int maxPitch = [[pitches valueForKeyPath:@"@max.intValue"] intValue] - 5;
-        int minPitch = [[pitches valueForKeyPath:@"@min.intValue"] intValue] + 5;
+        int minPitch = [[pitches valueForKeyPath:@"@min.intValue"] intValue];
         NSLog(@"Min: %d - Max: %d", minPitch, maxPitch);
 
         NSArray *rolls = [_referenceMovement valueForKeyPath:@"roll"];
         int maxRoll = [[rolls valueForKeyPath:@"@max.intValue"] intValue] - 5;
-        int minRoll = [[rolls valueForKeyPath:@"@min.intValue"] intValue] + 5;
+        int minRoll = [[rolls valueForKeyPath:@"@min.intValue"] intValue];
 
         NSArray *yaws = [_referenceMovement valueForKeyPath:@"yaw"];
         int maxYaw = [[yaws valueForKeyPath:@"@max.intValue"] intValue] - 5;
-        int minYaw = [[yaws valueForKeyPath:@"@min.intValue"] intValue] + 5;
+        int minYaw = [[yaws valueForKeyPath:@"@min.intValue"] intValue];
 
         _referenceMovementMinCoord = [[SSACoordinates alloc] initWithRoll:minRoll pitch:minPitch yaw:minYaw];
         _referenceMovementMaxCoord = [[SSACoordinates alloc] initWithRoll:maxRoll pitch:maxPitch yaw:maxYaw];
@@ -170,7 +170,7 @@ static int const kExerciceRemoteId = 10;
         _shouldUpdateLog = YES;
         [self updateLog];
 
-        [_startButton setTitle:@"Stop exercice" forState:UIControlStateNormal];
+        [_startButton setTitle:@"Stop exercise" forState:UIControlStateNormal];
     }
     // stop
     else {
@@ -183,7 +183,7 @@ static int const kExerciceRemoteId = 10;
             [self performSegueWithIdentifier:EXERCISE_TO_MODAL sender:self];
         }
 
-        [_startButton setTitle:@"Restart exercice" forState:UIControlStateNormal];
+        [_startButton setTitle:@"Restart exercise" forState:UIControlStateNormal];
     }
 }
 
