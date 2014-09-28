@@ -7,8 +7,13 @@
 //
 
 #import "ExerciseDetailViewController.h"
+#import "UIButtonRounded.h"
 
 @interface ExerciseDetailViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
+@property (weak, nonatomic) IBOutlet UIView *videoContainer;
+@property (weak, nonatomic) IBOutlet UIButtonRounded *startButton;
 
 @end
 
@@ -16,24 +21,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    [self loadExerciseData];
+
+    self.descriptionTextView.text = [self.exercise objectForKey:@"description"];
     
 }
 
-- (void)loadExerciseData {
+- (IBAction)startExercise:(id)sender {
     
-//    PFQuery *exerciseDataQuery = [WearHacksUtility allDataForExercice:self.exercise];
-//    [exerciseDataQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-//       
-//        if (!error) {
-//            
-//            NSLog(@"Exercise Data count : %lul", (unsigned long)objects.count);
-//            
-//        }
-//        
-//    }];
+    NSLog(@"Start Exercise button pressed");
     
 }
 

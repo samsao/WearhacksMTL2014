@@ -206,12 +206,14 @@
                                             </mask>
                                         </variation>
                                     </view>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNX-tm-Y88">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Bonjour bonjour" translatesAutoresizingMaskIntoConstraints="NO" id="MNX-tm-Y88">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="QuC-ar-LQA" id="zLm-a5-SDA"/>
+                                        </connections>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.58310361389999998" green="0.44585266470000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -274,6 +276,7 @@
                                     </constraint>
                                 </constraints>
                                 <state key="normal" title="START">
+                                    <color key="titleColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="default">
@@ -288,6 +291,9 @@
                                         <include reference="UGs-ET-JYE"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="startExercise:" destination="QuC-ar-LQA" eventType="touchUpInside" id="POS-oB-8e7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -344,6 +350,11 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="descriptionTextView" destination="MNX-tm-Y88" id="h3m-xs-DE6"/>
+                        <outlet property="startButton" destination="ksY-9e-B1x" id="caW-Pw-KFg"/>
+                        <outlet property="videoContainer" destination="AI1-M8-v4E" id="6FL-S1-ksh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cQP-ov-ZKp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -432,13 +443,13 @@
                                             <exclude reference="Niw-7W-OGK"/>
                                         </mask>
                                         <mask key="constraints">
-                                            <exclude reference="MqN-7V-lTk"/>
-                                            <exclude reference="dkn-Cs-8ei"/>
-                                            <exclude reference="geL-cZ-A9O"/>
                                             <exclude reference="CaF-dd-3Pk"/>
                                             <exclude reference="Tiv-z0-nMx"/>
                                             <exclude reference="W2V-uW-mes"/>
                                             <exclude reference="qrr-LX-lyz"/>
+                                            <exclude reference="MqN-7V-lTk"/>
+                                            <exclude reference="dkn-Cs-8ei"/>
+                                            <exclude reference="geL-cZ-A9O"/>
                                         </mask>
                                     </variation>
                                     <variation key="heightClass=regular-widthClass=compact">
@@ -447,13 +458,13 @@
                                             <include reference="Niw-7W-OGK"/>
                                         </mask>
                                         <mask key="constraints">
-                                            <include reference="MqN-7V-lTk"/>
-                                            <include reference="dkn-Cs-8ei"/>
-                                            <include reference="geL-cZ-A9O"/>
                                             <include reference="CaF-dd-3Pk"/>
                                             <include reference="Tiv-z0-nMx"/>
                                             <include reference="W2V-uW-mes"/>
                                             <include reference="qrr-LX-lyz"/>
+                                            <include reference="MqN-7V-lTk"/>
+                                            <include reference="dkn-Cs-8ei"/>
+                                            <include reference="geL-cZ-A9O"/>
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
