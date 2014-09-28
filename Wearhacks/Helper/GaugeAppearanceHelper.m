@@ -7,6 +7,7 @@
 //
 
 #import "GaugeAppearanceHelper.h"
+#import "UIColor+WearHackColors.h"
 
 @implementation GaugeAppearanceHelper
 
@@ -24,8 +25,8 @@
 
  */
 + (void)setupGaugeViewForExercice:(CHCircleGaugeView *)view {
-    [view setTrackTintColor:[UIColor colorWithRed:1.0 green:0.0 blue:0.0 alpha:1.0]];
-    [view setGaugeTintColor:[UIColor colorWithRed:0.5 green:0.5 blue:0.0 alpha:0.5]];
+    [view setTrackTintColor:[UIColor color3]];
+    [view setGaugeTintColor:[UIColor color4]];
     [view setTrackWidth:20];
     [view setGaugeWidth:20];
 }
