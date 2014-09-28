@@ -254,9 +254,13 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="167" id="9hK-9r-PWJ"/>
-                                            <constraint firstItem="ziW-Ow-obC" firstAttribute="top" secondItem="AI1-M8-v4E" secondAttribute="top" id="GhM-tP-diN"/>
+                                            <constraint firstItem="ziW-Ow-obC" firstAttribute="top" secondItem="AI1-M8-v4E" secondAttribute="top" id="GhM-tP-diN">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="50"/>
+                                            </constraint>
                                             <constraint firstAttribute="trailing" secondItem="ziW-Ow-obC" secondAttribute="trailing" id="V9I-pp-k2o"/>
-                                            <constraint firstAttribute="bottom" secondItem="ziW-Ow-obC" secondAttribute="bottom" id="Zpy-hh-GZR"/>
+                                            <constraint firstAttribute="bottom" secondItem="ziW-Ow-obC" secondAttribute="bottom" id="Zpy-hh-GZR">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="50"/>
+                                            </constraint>
                                             <constraint firstItem="ziW-Ow-obC" firstAttribute="leading" secondItem="AI1-M8-v4E" secondAttribute="leading" id="bM4-5L-gw1"/>
                                         </constraints>
                                         <variation key="default">
@@ -569,7 +573,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="play_button" width="512" height="512"/>
+        <image name="play_button" width="35" height="35"/>
     </resources>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
