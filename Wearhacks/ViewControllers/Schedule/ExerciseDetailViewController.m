@@ -24,16 +24,16 @@
 
 - (void)loadExerciseData {
     
-    PFQuery *exerciseDataQuery = [WearHacksUtility allDataForExercice:self.exercise];
-    [exerciseDataQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-       
-        if (!error) {
-            
-            NSLog(@"Exercise Data count : %lul", (unsigned long)objects.count);
-            
-        }
-        
-    }];
+//    PFQuery *exerciseDataQuery = [WearHacksUtility allDataForExercice:self.exercise];
+//    [exerciseDataQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+//       
+//        if (!error) {
+//            
+//            NSLog(@"Exercise Data count : %lul", (unsigned long)objects.count);
+//            
+//        }
+//        
+//    }];
     
 }
 
