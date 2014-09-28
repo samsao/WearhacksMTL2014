@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="60J-yI-SMe">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Exercice view controller-->
+        <scene sceneID="Wwh-L1-84t">
+            <objects>
+                <viewController title="Exercice view controller" id="60J-yI-SMe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Qw-wW-MvR"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Tq-b2-37a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fJ6-ym-TWP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DPE-Hd-oEG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2v-XJ-orM" customClass="CHCircleGaugeView">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="J74-Td-kqn"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="J74-Td-kqn"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="J74-Td-kqn"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="S2v-XJ-orM" firstAttribute="leading" secondItem="DPE-Hd-oEG" secondAttribute="leading" id="AYY-yY-5aw"/>
+                                    <constraint firstAttribute="trailing" secondItem="S2v-XJ-orM" secondAttribute="trailing" id="Gye-rn-4sc"/>
+                                    <constraint firstAttribute="height" constant="500" id="aS0-rv-ZVx"/>
+                                    <constraint firstItem="S2v-XJ-orM" firstAttribute="top" secondItem="DPE-Hd-oEG" secondAttribute="top" id="h6Z-D2-Whi"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="S2v-XJ-orM"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="aS0-rv-ZVx"/>
+                                        <exclude reference="AYY-yY-5aw"/>
+                                        <exclude reference="Gye-rn-4sc"/>
+                                        <exclude reference="h6Z-D2-Whi"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="S2v-XJ-orM"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="aS0-rv-ZVx"/>
+                                        <include reference="AYY-yY-5aw"/>
+                                        <include reference="Gye-rn-4sc"/>
+                                        <include reference="h6Z-D2-Whi"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DPE-Hd-oEG" secondAttribute="trailing" id="A6J-KH-HaB"/>
+                            <constraint firstItem="DPE-Hd-oEG" firstAttribute="leading" secondItem="fJ6-ym-TWP" secondAttribute="leading" id="DRY-3W-rCN"/>
+                            <constraint firstItem="DPE-Hd-oEG" firstAttribute="top" secondItem="2Qw-wW-MvR" secondAttribute="bottom" id="mrS-4h-Ctf"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="DPE-Hd-oEG"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="A6J-KH-HaB"/>
+                                <exclude reference="DRY-3W-rCN"/>
+                                <exclude reference="mrS-4h-Ctf"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="DPE-Hd-oEG"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="A6J-KH-HaB"/>
+                                <include reference="DRY-3W-rCN"/>
+                                <include reference="mrS-4h-Ctf"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KSi-bI-oOg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339" y="291.75"/>
+        </scene>
+    </scenes>
+</document>
