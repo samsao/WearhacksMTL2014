@@ -10,6 +10,10 @@
 
 @interface WearHacksUtility : NSObject
 
++ (PFQuery *)allInjuries;
++ (PFQuery *)allExercicesForInjury:(PFObject *)injury;
++ (PFQuery *)allDataForExercice:(PFObject *)exercice;
+
 //Facebook
 + (void)processFacebookProfilePictureData:(NSData *)newProfilePictureData;
 

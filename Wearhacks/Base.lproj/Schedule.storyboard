@@ -65,7 +65,7 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="wEc-r2-HD5" kind="show" identifier="weekDaySegue" id="9j7-fz-Zba"/>
+                                            <segue destination="wEc-r2-HD5" kind="show" identifier="WEEK_DAY_SEGUE" id="9j7-fz-Zba"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

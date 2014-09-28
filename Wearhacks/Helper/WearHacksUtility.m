@@ -11,6 +11,51 @@
 
 @implementation WearHacksUtility
 
++ (PFQuery *)allInjuries {
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"Injury"];
+    [query includeKey:@"exercices"];
+    [query includeKey:@"user"];
+    [query orderByDescending:@"createdAt"];
+    
+    //Only fetch the one I created
+    [query whereKey:@"user" equalTo:[PFUser currentUser]];
+    
+    return query;
+}
+
++ (PFQuery *)allExercicesForInjury:(PFObject *)injury {
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"Exercise"];
+    [query whereKey:@"injury" containedIn:@[injury]];
+    [query includeKey:@"type"];
+    [query orderByDescending:@"createdAt"];
+    
+    return query;
+}
+
++ (PFQuery *)allDataForExercice:(PFObject *)exercice {
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"ExerciceData"];
+    [query whereKey:@"exercise" containedIn:@[exercice]];
+    [query orderByDescending:@"createdAt"];
+    
+    return query;
+}
+
++ (PFQuery *)exerciseTypeForExercise:(PFObject *)exercise {
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"ExerciseType"];
+    [query includeKey:@"exercices"];
+    [query includeKey:@"user"];
+    [query orderByDescending:@"createdAt"];
+    
+    //Only fetch the one I created
+    [query whereKey:@"user" equalTo:[PFUser currentUser]];
+    
+    return query;
+    
+}
 
 #pragma mark - Facebook
 
