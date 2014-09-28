@@ -10,7 +10,7 @@
         <!--Exercice view controller-->
         <scene sceneID="Wwh-L1-84t">
             <objects>
-                <viewController title="Exercice view controller" id="60J-yI-SMe" customClass="ExerciseViewController" sceneMemberID="viewController">
+                <viewController title="Exercice view controller" id="60J-yI-SMe" customClass="ExercisePracticeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Qw-wW-MvR"/>
                         <viewControllerLayoutGuide type="bottom" id="0Tq-b2-37a"/>
@@ -122,9 +122,10 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="circleGaugeView" destination="S2v-XJ-orM" id="9Ou-7p-IOZ"/>
+                        <outlet property="circleChartView" destination="S2v-XJ-orM" id="dgr-8h-HOu"/>
+                        <outlet property="startButton" destination="RBP-Bf-pkB" id="TgW-sz-ZEy"/>
                         <segue destination="836-TR-bwD" kind="custom" identifier="EXERCISE_TO_MODAL" customClass="BlurryModalSegue" id="RZQ-OL-B0h"/>
-                        <segue destination="awa-qN-PVh" kind="custom" identifier="EXERCISER_TO_CONNECTING_MYO" customClass="BlurryModalSegue" id="IEg-fk-CpA"/>
+                        <segue destination="awa-qN-PVh" kind="custom" identifier="EXERCISE_TO_CONNECTING_MYO" customClass="BlurryModalSegue" id="G3n-m5-GTm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSi-bI-oOg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -184,7 +185,7 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ajp-OI-2vs" userLabel="Header View">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ajp-OI-2vs" userLabel="Header View">
                                 <rect key="frame" x="-4" y="0.0" width="408" height="60.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Great job!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTg-0z-Kog">
@@ -344,6 +345,7 @@
                         <viewControllerLayoutGuide type="bottom" id="EVX-qV-uNy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YVR-H3-7dO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Hs0-Wm-HYc">
@@ -406,14 +408,14 @@
                                 <exclude reference="gEl-qL-W4L"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="79m-cx-XGT"/>
-                                <exclude reference="RC8-Nr-Nbb"/>
-                                <exclude reference="Yqa-5X-lKi"/>
                                 <exclude reference="2jd-Vc-7Tz"/>
                                 <exclude reference="BLw-1d-R1L"/>
                                 <exclude reference="QmO-RA-J5z"/>
                                 <exclude reference="Gqb-cV-dhT"/>
                                 <exclude reference="h8h-ze-jCw"/>
+                                <exclude reference="79m-cx-XGT"/>
+                                <exclude reference="RC8-Nr-Nbb"/>
+                                <exclude reference="Yqa-5X-lKi"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -423,14 +425,14 @@
                                 <include reference="gEl-qL-W4L"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="79m-cx-XGT"/>
-                                <include reference="RC8-Nr-Nbb"/>
-                                <include reference="Yqa-5X-lKi"/>
                                 <include reference="2jd-Vc-7Tz"/>
                                 <include reference="BLw-1d-R1L"/>
                                 <include reference="QmO-RA-J5z"/>
                                 <include reference="Gqb-cV-dhT"/>
                                 <include reference="h8h-ze-jCw"/>
+                                <include reference="79m-cx-XGT"/>
+                                <include reference="RC8-Nr-Nbb"/>
+                                <include reference="Yqa-5X-lKi"/>
                             </mask>
                         </variation>
                     </view>
