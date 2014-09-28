@@ -14,7 +14,7 @@
     
     // set corner radius
     [self.layer setCornerRadius:7.5f];
-    [self.layer setMasksToBounds:YES];
+    [self.layer setMasksToBounds:NO];
     
 }
 
