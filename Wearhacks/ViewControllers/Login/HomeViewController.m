@@ -74,16 +74,16 @@
 
                         NSLog(@"exercice name %@", [obj objectForKey:@"name"]);
 
-                        PFQuery *exerciseDataQuery = [WearHacksUtility allDataForExercice:obj];
-
-                        [exerciseDataQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-
-                            NSLog(@"exercices data count %lu", [objects count]);
-
-                            for (PFObject *data in objects) {
-                                NSLog(@"exercice data x %@ y %@ z %@", [data objectForKey:@"x"], [data objectForKey:@"y"], [data objectForKey:@"z"]);
-                            }
-                        }];
+//                        PFQuery *exerciseDataQuery = [WearHacksUtility allDataForExercice:obj];
+//
+//                        [exerciseDataQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+//
+//                            NSLog(@"exercices data count %lu", [objects count]);
+//
+//                            for (PFObject *data in objects) {
+//                                NSLog(@"exercice data x %@ y %@ z %@", [data objectForKey:@"x"], [data objectForKey:@"y"], [data objectForKey:@"z"]);
+//                            }
+//                        }];
                     }
                 }];
             }
