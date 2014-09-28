@@ -7,6 +7,7 @@
 //
 
 #import "ExerciseDoneOverlayViewController.h"
+#import "UIColor+WearHackColors.h"
 
 @interface ExerciseDoneOverlayViewController ()
 
@@ -87,7 +88,7 @@
 }
 
 - (UIColor *)colorForLineAtIndex:(NSInteger)index {
-    return [UIColor colorWithRed:133.0 green:246.0 blue:245.0 alpha:1.0];
+    return [UIColor color1];
 }
 - (NSArray *)valuesForLineAtIndex:(NSInteger)index {
     if (index == 0) {
