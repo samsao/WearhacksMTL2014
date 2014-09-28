@@ -2,12 +2,13 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="60J-yI-SMe">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Exercice view controller-->
         <scene sceneID="Wwh-L1-84t">
             <objects>
-                <viewController title="Exercice view controller" id="60J-yI-SMe" customClass="ExerciceViewController" sceneMemberID="viewController">
+                <viewController title="Exercice view controller" id="60J-yI-SMe" customClass="ExerciseViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Qw-wW-MvR"/>
                         <viewControllerLayoutGuide type="bottom" id="0Tq-b2-37a"/>
@@ -73,18 +74,32 @@
                                     </mask>
                                 </variation>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBP-Bf-pkB">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="start exercise button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="exerciseButtonTouchUpInside:" destination="60J-yI-SMe" eventType="touchUpInside" id="2tr-mW-AUe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="RBP-Bf-pkB" firstAttribute="top" secondItem="DPE-Hd-oEG" secondAttribute="bottom" constant="8" symbolic="YES" id="2xf-2F-kzU"/>
                             <constraint firstAttribute="trailing" secondItem="DPE-Hd-oEG" secondAttribute="trailing" id="A6J-KH-HaB"/>
                             <constraint firstItem="DPE-Hd-oEG" firstAttribute="leading" secondItem="fJ6-ym-TWP" secondAttribute="leading" id="DRY-3W-rCN"/>
+                            <constraint firstAttribute="centerX" secondItem="RBP-Bf-pkB" secondAttribute="centerX" id="Xqp-XZ-KtB"/>
                             <constraint firstItem="DPE-Hd-oEG" firstAttribute="top" secondItem="2Qw-wW-MvR" secondAttribute="bottom" id="mrS-4h-Ctf"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="DPE-Hd-oEG"/>
+                                <exclude reference="RBP-Bf-pkB"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="2xf-2F-kzU"/>
+                                <exclude reference="Xqp-XZ-KtB"/>
                                 <exclude reference="A6J-KH-HaB"/>
                                 <exclude reference="DRY-3W-rCN"/>
                                 <exclude reference="mrS-4h-Ctf"/>
@@ -93,8 +108,11 @@
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="DPE-Hd-oEG"/>
+                                <include reference="RBP-Bf-pkB"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="2xf-2F-kzU"/>
+                                <include reference="Xqp-XZ-KtB"/>
                                 <include reference="A6J-KH-HaB"/>
                                 <include reference="DRY-3W-rCN"/>
                                 <include reference="mrS-4h-Ctf"/>
@@ -103,11 +121,88 @@
                     </view>
                     <connections>
                         <outlet property="circleGaugeView" destination="S2v-XJ-orM" id="9Ou-7p-IOZ"/>
+                        <segue destination="836-TR-bwD" kind="custom" identifier="EXERCISE_TO_MODAL" customClass="BlurryModalSegue" id="RZQ-OL-B0h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSi-bI-oOg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="339" y="291.75"/>
         </scene>
+        <!--Exercise Done Overlay View Controller-->
+        <scene sceneID="Jwo-gM-Com">
+            <objects>
+                <viewController id="836-TR-bwD" customClass="ExerciseDoneOverlayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0hy-Mc-Kxa"/>
+                        <viewControllerLayoutGuide type="bottom" id="uqL-DX-Wv4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z8J-Cl-4ov">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercise done!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTg-0z-Kog">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="exercise_done_overlay_image" translatesAutoresizingMaskIntoConstraints="NO" id="NP4-cE-XRN">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="lTg-0z-Kog" secondAttribute="centerX" id="1m4-h3-4FM"/>
+                            <constraint firstItem="NP4-cE-XRN" firstAttribute="top" relation="greaterThanOrEqual" secondItem="0hy-Mc-Kxa" secondAttribute="bottom" id="2dY-sJ-Xzm"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="NP4-cE-XRN" secondAttribute="trailing" id="3w2-V3-xge"/>
+                            <constraint firstItem="lTg-0z-Kog" firstAttribute="top" secondItem="NP4-cE-XRN" secondAttribute="bottom" id="Y4g-gn-b8c"/>
+                            <constraint firstItem="NP4-cE-XRN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Z8J-Cl-4ov" secondAttribute="leadingMargin" id="dn9-d8-10v"/>
+                            <constraint firstAttribute="centerY" secondItem="lTg-0z-Kog" secondAttribute="centerY" id="sdx-Vv-J5Q"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="lTg-0z-Kog"/>
+                                <exclude reference="NP4-cE-XRN"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2dY-sJ-Xzm"/>
+                                <exclude reference="3w2-V3-xge"/>
+                                <exclude reference="dn9-d8-10v"/>
+                                <exclude reference="1m4-h3-4FM"/>
+                                <exclude reference="Y4g-gn-b8c"/>
+                                <exclude reference="sdx-Vv-J5Q"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="lTg-0z-Kog"/>
+                                <include reference="NP4-cE-XRN"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="2dY-sJ-Xzm"/>
+                                <include reference="3w2-V3-xge"/>
+                                <include reference="dn9-d8-10v"/>
+                                <include reference="1m4-h3-4FM"/>
+                                <include reference="Y4g-gn-b8c"/>
+                                <include reference="sdx-Vv-J5Q"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="vfo-jO-agD" appends="YES" id="rvb-vN-pPB"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ndb-Is-DIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="vfo-jO-agD">
+                    <connections>
+                        <action selector="viewControllerTap:" destination="836-TR-bwD" id="IZM-0X-fcZ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="339" y="1006.5"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="exercise_done_overlay_image" width="529" height="650"/>
+    </resources>
 </document>

@@ -1,6 +1,7 @@
 /* Generated document. DO NOT CHANGE */
 
 /* Segue identifier constants */
+extern NSString * const EXERCISE_TO_MODAL;
 
 /* Controller identifier constants */
 extern NSString * const PROFILE_NAV_CONTROLLER;
