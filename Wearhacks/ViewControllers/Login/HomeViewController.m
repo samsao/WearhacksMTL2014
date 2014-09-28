@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "LoginViewController.h"
 #import "Facebook.h"
+#import "UIStoryboard+WearHacks.h"
 
 @interface HomeViewController () {
     NSMutableData *_data;
@@ -93,6 +94,9 @@
             NSLog(@"WStreamRootViewController Error: %@ %@", error, [error userInfo]);
         }
     }];
+    
+    PFObject * testExo = [WearHacksUtility exerciceForGab];
+    NSLog(@"TEST MOFOS %@", [testExo objectForKey:@"name"]);
 }
 
 #pragma mark - PFLogInViewControllerDelegate
@@ -204,6 +208,9 @@
  *  @param sender the button
  */
 - (IBAction)scheduleButtonTouchUpInside:(id)sender {
+    
+    UIViewController *scheduleVC = [[UIStoryboard scheduleStoryboard] instantiateViewControllerWithIdentifier:SCHEDULE_VIEW_CONTROLLER];
+    [self.navigationController pushViewController:scheduleVC animated:YES];
 }
 
 /**
