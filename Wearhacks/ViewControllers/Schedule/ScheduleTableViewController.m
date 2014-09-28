@@ -8,6 +8,8 @@
 
 #import "ScheduleTableViewController.h"
 #import "DayDetailTableViewController.h"
+#import "UIColor+WearHackColors.h"
+#import <UIColor+HTMLColors.h>
 
 @interface ScheduleTableViewController ()
 
@@ -110,9 +112,67 @@
     
     UILabel *exerciseDateLabel = (UILabel *)[cell viewWithTag:100];
     exerciseDateLabel.text = formattedDateString;
+    [exerciseDateLabel setTextColor:[UIColor colorWithHexString:@"#3e3e3e"]];
+    [exerciseDateLabel setTextAlignment:NSTextAlignmentLeft];
+    [exerciseDateLabel setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:20.0]];
+    
+    UIView * background = (UIView *)[cell viewWithTag:69];
+    
+    [background setBackgroundColor:[self colorForIndexPath:indexPath]];
     
     return cell;
     
+}
+
+- (UIColor *)colorForIndexPath:(NSIndexPath *)indexPath {
+    
+    UIColor * color;
+    
+    switch (indexPath.row) {
+        case 0:
+            color = [UIColor color1];
+            break;
+        case 1:
+            color = [UIColor color2];
+            break;
+        case 2:
+            color = [UIColor color3];
+            break;
+        case 3:
+            color = [UIColor color4];
+            break;
+        case 4:
+            color = [UIColor color5];
+            break;
+        case 5:
+            color = [UIColor color4];
+            break;
+        case 6:
+            color = [UIColor color3];
+            break;
+        case 7:
+            color = [UIColor color2];
+            break;
+        case 8:
+            color = [UIColor color1];
+            break;
+        case 9:
+            color = [UIColor color2];
+            break;
+        case 10:
+            color = [UIColor color3];
+            break;
+        case 11:
+            color = [UIColor color4];
+            break;
+        case 12:
+            color = [UIColor color5];
+            break;
+        default:
+            color = [UIColor color1];
+            break;
+    }
+    return color;
 }
 
 #pragma mark - Navigation

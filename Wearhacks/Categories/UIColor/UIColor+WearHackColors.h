@@ -10,20 +10,17 @@
 
 @interface UIColor (WearHackColors)
 
-// Background
-+ (UIColor *)backgroundSnowPattern;
++ (UIColor *)color1;
 
-// Navigation bar
-+ (UIColor *)navigationBar;
++ (UIColor *)color3;
 
-// Main color
-+ (UIColor *)pnpGreenColor;
-+ (UIColor *)pnpRedColor;
-+ (UIColor *)pnpGreyColor;
++ (UIColor *)color2;
 
-// Form color
-+ (UIColor *)pnpGreyTransparentColor;
-+ (UIColor *)pnpGreenFormButtonColor;
++ (UIColor *)color4;
+
++ (UIColor *)color5;
+
++ (UIColor *)color6;
 
 // Debug color
 + (UIColor *)randomColor;

@@ -31,7 +31,7 @@
 }
 
 + (UIColor *)color5 {
-    return [UIColor colorWithHexString:@"#b8a0f8"];
+    return [UIColor colorWithHexString:@"#9f88f3"];
 }
 
 + (UIColor *)color6 {
