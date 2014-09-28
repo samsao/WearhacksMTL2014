@@ -16,6 +16,7 @@
 }
 
 @property (weak, nonatomic) IBOutlet UIButton *signOutButton;
+@property (weak, nonatomic) IBOutlet UIButton *profileButton;
 @end
 
 @implementation HomeViewController

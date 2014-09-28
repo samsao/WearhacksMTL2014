@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="haN-ss-4Mc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Profile View Controller-->
@@ -23,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="681" y="264"/>
         </scene>
-        <!--Home View Controller-->
+        <!--What do you want to check?-->
         <scene sceneID="Oih-W1-yQI">
             <objects>
                 <viewController id="hBd-JQ-Nfz" customClass="HomeViewController" sceneMemberID="viewController">
@@ -40,14 +41,16 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="plB-rh-vST">
                                         <rect key="frame" x="20" y="20" width="113" height="131"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="Nvh-Vp-cer"/>
                                             <constraint firstAttribute="width" constant="120" id="h7G-Hx-1L1"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="120" id="h8v-yc-t6m"/>
                                             <constraint firstAttribute="height" constant="120" id="wn1-BK-rr8"/>
                                         </constraints>
-                                        <inset key="contentEdgeInsets" minX="0.0" minY="60" maxX="0.0" maxY="0.0"/>
+                                        <inset key="contentEdgeInsets" minX="20" minY="60" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Profile" backgroundImage="menu_background_1">
+                                            <color key="titleColor" red="0.24313725490196078" green="0.24313725490196078" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <variation key="default">
@@ -72,8 +75,10 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUB-F4-ivg">
                                         <rect key="frame" x="233" y="178" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <inset key="contentEdgeInsets" minX="0.0" minY="-60" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Progress" backgroundImage="menu_background_3">
+                                            <color key="titleColor" red="0.24313725490196078" green="0.24313725490196078" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -82,8 +87,10 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1W-rS-edW">
                                         <rect key="frame" x="259" y="83" width="60" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <inset key="contentEdgeInsets" minX="0.0" minY="60" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Schedule" backgroundImage="menu_background_2">
+                                            <color key="titleColor" red="0.24313725490196078" green="0.24313725490196078" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -92,8 +99,10 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UI1-jS-Qhh">
                                         <rect key="frame" x="36" y="178" width="46" height="30"/>
-                                        <inset key="contentEdgeInsets" minX="0.0" minY="-60" maxX="0.0" maxY="0.0"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="-60" maxX="9" maxY="0.0"/>
                                         <state key="normal" title="Badges" backgroundImage="menu_background_4">
+                                            <color key="titleColor" red="0.24313725490196078" green="0.24313725490196078" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -101,7 +110,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="plB-rh-vST" firstAttribute="top" secondItem="Usl-X8-Qu8" secondAttribute="top" id="2rA-Rf-5aP"/>
                                     <constraint firstAttribute="bottom" secondItem="UI1-jS-Qhh" secondAttribute="bottom" id="2zq-IO-dHW"/>
@@ -171,21 +180,36 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHI-0T-1QI">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.52156862745098043" green="0.96470588235294119" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9CF-BM-DgA"/>
+                                </constraints>
                                 <state key="normal" title="Sign Out">
+                                    <color key="titleColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="108" y="733" width="184" height="30"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="9CF-BM-DgA"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="9CF-BM-DgA"/>
+                                    </mask>
                                 </variation>
                                 <connections>
                                     <action selector="signOutButtonTouchUpInside:" destination="hBd-JQ-Nfz" eventType="touchUpInside" id="yqz-Sa-fz6"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="yHI-0T-1QI" firstAttribute="leading" secondItem="FBe-IF-irs" secondAttribute="leadingMargin" constant="50" id="7UD-T8-f2z"/>
                             <constraint firstAttribute="centerX" secondItem="Usl-X8-Qu8" secondAttribute="centerX" id="cAn-vI-R0m"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yHI-0T-1QI" secondAttribute="trailing" constant="50" id="fk2-UV-dph"/>
                             <constraint firstAttribute="centerY" secondItem="Usl-X8-Qu8" secondAttribute="centerY" id="ibB-zG-ORk"/>
+                            <constraint firstItem="Ece-Nw-LHc" firstAttribute="top" secondItem="yHI-0T-1QI" secondAttribute="bottom" constant="37" id="pFo-BB-jWg"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -194,6 +218,9 @@
                             <mask key="constraints">
                                 <exclude reference="cAn-vI-R0m"/>
                                 <exclude reference="ibB-zG-ORk"/>
+                                <exclude reference="7UD-T8-f2z"/>
+                                <exclude reference="fk2-UV-dph"/>
+                                <exclude reference="pFo-BB-jWg"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -203,11 +230,15 @@
                             <mask key="constraints">
                                 <include reference="cAn-vI-R0m"/>
                                 <include reference="ibB-zG-ORk"/>
+                                <include reference="7UD-T8-f2z"/>
+                                <include reference="fk2-UV-dph"/>
+                                <include reference="pFo-BB-jWg"/>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="Pp2-6x-E0I"/>
+                    <navigationItem key="navigationItem" title="What do you want to check?" id="Pp2-6x-E0I"/>
                     <connections>
+                        <outlet property="profileButton" destination="plB-rh-vST" id="jh1-15-bBs"/>
                         <outlet property="signOutButton" destination="yHI-0T-1QI" id="WHE-6F-43t"/>
                     </connections>
                 </viewController>
@@ -241,6 +272,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="i2f-Ef-JIM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
