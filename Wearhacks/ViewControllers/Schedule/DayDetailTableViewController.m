@@ -34,9 +34,11 @@
         
         if (!error) {
             
-            NSLog(@"Exercises Count : %lu", (unsigned long)objects.count);
-            
             self.exercises = objects;
+            
+            NSLog(@"Exercises Count : %lu", (unsigned long)objects.count);
+
+            [self.tableView reloadData];
             
         }
         
@@ -48,25 +50,60 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 
-    return 1;
+    return 2;
     
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return self.exercises.count;
+    if (section == 0) {
+        return 1;
+    } else {
+        return self.exercises.count;
+    }
     
 }
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    
+    UIView *customHeader = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 60)];
+    [customHeader setBackgroundColor:[UIColor blueColor]];
+    
+    return customHeader;
+    
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.section == 0) {
+        return 100;
+    } else {
+        return 60;
+    }
+    
+}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"exerciseCell" forIndexPath:indexPath];
+    UITableViewCell *cell;
     
-    NSString *exerciseType = [[self.exercises objectAtIndex:indexPath.row] objectForKey:@"name"];
-    
-    UILabel *exerciseTypeLabel = (UILabel *)[cell viewWithTag:100];
-    exerciseTypeLabel.text = exerciseType;
+    if (indexPath.section == 0) {
+        
+        cell = [tableView dequeueReusableCellWithIdentifier:@"dateCell" forIndexPath:indexPath];
+        
+        UILabel *dateLabel = (UILabel *)[cell viewWithTag:200];
+        dateLabel.text = @"blabla";
+        
+    } else {
+        
+        cell = [tableView dequeueReusableCellWithIdentifier:@"exerciseCell" forIndexPath:indexPath];
+        
+        NSString *exerciseType = [[self.exercises objectAtIndex:indexPath.row] objectForKey:@"name"];
+        
+        UILabel *exerciseTypeLabel = (UILabel *)[cell viewWithTag:100];
+        exerciseTypeLabel.text = exerciseType;
+        
+    }
     
     return cell;
 }
