@@ -8,33 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		1F4D5C7F19D76A60002C40A2 /* StoryboardConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C7E19D76A60002C40A2 /* StoryboardConstants.m */; };
-		1F4D5C9F19D76A69002C40A2 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C8319D76A69002C40A2 /* UIImage+Alpha.m */; };
-		1F4D5CA019D76A69002C40A2 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C8519D76A69002C40A2 /* UIImage+Resize.m */; };
-		1F4D5CA119D76A69002C40A2 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C8719D76A69002C40A2 /* UIImage+RoundedCorner.m */; };
-		1F4D5CA219D76A69002C40A2 /* UIImageView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C8A19D76A69002C40A2 /* UIImageView+Border.m */; };
-		1F4D5CA319D76A69002C40A2 /* WearHacksUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C8D19D76A69002C40A2 /* WearHacksUtility.m */; };
-		1F4D5CA519D76A69002C40A2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9319D76A69002C40A2 /* HomeViewController.m */; };
-		1F4D5CA619D76A69002C40A2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9519D76A69002C40A2 /* LoginViewController.m */; };
-		1F4D5CA719D76A69002C40A2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9819D76A69002C40A2 /* ProfileViewController.m */; };
-		1F4D5CA819D76A69002C40A2 /* RehabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9B19D76A69002C40A2 /* RehabViewController.m */; };
 		1F5C137219D72B1F00746670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137119D72B1F00746670 /* main.m */; };
 		1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137619D72B1F00746670 /* Wearhacks.xcdatamodeld */; };
 		1F5C138019D72B1F00746670 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C137F19D72B1F00746670 /* Images.xcassets */; };
-		1F5C138319D72B1F00746670 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C138119D72B1F00746670 /* LaunchScreen.xib */; };
 		1F5C138F19D72B1F00746670 /* WearhacksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C138E19D72B1F00746670 /* WearhacksTests.m */; };
 		1F8FBA1619D76C07001531C2 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FBA1519D76C07001531C2 /* Constants.m */; };
 		1F8FBA1919D76C18001531C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FBA1819D76C18001531C2 /* AppDelegate.m */; };
-		1F8FBA1B19D76D64001531C2 /* Rehab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8FBA1A19D76D64001531C2 /* Rehab.storyboard */; };
-		580FD63F19D76FA200502C94 /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580FD63D19D76FA200502C94 /* Schedule.storyboard */; };
+		1FC0EE5619D87A3C00114DEA /* CHCircleGaugeView+Zentice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EDDC19D87A3B00114DEA /* CHCircleGaugeView+Zentice.m */; };
+		1FC0EE5719D87A3C00114DEA /* NSMutableArray+SSAQueueStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EDDF19D87A3B00114DEA /* NSMutableArray+SSAQueueStack.m */; };
+		1FC0EE5819D87A3C00114DEA /* UIColor+WearHackColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EDE219D87A3B00114DEA /* UIColor+WearHackColors.m */; };
+		1FC0EE5919D87A3C00114DEA /* UIColor+Zentice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EDE419D87A3B00114DEA /* UIColor+Zentice.m */; };
+		1FC0EE5A19D87A3C00114DEA /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EDE719D87A3C00114DEA /* UIImage+Alpha.m */; };
+		1FC0EE5B19D87A3C00114DEA /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EDE919D87A3C00114DEA /* UIImage+Resize.m */; };
+		1FC0EE5C19D87A3C00114DEA /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EDEB19D87A3C00114DEA /* UIImage+RoundedCorner.m */; };
+		1FC0EE5D19D87A3C00114DEA /* UIImageView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EDEE19D87A3C00114DEA /* UIImageView+Border.m */; };
+		1FC0EE5E19D87A3C00114DEA /* UIStoryboard+WearHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EDF119D87A3C00114DEA /* UIStoryboard+WearHacks.m */; };
+		1FC0EE6B19D87A3C00114DEA /* GaugeAppearanceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE1119D87A3C00114DEA /* GaugeAppearanceHelper.m */; };
+		1FC0EE6C19D87A3C00114DEA /* WearHacksUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE1319D87A3C00114DEA /* WearHacksUtility.m */; };
+		1FC0EE6D19D87A3C00114DEA /* MyoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE1619D87A3C00114DEA /* MyoManager.m */; };
+		1FC0EE6E19D87A3C00114DEA /* SSACoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE1A19D87A3C00114DEA /* SSACoordinates.m */; };
+		1FC0EE6F19D87A3C00114DEA /* SSAMyoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE1E19D87A3C00114DEA /* SSAMyoUtils.m */; };
+		1FC0EE7019D87A3C00114DEA /* UIButtonRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE2119D87A3C00114DEA /* UIButtonRounded.m */; };
+		1FC0EE7119D87A3C00114DEA /* UIViewRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE2319D87A3C00114DEA /* UIViewRounded.m */; };
+		1FC0EE7219D87A3C00114DEA /* ConnectingMyoModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE2719D87A3C00114DEA /* ConnectingMyoModalViewController.m */; };
+		1FC0EE7319D87A3C00114DEA /* ExerciseDoneOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE2919D87A3C00114DEA /* ExerciseDoneOverlayViewController.m */; };
+		1FC0EE7419D87A3C00114DEA /* ExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE2B19D87A3C00114DEA /* ExerciseViewController.m */; };
+		1FC0EE7519D87A3C00114DEA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE2E19D87A3C00114DEA /* HomeViewController.m */; };
+		1FC0EE7619D87A3C00114DEA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE3019D87A3C00114DEA /* LoginViewController.m */; };
+		1FC0EE8219D87A3C00114DEA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE4B19D87A3C00114DEA /* ProfileViewController.m */; };
+		1FC0EE8319D87A3C00114DEA /* RehabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE4E19D87A3C00114DEA /* RehabViewController.m */; };
+		1FC0EE8419D87A3C00114DEA /* DayDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE5119D87A3C00114DEA /* DayDetailTableViewController.m */; };
+		1FC0EE8519D87A3C00114DEA /* ExerciseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE5319D87A3C00114DEA /* ExerciseDetailViewController.m */; };
+		1FC0EE8619D87A3C00114DEA /* ScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0EE5519D87A3C00114DEA /* ScheduleTableViewController.m */; };
+		1FC0EE8819D87A5800114DEA /* MyoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC0EE8719D87A5800114DEA /* MyoKit.framework */; };
+		1FC0EE9419D87B5300114DEA /* Exercice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0EE8A19D87B5300114DEA /* Exercice.storyboard */; };
+		1FC0EE9519D87B5300114DEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0EE8C19D87B5300114DEA /* LaunchScreen.xib */; };
+		1FC0EE9619D87B5300114DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0EE8E19D87B5300114DEA /* Main.storyboard */; };
+		1FC0EE9719D87B5300114DEA /* Rehab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0EE9019D87B5300114DEA /* Rehab.storyboard */; };
+		1FC0EE9819D87B5300114DEA /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0EE9219D87B5300114DEA /* Schedule.storyboard */; };
 		B3DC4617C0CE8B01A21BDFEB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE751E578293B9110274168 /* libPods.a */; };
-		D26EF49D19D8560000046EBB /* UIViewRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF49C19D8560000046EBB /* UIViewRounded.m */; };
-		D26EF4A019D8561200046EBB /* UIButtonRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF49F19D8561200046EBB /* UIButtonRounded.m */; };
-		D26EF4A719D857C700046EBB /* UIStoryboard+WearHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF4A619D857C700046EBB /* UIStoryboard+WearHacks.m */; };
-		D26EF4AA19D85E6C00046EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26EF4A819D85E6C00046EBB /* Main.storyboard */; };
-		D26EF4B119D8641500046EBB /* DayDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF4AC19D8641500046EBB /* DayDetailTableViewController.m */; };
-		D26EF4B219D8641500046EBB /* ExerciseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF4AE19D8641500046EBB /* ExerciseDetailViewController.m */; };
-		D26EF4B319D8641500046EBB /* ScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF4B019D8641500046EBB /* ScheduleTableViewController.m */; };
-		D26EF4B819D8780F00046EBB /* UIColor+WearHackColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF4B719D8780F00046EBB /* UIColor+WearHackColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,30 +63,11 @@
 		0C2D6A8956D61BB8A0C29720 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		1F4D5C7D19D76A60002C40A2 /* StoryboardConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardConstants.h; sourceTree = "<group>"; };
 		1F4D5C7E19D76A60002C40A2 /* StoryboardConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardConstants.m; sourceTree = "<group>"; };
-		1F4D5C8219D76A69002C40A2 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
-		1F4D5C8319D76A69002C40A2 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
-		1F4D5C8419D76A69002C40A2 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
-		1F4D5C8519D76A69002C40A2 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
-		1F4D5C8619D76A69002C40A2 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
-		1F4D5C8719D76A69002C40A2 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
-		1F4D5C8919D76A69002C40A2 /* UIImageView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Border.h"; sourceTree = "<group>"; };
-		1F4D5C8A19D76A69002C40A2 /* UIImageView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Border.m"; sourceTree = "<group>"; };
-		1F4D5C8C19D76A69002C40A2 /* WearHacksUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WearHacksUtility.h; sourceTree = "<group>"; };
-		1F4D5C8D19D76A69002C40A2 /* WearHacksUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WearHacksUtility.m; sourceTree = "<group>"; };
-		1F4D5C9219D76A69002C40A2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		1F4D5C9319D76A69002C40A2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		1F4D5C9419D76A69002C40A2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		1F4D5C9519D76A69002C40A2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		1F4D5C9719D76A69002C40A2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		1F4D5C9819D76A69002C40A2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
-		1F4D5C9A19D76A69002C40A2 /* RehabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RehabViewController.h; sourceTree = "<group>"; };
-		1F4D5C9B19D76A69002C40A2 /* RehabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RehabViewController.m; sourceTree = "<group>"; };
 		1F5C136C19D72B1E00746670 /* Wearhacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wearhacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5C137019D72B1E00746670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5C137119D72B1F00746670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F5C137719D72B1F00746670 /* Wearhacks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wearhacks.xcdatamodel; sourceTree = "<group>"; };
 		1F5C137F19D72B1F00746670 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1F5C138219D72B1F00746670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1F5C138819D72B1F00746670 /* WearhacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WearhacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5C138D19D72B1F00746670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5C138E19D72B1F00746670 /* WearhacksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WearhacksTests.m; sourceTree = "<group>"; };
@@ -82,26 +75,67 @@
 		1F8FBA1519D76C07001531C2 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		1F8FBA1719D76C18001531C2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F8FBA1819D76C18001531C2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F8FBA1A19D76D64001531C2 /* Rehab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Rehab.storyboard; sourceTree = "<group>"; };
-		580FD63E19D76FA200502C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Wearhacks/Base.lproj/Schedule.storyboard; sourceTree = "<group>"; };
+		1FC0EDDB19D87A3B00114DEA /* CHCircleGaugeView+Zentice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CHCircleGaugeView+Zentice.h"; sourceTree = "<group>"; };
+		1FC0EDDC19D87A3B00114DEA /* CHCircleGaugeView+Zentice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CHCircleGaugeView+Zentice.m"; sourceTree = "<group>"; };
+		1FC0EDDE19D87A3B00114DEA /* NSMutableArray+SSAQueueStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SSAQueueStack.h"; sourceTree = "<group>"; };
+		1FC0EDDF19D87A3B00114DEA /* NSMutableArray+SSAQueueStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SSAQueueStack.m"; sourceTree = "<group>"; };
+		1FC0EDE119D87A3B00114DEA /* UIColor+WearHackColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WearHackColors.h"; sourceTree = "<group>"; };
+		1FC0EDE219D87A3B00114DEA /* UIColor+WearHackColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WearHackColors.m"; sourceTree = "<group>"; };
+		1FC0EDE319D87A3B00114DEA /* UIColor+Zentice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Zentice.h"; sourceTree = "<group>"; };
+		1FC0EDE419D87A3B00114DEA /* UIColor+Zentice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Zentice.m"; sourceTree = "<group>"; };
+		1FC0EDE619D87A3C00114DEA /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		1FC0EDE719D87A3C00114DEA /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		1FC0EDE819D87A3C00114DEA /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		1FC0EDE919D87A3C00114DEA /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		1FC0EDEA19D87A3C00114DEA /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		1FC0EDEB19D87A3C00114DEA /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		1FC0EDED19D87A3C00114DEA /* UIImageView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Border.h"; sourceTree = "<group>"; };
+		1FC0EDEE19D87A3C00114DEA /* UIImageView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Border.m"; sourceTree = "<group>"; };
+		1FC0EDF019D87A3C00114DEA /* UIStoryboard+WearHacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+WearHacks.h"; sourceTree = "<group>"; };
+		1FC0EDF119D87A3C00114DEA /* UIStoryboard+WearHacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+WearHacks.m"; sourceTree = "<group>"; };
+		1FC0EE1019D87A3C00114DEA /* GaugeAppearanceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaugeAppearanceHelper.h; sourceTree = "<group>"; };
+		1FC0EE1119D87A3C00114DEA /* GaugeAppearanceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaugeAppearanceHelper.m; sourceTree = "<group>"; };
+		1FC0EE1219D87A3C00114DEA /* WearHacksUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WearHacksUtility.h; sourceTree = "<group>"; };
+		1FC0EE1319D87A3C00114DEA /* WearHacksUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WearHacksUtility.m; sourceTree = "<group>"; };
+		1FC0EE1519D87A3C00114DEA /* MyoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyoManager.h; sourceTree = "<group>"; };
+		1FC0EE1619D87A3C00114DEA /* MyoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyoManager.m; sourceTree = "<group>"; };
+		1FC0EE1919D87A3C00114DEA /* SSACoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSACoordinates.h; sourceTree = "<group>"; };
+		1FC0EE1A19D87A3C00114DEA /* SSACoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSACoordinates.m; sourceTree = "<group>"; };
+		1FC0EE1D19D87A3C00114DEA /* SSAMyoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAMyoUtils.h; sourceTree = "<group>"; };
+		1FC0EE1E19D87A3C00114DEA /* SSAMyoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAMyoUtils.m; sourceTree = "<group>"; };
+		1FC0EE2019D87A3C00114DEA /* UIButtonRounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonRounded.h; sourceTree = "<group>"; };
+		1FC0EE2119D87A3C00114DEA /* UIButtonRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonRounded.m; sourceTree = "<group>"; };
+		1FC0EE2219D87A3C00114DEA /* UIViewRounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewRounded.h; sourceTree = "<group>"; };
+		1FC0EE2319D87A3C00114DEA /* UIViewRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewRounded.m; sourceTree = "<group>"; };
+		1FC0EE2619D87A3C00114DEA /* ConnectingMyoModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectingMyoModalViewController.h; sourceTree = "<group>"; };
+		1FC0EE2719D87A3C00114DEA /* ConnectingMyoModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectingMyoModalViewController.m; sourceTree = "<group>"; };
+		1FC0EE2819D87A3C00114DEA /* ExerciseDoneOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseDoneOverlayViewController.h; sourceTree = "<group>"; };
+		1FC0EE2919D87A3C00114DEA /* ExerciseDoneOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDoneOverlayViewController.m; sourceTree = "<group>"; };
+		1FC0EE2A19D87A3C00114DEA /* ExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseViewController.h; sourceTree = "<group>"; };
+		1FC0EE2B19D87A3C00114DEA /* ExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseViewController.m; sourceTree = "<group>"; };
+		1FC0EE2D19D87A3C00114DEA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1FC0EE2E19D87A3C00114DEA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1FC0EE2F19D87A3C00114DEA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1FC0EE3019D87A3C00114DEA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1FC0EE4A19D87A3C00114DEA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		1FC0EE4B19D87A3C00114DEA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		1FC0EE4D19D87A3C00114DEA /* RehabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RehabViewController.h; sourceTree = "<group>"; };
+		1FC0EE4E19D87A3C00114DEA /* RehabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RehabViewController.m; sourceTree = "<group>"; };
+		1FC0EE5019D87A3C00114DEA /* DayDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayDetailTableViewController.h; sourceTree = "<group>"; };
+		1FC0EE5119D87A3C00114DEA /* DayDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayDetailTableViewController.m; sourceTree = "<group>"; };
+		1FC0EE5219D87A3C00114DEA /* ExerciseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseDetailViewController.h; sourceTree = "<group>"; };
+		1FC0EE5319D87A3C00114DEA /* ExerciseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDetailViewController.m; sourceTree = "<group>"; };
+		1FC0EE5419D87A3C00114DEA /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewController.h; sourceTree = "<group>"; };
+		1FC0EE5519D87A3C00114DEA /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewController.m; sourceTree = "<group>"; };
+		1FC0EE8719D87A5800114DEA /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyoKit.framework; sourceTree = "<group>"; };
+		1FC0EE8B19D87B5300114DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Exercice.storyboard; sourceTree = "<group>"; };
+		1FC0EE8D19D87B5300114DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1FC0EE8F19D87B5300114DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FC0EE9119D87B5300114DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Rehab.storyboard; sourceTree = "<group>"; };
+		1FC0EE9319D87B5300114DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Schedule.storyboard; sourceTree = "<group>"; };
 		5EE751E578293B9110274168 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26EF49619D75E6200046EBB /* WearHacks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WearHacks-Prefix.pch"; sourceTree = "<group>"; };
-		D26EF49B19D8560000046EBB /* UIViewRounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewRounded.h; sourceTree = "<group>"; };
-		D26EF49C19D8560000046EBB /* UIViewRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewRounded.m; sourceTree = "<group>"; };
-		D26EF49E19D8561200046EBB /* UIButtonRounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonRounded.h; sourceTree = "<group>"; };
-		D26EF49F19D8561200046EBB /* UIButtonRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonRounded.m; sourceTree = "<group>"; };
-		D26EF4A519D857C700046EBB /* UIStoryboard+WearHacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+WearHacks.h"; sourceTree = "<group>"; };
-		D26EF4A619D857C700046EBB /* UIStoryboard+WearHacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+WearHacks.m"; sourceTree = "<group>"; };
-		D26EF4A919D85E6C00046EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D26EF4AB19D8641500046EBB /* DayDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayDetailTableViewController.h; sourceTree = "<group>"; };
-		D26EF4AC19D8641500046EBB /* DayDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayDetailTableViewController.m; sourceTree = "<group>"; };
-		D26EF4AD19D8641500046EBB /* ExerciseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseDetailViewController.h; sourceTree = "<group>"; };
-		D26EF4AE19D8641500046EBB /* ExerciseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDetailViewController.m; sourceTree = "<group>"; };
-		D26EF4AF19D8641500046EBB /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewController.h; sourceTree = "<group>"; };
-		D26EF4B019D8641500046EBB /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewController.m; sourceTree = "<group>"; };
 		D26EF4B419D86B6600046EBB /* AvenirNextCondensed.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirNextCondensed.ttc; sourceTree = "<group>"; };
-		D26EF4B619D8780F00046EBB /* UIColor+WearHackColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WearHackColors.h"; sourceTree = "<group>"; };
-		D26EF4B719D8780F00046EBB /* UIColor+WearHackColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WearHackColors.m"; sourceTree = "<group>"; };
 		DBC9213B26E4B0D8EA85374C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3DC4617C0CE8B01A21BDFEB /* libPods.a in Frameworks */,
+				1FC0EE8819D87A5800114DEA /* MyoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,104 +167,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1F4D5C8019D76A69002C40A2 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				D26EF4B519D8780F00046EBB /* UIColor */,
-				D26EF4A419D857C700046EBB /* UIStoryboard */,
-				1F4D5C8119D76A69002C40A2 /* UIImage */,
-				1F4D5C8819D76A69002C40A2 /* UIImageView */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		1F4D5C8119D76A69002C40A2 /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-				1F4D5C8219D76A69002C40A2 /* UIImage+Alpha.h */,
-				1F4D5C8319D76A69002C40A2 /* UIImage+Alpha.m */,
-				1F4D5C8419D76A69002C40A2 /* UIImage+Resize.h */,
-				1F4D5C8519D76A69002C40A2 /* UIImage+Resize.m */,
-				1F4D5C8619D76A69002C40A2 /* UIImage+RoundedCorner.h */,
-				1F4D5C8719D76A69002C40A2 /* UIImage+RoundedCorner.m */,
-			);
-			path = UIImage;
-			sourceTree = "<group>";
-		};
-		1F4D5C8819D76A69002C40A2 /* UIImageView */ = {
-			isa = PBXGroup;
-			children = (
-				1F4D5C8919D76A69002C40A2 /* UIImageView+Border.h */,
-				1F4D5C8A19D76A69002C40A2 /* UIImageView+Border.m */,
-			);
-			path = UIImageView;
-			sourceTree = "<group>";
-		};
-		1F4D5C8B19D76A69002C40A2 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				1F4D5C8C19D76A69002C40A2 /* WearHacksUtility.h */,
-				1F4D5C8D19D76A69002C40A2 /* WearHacksUtility.m */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		1F4D5C8E19D76A69002C40A2 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				1F4D5C8F19D76A69002C40A2 /* Login */,
-				1F4D5C9619D76A69002C40A2 /* Profile */,
-				1F4D5C9919D76A69002C40A2 /* Rehab */,
-				1F4D5C9C19D76A69002C40A2 /* Schedule */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		1F4D5C8F19D76A69002C40A2 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				1F4D5C9219D76A69002C40A2 /* HomeViewController.h */,
-				1F4D5C9319D76A69002C40A2 /* HomeViewController.m */,
-				1F4D5C9419D76A69002C40A2 /* LoginViewController.h */,
-				1F4D5C9519D76A69002C40A2 /* LoginViewController.m */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		1F4D5C9619D76A69002C40A2 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				1F4D5C9719D76A69002C40A2 /* ProfileViewController.h */,
-				1F4D5C9819D76A69002C40A2 /* ProfileViewController.m */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
-		1F4D5C9919D76A69002C40A2 /* Rehab */ = {
-			isa = PBXGroup;
-			children = (
-				1F4D5C9A19D76A69002C40A2 /* RehabViewController.h */,
-				1F4D5C9B19D76A69002C40A2 /* RehabViewController.m */,
-			);
-			path = Rehab;
-			sourceTree = "<group>";
-		};
-		1F4D5C9C19D76A69002C40A2 /* Schedule */ = {
-			isa = PBXGroup;
-			children = (
-				D26EF4AB19D8641500046EBB /* DayDetailTableViewController.h */,
-				D26EF4AC19D8641500046EBB /* DayDetailTableViewController.m */,
-				D26EF4AD19D8641500046EBB /* ExerciseDetailViewController.h */,
-				D26EF4AE19D8641500046EBB /* ExerciseDetailViewController.m */,
-				D26EF4AF19D8641500046EBB /* ScheduleTableViewController.h */,
-				D26EF4B019D8641500046EBB /* ScheduleTableViewController.m */,
-			);
-			path = Schedule;
-			sourceTree = "<group>";
-		};
 		1F5C136319D72B1E00746670 = {
 			isa = PBXGroup;
 			children = (
+				1FC0EE8719D87A5800114DEA /* MyoKit.framework */,
 				1F5C136E19D72B1E00746670 /* Wearhacks */,
 				1F5C138B19D72B1F00746670 /* WearhacksTests */,
 				1F5C136D19D72B1E00746670 /* Products */,
@@ -250,14 +191,17 @@
 		1F5C136E19D72B1E00746670 /* Wearhacks */ = {
 			isa = PBXGroup;
 			children = (
-				1F4D5C8019D76A69002C40A2 /* Categories */,
-				1F4D5C8B19D76A69002C40A2 /* Helper */,
+				1FC0EE8919D87B4B00114DEA /* Storyboards */,
+				1FC0EDDA19D87A3B00114DEA /* Categories */,
+				1FC0EE0F19D87A3C00114DEA /* Helper */,
+				1FC0EE1419D87A3C00114DEA /* Manager */,
+				1FC0EE1719D87A3C00114DEA /* Models */,
+				1FC0EE1B19D87A3C00114DEA /* Utils */,
+				1FC0EE1F19D87A3C00114DEA /* View */,
+				1FC0EE2419D87A3C00114DEA /* ViewControllers */,
 				1F5C137F19D72B1F00746670 /* Images.xcassets */,
 				D26EF4B419D86B6600046EBB /* AvenirNextCondensed.ttc */,
-				580FD64019D76FBB00502C94 /* Storyboards */,
 				1F5C136F19D72B1E00746670 /* Supporting Files */,
-				D26EF49A19D8560000046EBB /* View */,
-				1F4D5C8E19D76A69002C40A2 /* ViewControllers */,
 				1F5C137619D72B1F00746670 /* Wearhacks.xcdatamodeld */,
 			);
 			path = Wearhacks;
@@ -296,6 +240,215 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1FC0EDDA19D87A3B00114DEA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EDDB19D87A3B00114DEA /* CHCircleGaugeView+Zentice.h */,
+				1FC0EDDC19D87A3B00114DEA /* CHCircleGaugeView+Zentice.m */,
+				1FC0EDDD19D87A3B00114DEA /* QueueStack */,
+				1FC0EDE019D87A3B00114DEA /* UIColor */,
+				1FC0EDE319D87A3B00114DEA /* UIColor+Zentice.h */,
+				1FC0EDE419D87A3B00114DEA /* UIColor+Zentice.m */,
+				1FC0EDE519D87A3B00114DEA /* UIImage */,
+				1FC0EDEC19D87A3C00114DEA /* UIImageView */,
+				1FC0EDEF19D87A3C00114DEA /* UIStoryboard */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1FC0EDDD19D87A3B00114DEA /* QueueStack */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EDDE19D87A3B00114DEA /* NSMutableArray+SSAQueueStack.h */,
+				1FC0EDDF19D87A3B00114DEA /* NSMutableArray+SSAQueueStack.m */,
+			);
+			path = QueueStack;
+			sourceTree = "<group>";
+		};
+		1FC0EDE019D87A3B00114DEA /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EDE119D87A3B00114DEA /* UIColor+WearHackColors.h */,
+				1FC0EDE219D87A3B00114DEA /* UIColor+WearHackColors.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		1FC0EDE519D87A3B00114DEA /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EDE619D87A3C00114DEA /* UIImage+Alpha.h */,
+				1FC0EDE719D87A3C00114DEA /* UIImage+Alpha.m */,
+				1FC0EDE819D87A3C00114DEA /* UIImage+Resize.h */,
+				1FC0EDE919D87A3C00114DEA /* UIImage+Resize.m */,
+				1FC0EDEA19D87A3C00114DEA /* UIImage+RoundedCorner.h */,
+				1FC0EDEB19D87A3C00114DEA /* UIImage+RoundedCorner.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		1FC0EDEC19D87A3C00114DEA /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EDED19D87A3C00114DEA /* UIImageView+Border.h */,
+				1FC0EDEE19D87A3C00114DEA /* UIImageView+Border.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		1FC0EDEF19D87A3C00114DEA /* UIStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EDF019D87A3C00114DEA /* UIStoryboard+WearHacks.h */,
+				1FC0EDF119D87A3C00114DEA /* UIStoryboard+WearHacks.m */,
+			);
+			path = UIStoryboard;
+			sourceTree = "<group>";
+		};
+		1FC0EE0F19D87A3C00114DEA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE1019D87A3C00114DEA /* GaugeAppearanceHelper.h */,
+				1FC0EE1119D87A3C00114DEA /* GaugeAppearanceHelper.m */,
+				1FC0EE1219D87A3C00114DEA /* WearHacksUtility.h */,
+				1FC0EE1319D87A3C00114DEA /* WearHacksUtility.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1FC0EE1419D87A3C00114DEA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE1519D87A3C00114DEA /* MyoManager.h */,
+				1FC0EE1619D87A3C00114DEA /* MyoManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1FC0EE1719D87A3C00114DEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE1819D87A3C00114DEA /* Coordinates */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1FC0EE1819D87A3C00114DEA /* Coordinates */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE1919D87A3C00114DEA /* SSACoordinates.h */,
+				1FC0EE1A19D87A3C00114DEA /* SSACoordinates.m */,
+			);
+			path = Coordinates;
+			sourceTree = "<group>";
+		};
+		1FC0EE1B19D87A3C00114DEA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE1C19D87A3C00114DEA /* MyoUtils */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1FC0EE1C19D87A3C00114DEA /* MyoUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE1D19D87A3C00114DEA /* SSAMyoUtils.h */,
+				1FC0EE1E19D87A3C00114DEA /* SSAMyoUtils.m */,
+			);
+			path = MyoUtils;
+			sourceTree = "<group>";
+		};
+		1FC0EE1F19D87A3C00114DEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE2019D87A3C00114DEA /* UIButtonRounded.h */,
+				1FC0EE2119D87A3C00114DEA /* UIButtonRounded.m */,
+				1FC0EE2219D87A3C00114DEA /* UIViewRounded.h */,
+				1FC0EE2319D87A3C00114DEA /* UIViewRounded.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FC0EE2419D87A3C00114DEA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE2519D87A3C00114DEA /* Exercice */,
+				1FC0EE2C19D87A3C00114DEA /* Login */,
+				1FC0EE4919D87A3C00114DEA /* Profile */,
+				1FC0EE4C19D87A3C00114DEA /* Rehab */,
+				1FC0EE4F19D87A3C00114DEA /* Schedule */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1FC0EE2519D87A3C00114DEA /* Exercice */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE2619D87A3C00114DEA /* ConnectingMyoModalViewController.h */,
+				1FC0EE2719D87A3C00114DEA /* ConnectingMyoModalViewController.m */,
+				1FC0EE2819D87A3C00114DEA /* ExerciseDoneOverlayViewController.h */,
+				1FC0EE2919D87A3C00114DEA /* ExerciseDoneOverlayViewController.m */,
+				1FC0EE2A19D87A3C00114DEA /* ExerciseViewController.h */,
+				1FC0EE2B19D87A3C00114DEA /* ExerciseViewController.m */,
+			);
+			path = Exercice;
+			sourceTree = "<group>";
+		};
+		1FC0EE2C19D87A3C00114DEA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE2D19D87A3C00114DEA /* HomeViewController.h */,
+				1FC0EE2E19D87A3C00114DEA /* HomeViewController.m */,
+				1FC0EE2F19D87A3C00114DEA /* LoginViewController.h */,
+				1FC0EE3019D87A3C00114DEA /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1FC0EE4919D87A3C00114DEA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE4A19D87A3C00114DEA /* ProfileViewController.h */,
+				1FC0EE4B19D87A3C00114DEA /* ProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1FC0EE4C19D87A3C00114DEA /* Rehab */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE4D19D87A3C00114DEA /* RehabViewController.h */,
+				1FC0EE4E19D87A3C00114DEA /* RehabViewController.m */,
+			);
+			path = Rehab;
+			sourceTree = "<group>";
+		};
+		1FC0EE4F19D87A3C00114DEA /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE5019D87A3C00114DEA /* DayDetailTableViewController.h */,
+				1FC0EE5119D87A3C00114DEA /* DayDetailTableViewController.m */,
+				1FC0EE5219D87A3C00114DEA /* ExerciseDetailViewController.h */,
+				1FC0EE5319D87A3C00114DEA /* ExerciseDetailViewController.m */,
+				1FC0EE5419D87A3C00114DEA /* ScheduleTableViewController.h */,
+				1FC0EE5519D87A3C00114DEA /* ScheduleTableViewController.m */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		1FC0EE8919D87B4B00114DEA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0EE8A19D87B5300114DEA /* Exercice.storyboard */,
+				1FC0EE8C19D87B5300114DEA /* LaunchScreen.xib */,
+				1FC0EE8E19D87B5300114DEA /* Main.storyboard */,
+				1FC0EE9019D87B5300114DEA /* Rehab.storyboard */,
+				1FC0EE9219D87B5300114DEA /* Schedule.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 		40C03BE4BE8E1625557C1AF0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,46 +456,6 @@
 				0C2D6A8956D61BB8A0C29720 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		580FD64019D76FBB00502C94 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				D26EF4A819D85E6C00046EBB /* Main.storyboard */,
-				1F5C138119D72B1F00746670 /* LaunchScreen.xib */,
-				1F8FBA1A19D76D64001531C2 /* Rehab.storyboard */,
-				580FD63D19D76FA200502C94 /* Schedule.storyboard */,
-			);
-			name = Storyboards;
-			sourceTree = "<group>";
-		};
-		D26EF49A19D8560000046EBB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D26EF49B19D8560000046EBB /* UIViewRounded.h */,
-				D26EF49C19D8560000046EBB /* UIViewRounded.m */,
-				D26EF49E19D8561200046EBB /* UIButtonRounded.h */,
-				D26EF49F19D8561200046EBB /* UIButtonRounded.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D26EF4A419D857C700046EBB /* UIStoryboard */ = {
-			isa = PBXGroup;
-			children = (
-				D26EF4A519D857C700046EBB /* UIStoryboard+WearHacks.h */,
-				D26EF4A619D857C700046EBB /* UIStoryboard+WearHacks.m */,
-			);
-			path = UIStoryboard;
-			sourceTree = "<group>";
-		};
-		D26EF4B519D8780F00046EBB /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				D26EF4B619D8780F00046EBB /* UIColor+WearHackColors.h */,
-				D26EF4B719D8780F00046EBB /* UIColor+WearHackColors.m */,
-			);
-			path = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,11 +543,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8FBA1B19D76D64001531C2 /* Rehab.storyboard in Resources */,
-				D26EF4AA19D85E6C00046EBB /* Main.storyboard in Resources */,
-				1F5C138319D72B1F00746670 /* LaunchScreen.xib in Resources */,
+				1FC0EE9419D87B5300114DEA /* Exercice.storyboard in Resources */,
+				1FC0EE9519D87B5300114DEA /* LaunchScreen.xib in Resources */,
 				1F5C138019D72B1F00746670 /* Images.xcassets in Resources */,
-				580FD63F19D76FA200502C94 /* Schedule.storyboard in Resources */,
+				1FC0EE9719D87B5300114DEA /* Rehab.storyboard in Resources */,
+				1FC0EE9619D87B5300114DEA /* Main.storyboard in Resources */,
+				1FC0EE9819D87B5300114DEA /* Schedule.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +570,8 @@
 			inputPaths = (
 				"$(SRCROOT)/Wearhacks/Base.lproj/Main.storyboard",
 				"$(SRCROOT)/Wearhacks/Base.lproj/Schedule.storyboard",
+				"$(SRCROOT)/Wearhacks/Base.lproj/Rehab.storyboard",
+				"$(SRCROOT)/Wearhacks/Base.lproj/Exercice.storyboard",
 			);
 			name = "Generate storyboard files";
 			outputPaths = (
@@ -503,27 +619,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC0EE7119D87A3C00114DEA /* UIViewRounded.m in Sources */,
+				1FC0EE5719D87A3C00114DEA /* NSMutableArray+SSAQueueStack.m in Sources */,
+				1FC0EE5619D87A3C00114DEA /* CHCircleGaugeView+Zentice.m in Sources */,
 				1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */,
-				D26EF4B119D8641500046EBB /* DayDetailTableViewController.m in Sources */,
-				1F4D5CA819D76A69002C40A2 /* RehabViewController.m in Sources */,
-				D26EF4A719D857C700046EBB /* UIStoryboard+WearHacks.m in Sources */,
-				1F4D5CA119D76A69002C40A2 /* UIImage+RoundedCorner.m in Sources */,
-				D26EF4A019D8561200046EBB /* UIButtonRounded.m in Sources */,
-				1F4D5CA619D76A69002C40A2 /* LoginViewController.m in Sources */,
-				D26EF49D19D8560000046EBB /* UIViewRounded.m in Sources */,
-				1F4D5CA019D76A69002C40A2 /* UIImage+Resize.m in Sources */,
+				1FC0EE8319D87A3C00114DEA /* RehabViewController.m in Sources */,
+				1FC0EE7019D87A3C00114DEA /* UIButtonRounded.m in Sources */,
+				1FC0EE6B19D87A3C00114DEA /* GaugeAppearanceHelper.m in Sources */,
+				1FC0EE5819D87A3C00114DEA /* UIColor+WearHackColors.m in Sources */,
+				1FC0EE5C19D87A3C00114DEA /* UIImage+RoundedCorner.m in Sources */,
+				1FC0EE8519D87A3C00114DEA /* ExerciseDetailViewController.m in Sources */,
 				1F8FBA1619D76C07001531C2 /* Constants.m in Sources */,
-				1F4D5CA719D76A69002C40A2 /* ProfileViewController.m in Sources */,
+				1FC0EE5919D87A3C00114DEA /* UIColor+Zentice.m in Sources */,
+				1FC0EE6E19D87A3C00114DEA /* SSACoordinates.m in Sources */,
+				1FC0EE7219D87A3C00114DEA /* ConnectingMyoModalViewController.m in Sources */,
+				1FC0EE7319D87A3C00114DEA /* ExerciseDoneOverlayViewController.m in Sources */,
 				1F4D5C7F19D76A60002C40A2 /* StoryboardConstants.m in Sources */,
-				1F4D5C9F19D76A69002C40A2 /* UIImage+Alpha.m in Sources */,
-				1F4D5CA519D76A69002C40A2 /* HomeViewController.m in Sources */,
-				1F4D5CA219D76A69002C40A2 /* UIImageView+Border.m in Sources */,
 				1F5C137219D72B1F00746670 /* main.m in Sources */,
-				D26EF4B319D8641500046EBB /* ScheduleTableViewController.m in Sources */,
-				1F4D5CA319D76A69002C40A2 /* WearHacksUtility.m in Sources */,
-				D26EF4B219D8641500046EBB /* ExerciseDetailViewController.m in Sources */,
-				D26EF4B819D8780F00046EBB /* UIColor+WearHackColors.m in Sources */,
+				1FC0EE6F19D87A3C00114DEA /* SSAMyoUtils.m in Sources */,
+				1FC0EE7619D87A3C00114DEA /* LoginViewController.m in Sources */,
+				1FC0EE5D19D87A3C00114DEA /* UIImageView+Border.m in Sources */,
+				1FC0EE6D19D87A3C00114DEA /* MyoManager.m in Sources */,
+				1FC0EE5B19D87A3C00114DEA /* UIImage+Resize.m in Sources */,
+				1FC0EE7519D87A3C00114DEA /* HomeViewController.m in Sources */,
+				1FC0EE5A19D87A3C00114DEA /* UIImage+Alpha.m in Sources */,
+				1FC0EE5E19D87A3C00114DEA /* UIStoryboard+WearHacks.m in Sources */,
+				1FC0EE8619D87A3C00114DEA /* ScheduleTableViewController.m in Sources */,
+				1FC0EE8219D87A3C00114DEA /* ProfileViewController.m in Sources */,
+				1FC0EE6C19D87A3C00114DEA /* WearHacksUtility.m in Sources */,
+				1FC0EE8419D87A3C00114DEA /* DayDetailTableViewController.m in Sources */,
 				1F8FBA1919D76C18001531C2 /* AppDelegate.m in Sources */,
+				1FC0EE7419D87A3C00114DEA /* ExerciseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,29 +672,44 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1F5C138119D72B1F00746670 /* LaunchScreen.xib */ = {
+		1FC0EE8A19D87B5300114DEA /* Exercice.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F5C138219D72B1F00746670 /* Base */,
+				1FC0EE8B19D87B5300114DEA /* Base */,
+			);
+			name = Exercice.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC0EE8C19D87B5300114DEA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC0EE8D19D87B5300114DEA /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
-		580FD63D19D76FA200502C94 /* Schedule.storyboard */ = {
+		1FC0EE8E19D87B5300114DEA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				580FD63E19D76FA200502C94 /* Base */,
-			);
-			name = Schedule.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		D26EF4A819D85E6C00046EBB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D26EF4A919D85E6C00046EBB /* Base */,
+				1FC0EE8F19D87B5300114DEA /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC0EE9019D87B5300114DEA /* Rehab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC0EE9119D87B5300114DEA /* Base */,
+			);
+			name = Rehab.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC0EE9219D87B5300114DEA /* Schedule.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC0EE9319D87B5300114DEA /* Base */,
+			);
+			name = Schedule.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -659,6 +800,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "Wearhacks/WearHacks-Prefix.pch";
 				INFOPLIST_FILE = Wearhacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -674,6 +819,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "Wearhacks/WearHacks-Prefix.pch";
 				INFOPLIST_FILE = Wearhacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

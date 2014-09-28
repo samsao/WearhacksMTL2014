@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <MyoKit/MyoKit.h>
 
 @interface AppDelegate ()
 
@@ -17,12 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    [Parse setApplicationId:@"UL1HrX8pATNbmoEfREItjPf9ZVWT5hsc0cSw0Y1T"
-                  clientKey:@"YwqY4N5NnBxZ3YVaNoMCvX4QkKLcP0AS0TXaUyHE"];
-    
+
+    [Parse setApplicationId:@"UL1HrX8pATNbmoEfREItjPf9ZVWT5hsc0cSw0Y1T" clientKey:@"YwqY4N5NnBxZ3YVaNoMCvX4QkKLcP0AS0TXaUyHE"];
+
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
-    
+
     [PFFacebookUtils initializeFacebook];
     
     NSArray *fontFamilies = [UIFont familyNames];
@@ -46,16 +46,21 @@
       NSFontAttributeName,
       nil]];
     
+[TLMHub sharedHub];
+    [TLMHub sharedHub].applicationIdentifier = @"com.samsao.Wearhacks";
+
     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an
+    // incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your
+    // application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
@@ -64,9 +69,9 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background,
+    // optionally refresh the user interface.
     [FBSession.activeSession handleDidBecomeActive];
-
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
@@ -82,7 +87,8 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "com.samsao.Wearhacks" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "com.samsao.Wearhacks" in the application's
+    // documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
@@ -97,13 +103,14 @@
 }
 
 - (NSPersistentStoreCoordinator *)persistentStoreCoordinator {
-    // The persistent store coordinator for the application. This implementation creates and return a coordinator, having added the store for the application to it.
+    // The persistent store coordinator for the application. This implementation creates and return a coordinator, having added the store for the application to
+    // it.
     if (_persistentStoreCoordinator != nil) {
         return _persistentStoreCoordinator;
     }
-    
+
     // Create the coordinator and store
-    
+
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Wearhacks.sqlite"];
     NSError *error = nil;
@@ -116,21 +123,21 @@
         dict[NSUnderlyingErrorKey] = error;
         error = [NSError errorWithDomain:@"YOUR_ERROR_DOMAIN" code:9999 userInfo:dict];
         // Replace this with code to handle the error appropriately.
-        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be
+        // useful during development.
         NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
         abort();
     }
-    
+
     return _persistentStoreCoordinator;
 }
-
 
 - (NSManagedObjectContext *)managedObjectContext {
     // Returns the managed object context for the application (which is already bound to the persistent store coordinator for the application.)
     if (_managedObjectContext != nil) {
         return _managedObjectContext;
     }
-    
+
     NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
     if (!coordinator) {
         return nil;
@@ -148,7 +155,8 @@
         NSError *error = nil;
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
             // Replace this implementation with code to handle the error appropriately.
-            // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+            // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may
+            // be useful during development.
             NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
             abort();
         }
@@ -161,8 +169,7 @@
     return [PFFacebookUtils handleOpenURL:url];
 }
 
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
-  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
     return [PFFacebookUtils handleOpenURL:url];
 }
 
