@@ -98,6 +98,7 @@
 		D26EF4AE19D8641500046EBB /* ExerciseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDetailViewController.m; sourceTree = "<group>"; };
 		D26EF4AF19D8641500046EBB /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewController.h; sourceTree = "<group>"; };
 		D26EF4B019D8641500046EBB /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewController.m; sourceTree = "<group>"; };
+		D26EF4B419D86B6600046EBB /* AvenirNextCondensed.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirNextCondensed.ttc; sourceTree = "<group>"; };
 		DBC9213B26E4B0D8EA85374C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -248,6 +249,7 @@
 				1F4D5C8019D76A69002C40A2 /* Categories */,
 				1F4D5C8B19D76A69002C40A2 /* Helper */,
 				1F5C137F19D72B1F00746670 /* Images.xcassets */,
+				D26EF4B419D86B6600046EBB /* AvenirNextCondensed.ttc */,
 				580FD64019D76FBB00502C94 /* Storyboards */,
 				1F5C136F19D72B1E00746670 /* Supporting Files */,
 				D26EF49A19D8560000046EBB /* View */,

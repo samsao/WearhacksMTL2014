@@ -24,7 +24,27 @@
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
     [PFFacebookUtils initializeFacebook];
+    
+    NSArray *fontFamilies = [UIFont familyNames];
+    
+    for (int i = 0; i < [fontFamilies count]; i++)
+    {
+        NSString *fontFamily = [fontFamilies objectAtIndex:i];
+        NSArray *fontNames = [UIFont fontNamesForFamilyName:[fontFamilies objectAtIndex:i]];
+        NSLog (@"%@: %@", fontFamily, fontNames);
+    }
+    
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:17.0]];
+//    [[UIButton appearance] setTitleFont:[UIFont fontWithName:@"Marker Felt" size:20]];
+    [[UIButton appearance].titleLabel setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:14]];
 
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIColor whiteColor],
+      NSForegroundColorAttributeName,
+      [UIFont fontWithName:@"AvenirNextCondensed-Medium" size:21.0],
+      NSFontAttributeName,
+      nil]];
     
     return YES;
 }

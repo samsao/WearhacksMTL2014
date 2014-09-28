@@ -52,6 +52,7 @@
     [self.logInView sendSubviewToBack:fakeContent];
     
     [self.logInView.facebookButton setCenter:CGPointMake(self.view.center.x, 190)];
+    [self.logInView.facebookButton.titleLabel setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:17.0]];
     
     self.view.backgroundColor = [UIColor colorWithHexString:@"#3e3e3e"];
 

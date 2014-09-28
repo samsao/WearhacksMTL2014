@@ -15,6 +15,7 @@
     NSMutableData *_data;
 }
 
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *homeButtons;
 @property (weak, nonatomic) IBOutlet UIButton *signOutButton;
 @property (weak, nonatomic) IBOutlet UIButton *profileButton;
 @end
@@ -29,6 +30,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidLayoutSubviews {
+    
+    [super viewDidLayoutSubviews];
+    
+    for (UIButton *button in self.homeButtons) {
+        [button.titleLabel setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:17.0]];
+    }
+    
+    [self.signOutButton.titleLabel setFont:[UIFont fontWithName:@"AvenirNextCondensed-Medium" size:17.0]];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -99,6 +111,7 @@
     
     PFObject * testExo = [WearHacksUtility exerciceForGab];
     NSLog(@"TEST MOFOS %@", [testExo objectForKey:@"name"]);
+    
 }
 
 #pragma mark - PFLogInViewControllerDelegate

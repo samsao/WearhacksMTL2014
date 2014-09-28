@@ -245,6 +245,10 @@
                     <connections>
                         <outlet property="profileButton" destination="plB-rh-vST" id="jh1-15-bBs"/>
                         <outlet property="signOutButton" destination="yHI-0T-1QI" id="WHE-6F-43t"/>
+                        <outletCollection property="homeButtons" destination="UI1-jS-Qhh" id="F5P-q1-0Ub"/>
+                        <outletCollection property="homeButtons" destination="B1W-rS-edW" id="ezi-rd-8Vt"/>
+                        <outletCollection property="homeButtons" destination="YUB-F4-ivg" id="HX6-1d-zCE"/>
+                        <outletCollection property="homeButtons" destination="plB-rh-vST" id="9JY-Gy-mZh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dr0-vQ-uGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
