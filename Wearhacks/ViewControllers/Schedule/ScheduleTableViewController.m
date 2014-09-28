@@ -66,6 +66,21 @@
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateStyle:NSDateFormatterFullStyle];
     [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
+    dateFormatter.timeZone = [NSTimeZone localTimeZone];
+    
+    NSString *preferredLanguage = [[NSLocale preferredLanguages] objectAtIndex:0];
+    NSLog(@"%@", preferredLanguage);
+    
+    if ([preferredLanguage isEqualToString:@"en_US"] || [preferredLanguage isEqualToString:@"en"])
+    {
+        // English
+        dateFormatter.dateFormat = [NSString stringWithFormat:@"EEEE dd'%@'", [self daySuffixForDate:exerciseDate]];
+    }
+    else if([preferredLanguage isEqualToString:@"fr"])
+    {
+        // Spanish
+        dateFormatter.dateFormat = @"EEEE dd";
+    }
     
     NSString *formattedDateString = [dateFormatter stringFromDate:exerciseDate];
     NSLog(@"formattedDateString: %@", formattedDateString);
@@ -89,6 +104,20 @@
         
     }
     
+}
+
+- (NSString *)daySuffixForDate:(NSDate *)date {
+    NSInteger day_of_month = [[[NSCalendar currentCalendar] components:NSDayCalendarUnit fromDate:date] day];
+    switch (day_of_month) {
+        case 1:
+        case 21:
+        case 31: return @"st";
+        case 2:
+        case 22: return @"nd";
+        case 3:
+        case 23: return @"rd";
+        default: return @"th";
+    }
 }
 
 @end
