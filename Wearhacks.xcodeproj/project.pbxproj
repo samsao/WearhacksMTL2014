@@ -31,6 +31,7 @@
 		B3DC4617C0CE8B01A21BDFEB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE751E578293B9110274168 /* libPods.a */; };
 		D26EF49D19D8560000046EBB /* UIViewRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF49C19D8560000046EBB /* UIViewRounded.m */; };
 		D26EF4A019D8561200046EBB /* UIButtonRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF49F19D8561200046EBB /* UIButtonRounded.m */; };
+		D26EF4A719D857C700046EBB /* UIStoryboard+WearHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF4A619D857C700046EBB /* UIStoryboard+WearHacks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		D26EF49C19D8560000046EBB /* UIViewRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewRounded.m; sourceTree = "<group>"; };
 		D26EF49E19D8561200046EBB /* UIButtonRounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonRounded.h; sourceTree = "<group>"; };
 		D26EF49F19D8561200046EBB /* UIButtonRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonRounded.m; sourceTree = "<group>"; };
+		D26EF4A519D857C700046EBB /* UIStoryboard+WearHacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+WearHacks.h"; sourceTree = "<group>"; };
+		D26EF4A619D857C700046EBB /* UIStoryboard+WearHacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+WearHacks.m"; sourceTree = "<group>"; };
 		DBC9213B26E4B0D8EA85374C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +125,7 @@
 		1F4D5C8019D76A69002C40A2 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				D26EF4A419D857C700046EBB /* UIStoryboard */,
 				1F4D5C8119D76A69002C40A2 /* UIImage */,
 				1F4D5C8819D76A69002C40A2 /* UIImageView */,
 			);
@@ -307,6 +311,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D26EF4A419D857C700046EBB /* UIStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				D26EF4A519D857C700046EBB /* UIStoryboard+WearHacks.h */,
+				D26EF4A619D857C700046EBB /* UIStoryboard+WearHacks.m */,
+			);
+			path = UIStoryboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -467,6 +480,7 @@
 			files = (
 				1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */,
 				1F4D5CA819D76A69002C40A2 /* RehabViewController.m in Sources */,
+				D26EF4A719D857C700046EBB /* UIStoryboard+WearHacks.m in Sources */,
 				1F4D5CA119D76A69002C40A2 /* UIImage+RoundedCorner.m in Sources */,
 				D26EF4A019D8561200046EBB /* UIButtonRounded.m in Sources */,
 				1F4D5CA619D76A69002C40A2 /* LoginViewController.m in Sources */,
