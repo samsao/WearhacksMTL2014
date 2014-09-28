@@ -49,6 +49,7 @@
     UIImageView * fakeContent = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"login_fake"]];
     [fakeContent setCenter:CGPointMake(self.view.center.x, 370)];
     [self.logInView addSubview:fakeContent];
+    [self.logInView sendSubviewToBack:fakeContent];
     
     [self.logInView.facebookButton setCenter:CGPointMake(self.view.center.x, 190)];
     
