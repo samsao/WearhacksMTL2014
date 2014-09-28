@@ -34,6 +34,7 @@
 		D26EF4B119D8641500046EBB /* DayDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF4AC19D8641500046EBB /* DayDetailTableViewController.m */; };
 		D26EF4B219D8641500046EBB /* ExerciseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF4AE19D8641500046EBB /* ExerciseDetailViewController.m */; };
 		D26EF4B319D8641500046EBB /* ScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF4B019D8641500046EBB /* ScheduleTableViewController.m */; };
+		D26EF4B819D8780F00046EBB /* UIColor+WearHackColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF4B719D8780F00046EBB /* UIColor+WearHackColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,8 @@
 		D26EF4AF19D8641500046EBB /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewController.h; sourceTree = "<group>"; };
 		D26EF4B019D8641500046EBB /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewController.m; sourceTree = "<group>"; };
 		D26EF4B419D86B6600046EBB /* AvenirNextCondensed.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirNextCondensed.ttc; sourceTree = "<group>"; };
+		D26EF4B619D8780F00046EBB /* UIColor+WearHackColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WearHackColors.h"; sourceTree = "<group>"; };
+		D26EF4B719D8780F00046EBB /* UIColor+WearHackColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WearHackColors.m"; sourceTree = "<group>"; };
 		DBC9213B26E4B0D8EA85374C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +135,7 @@
 		1F4D5C8019D76A69002C40A2 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				D26EF4B519D8780F00046EBB /* UIColor */,
 				D26EF4A419D857C700046EBB /* UIStoryboard */,
 				1F4D5C8119D76A69002C40A2 /* UIImage */,
 				1F4D5C8819D76A69002C40A2 /* UIImageView */,
@@ -332,6 +336,15 @@
 			path = UIStoryboard;
 			sourceTree = "<group>";
 		};
+		D26EF4B519D8780F00046EBB /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				D26EF4B619D8780F00046EBB /* UIColor+WearHackColors.h */,
+				D26EF4B719D8780F00046EBB /* UIColor+WearHackColors.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -509,6 +522,7 @@
 				D26EF4B319D8641500046EBB /* ScheduleTableViewController.m in Sources */,
 				1F4D5CA319D76A69002C40A2 /* WearHacksUtility.m in Sources */,
 				D26EF4B219D8641500046EBB /* ExerciseDetailViewController.m in Sources */,
+				D26EF4B819D8780F00046EBB /* UIColor+WearHackColors.m in Sources */,
 				1F8FBA1919D76C18001531C2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
