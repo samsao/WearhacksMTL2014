@@ -15,6 +15,9 @@
 @property (weak, nonatomic) IBOutlet UIView *videoContainer;
 @property (weak, nonatomic) IBOutlet UIButtonRounded *startButton;
 
+@property (nonatomic, strong) NSURL *videoURL;
+@property (nonatomic, strong) UIImage *videoThumbnail;
+
 @end
 
 @implementation ExerciseDetailViewController
@@ -23,6 +26,28 @@
     [super viewDidLoad];
 
     self.descriptionTextView.text = [self.exercise objectForKey:@"description"];
+    
+    PFFile *videoFile = [self.exercise objectForKey:@"video"];
+    
+    _videoURL = [NSURL URLWithString:videoFile.url];
+    MPMoviePlayerController *player = [[MPMoviePlayerController alloc] initWithContentURL:self.videoURL];
+    _videoThumbnail = [player thumbnailImageAtTime:1.0 timeOption:MPMovieTimeOptionNearestKeyFrame];
+    player = nil;
+    
+    UIImageView *thumbnailView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 255, 167)];
+    thumbnailView.image = self.videoThumbnail;
+    [self.videoContainer addSubview:thumbnailView];
+    
+}
+
+
+
+- (void)viewWillAppear:(BOOL)animated {
+    
+    [super viewWillAppear:animated];
+
+    
+
     
 }
 

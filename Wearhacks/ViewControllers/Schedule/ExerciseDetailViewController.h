@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
-@interface ExerciseDetailViewController : UIViewController
+@interface ExerciseDetailViewController : UIViewController <UITextViewDelegate>
 
 @property (nonatomic, strong) PFObject *exercise;
 
