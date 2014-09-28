@@ -215,6 +215,11 @@
     [self loadInjuries];
 }
 
+- (void)todo {
+    UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Ooops" message:@"This feature is not implemented yet !" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+    [alert show];
+}
+
 #pragma mark - IBAction
 
 /**
@@ -234,6 +239,9 @@
  *  @param sender the button
  */
 - (IBAction)progressButtonTouchUpInside:(id)sender {
+    
+    [self todo];
+    
 }
 
 /**
@@ -242,6 +250,9 @@
  *  @param sender the button
  */
 - (IBAction)profileButtonTouchUpInside:(id)sender {
+    
+    [self todo];
+
 }
 
 /**
@@ -250,6 +261,9 @@
  *  @param sender the button
  */
 - (IBAction)achievementsTouchUpInside:(id)sender {
+    
+    [self todo];
+
     
 }
 
