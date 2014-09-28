@@ -8,7 +8,7 @@
 
 #import "ExerciceViewController.h"
 #import "GaugeAppearanceHelper.h"
-#import <CHCircleGaugeView/CHCircleGaugeView.h>
+#import "CHCircleGaugeView+Zentice.h"
 
 @interface ExerciceViewController ()
 @property(weak, nonatomic) IBOutlet CHCircleGaugeView *circleGaugeView;
@@ -36,7 +36,8 @@
  */
 - (void)initializeGauge {
     [GaugeAppearanceHelper setupGaugeViewForExercice:self.circleGaugeView];
-    [self.circleGaugeView setValue:0.5 animated:YES];
+    [self.circleGaugeView setValue:0.5 animated:YES assignLabel:NO];
+    [self.circleGaugeView setValueLabelWithNumber:[NSNumber numberWithInteger:100]];
 }
 
 #pragma mark - CHCircleGauge

@@ -7,7 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CHCircleGaugeView/CHCircleGaugeView.h>
 
-@interface CHCircleGaugeView : NSObject
+@interface CHCircleGaugeView (Zentice)
+
+/**
+ *  Set the repetition counter (text in the middle) for the view
+ *
+ *  @param repetition the repetion counter
+ */
+- (void)setRepetitionCounter:(NSNumber *)repetition;
+
+/**
+ *  Set the value label
+ *
+ *  @param value the value
+ */
+- (void)setValueLabelWithNumber:(NSNumber *)value;
 
 @end

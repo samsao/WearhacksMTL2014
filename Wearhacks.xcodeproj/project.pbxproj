@@ -24,64 +24,6 @@
 		1F4D5CA719D76A69002C40A2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9819D76A69002C40A2 /* ProfileViewController.m */; };
 		1F4D5CA819D76A69002C40A2 /* RehabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9B19D76A69002C40A2 /* RehabViewController.m */; };
 		1F4D5CA919D76A69002C40A2 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9E19D76A69002C40A2 /* ScheduleViewController.m */; };
-		1F50BE1519D7C12600D06EE4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDA319D7C12600D06EE4 /* .gitignore */; };
-		1F50BE1619D7C12600D06EE4 /* CHCircleGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDA619D7C12600D06EE4 /* CHCircleGaugeView.m */; };
-		1F50BE1819D7C12600D06EE4 /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDAC19D7C12600D06EE4 /* CHAppDelegate.m */; };
-		1F50BE1919D7C12600D06EE4 /* CHCircleGaugeViewExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDAD19D7C12600D06EE4 /* CHCircleGaugeViewExample-Info.plist */; };
-		1F50BE1A19D7C12600D06EE4 /* CHColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDB019D7C12600D06EE4 /* CHColorPickerView.m */; };
-		1F50BE1B19D7C12600D06EE4 /* CHColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDB219D7C12600D06EE4 /* CHColorPickerViewController.m */; };
-		1F50BE1C19D7C12600D06EE4 /* CHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDB419D7C12600D06EE4 /* CHView.m */; };
-		1F50BE1D19D7C12600D06EE4 /* CHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDB619D7C12600D06EE4 /* CHViewController.m */; };
-		1F50BE1E19D7C12600D06EE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDB719D7C12600D06EE4 /* InfoPlist.strings */; };
-		1F50BE1F19D7C12600D06EE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDB919D7C12600D06EE4 /* Images.xcassets */; };
-		1F50BE2019D7C12600D06EE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDBA19D7C12600D06EE4 /* main.m */; };
-		1F50BE2119D7C12600D06EE4 /* CHCircleGaugeViewExample.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDBE19D7C12600D06EE4 /* CHCircleGaugeViewExample.xcworkspace */; };
-		1F50BE2219D7C12600D06EE4 /* CHCircleGaugeViewExampleTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDC019D7C12600D06EE4 /* CHCircleGaugeViewExampleTests-Info.plist */; };
-		1F50BE2319D7C12600D06EE4 /* CHCircleGaugeViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDC119D7C12600D06EE4 /* CHCircleGaugeViewExampleTests.m */; };
-		1F50BE2419D7C12600D06EE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDC219D7C12600D06EE4 /* InfoPlist.strings */; };
-		1F50BE2519D7C12600D06EE4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDC419D7C12600D06EE4 /* Podfile */; };
-		1F50BE2619D7C12600D06EE4 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDC519D7C12600D06EE4 /* Podfile.lock */; };
-		1F50BE2719D7C12600D06EE4 /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDD419D7C12600D06EE4 /* HRBrightnessCursor.m */; };
-		1F50BE2819D7C12600D06EE4 /* HRBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDD619D7C12600D06EE4 /* HRBrightnessSlider.m */; };
-		1F50BE2919D7C12600D06EE4 /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDD819D7C12600D06EE4 /* HRColorCursor.m */; };
-		1F50BE2A19D7C12600D06EE4 /* HRColorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDDA19D7C12600D06EE4 /* HRColorInfoView.m */; };
-		1F50BE2B19D7C12600D06EE4 /* HRColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDDC19D7C12600D06EE4 /* HRColorMapView.m */; };
-		1F50BE2C19D7C12600D06EE4 /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDDE19D7C12600D06EE4 /* HRColorPickerView.m */; };
-		1F50BE2D19D7C12600D06EE4 /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDE019D7C12600D06EE4 /* HRHSVColorUtil.m */; };
-		1F50BE2E19D7C12600D06EE4 /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDE219D7C12600D06EE4 /* UIImage+CoreGraphics.m */; };
-		1F50BE2F19D7C12600D06EE4 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDE319D7C12600D06EE4 /* LICENSE.txt */; };
-		1F50BE3019D7C12600D06EE4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDE419D7C12600D06EE4 /* README.md */; };
-		1F50BE3119D7C12600D06EE4 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDEF19D7C12600D06EE4 /* Manifest.lock */; };
-		1F50BE3219D7C12600D06EE4 /* Pods-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDF019D7C12600D06EE4 /* Pods-acknowledgements.markdown */; };
-		1F50BE3319D7C12600D06EE4 /* Pods-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDF119D7C12600D06EE4 /* Pods-acknowledgements.plist */; };
-		1F50BE3419D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDF219D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-dummy.m */; };
-		1F50BE3519D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-Private.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDF419D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-Private.xcconfig */; };
-		1F50BE3619D7C12600D06EE4 /* Pods-Color-Picker-for-iOS.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDF519D7C12600D06EE4 /* Pods-Color-Picker-for-iOS.xcconfig */; };
-		1F50BE3719D7C12600D06EE4 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BDF619D7C12600D06EE4 /* Pods-dummy.m */; };
-		1F50BE3819D7C12600D06EE4 /* Pods-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDF819D7C12600D06EE4 /* Pods-resources.sh */; };
-		1F50BE3919D7C12600D06EE4 /* Pods.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDF919D7C12600D06EE4 /* Pods.xcconfig */; };
-		1F50BE3A19D7C12600D06EE4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BDFD19D7C12600D06EE4 /* LICENSE */; };
-		1F50BE3B19D7C12600D06EE4 /* CHCircleGauge_App_Icon.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0019D7C12600D06EE4 /* CHCircleGauge_App_Icon.psd */; };
-		1F50BE3C19D7C12600D06EE4 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0119D7C12600D06EE4 /* Icon-40.png */; };
-		1F50BE3D19D7C12600D06EE4 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0219D7C12600D06EE4 /* Icon-40@2x.png */; };
-		1F50BE3E19D7C12600D06EE4 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0319D7C12600D06EE4 /* Icon-60.png */; };
-		1F50BE3F19D7C12600D06EE4 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0419D7C12600D06EE4 /* Icon-60@2x.png */; };
-		1F50BE4019D7C12600D06EE4 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0519D7C12600D06EE4 /* Icon-72.png */; };
-		1F50BE4119D7C12600D06EE4 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0619D7C12600D06EE4 /* Icon-72@2x.png */; };
-		1F50BE4219D7C12600D06EE4 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0719D7C12600D06EE4 /* Icon-76.png */; };
-		1F50BE4319D7C12600D06EE4 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0819D7C12600D06EE4 /* Icon-76@2x.png */; };
-		1F50BE4419D7C12600D06EE4 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0919D7C12600D06EE4 /* Icon-Small-50.png */; };
-		1F50BE4519D7C12600D06EE4 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0A19D7C12600D06EE4 /* Icon-Small-50@2x.png */; };
-		1F50BE4619D7C12600D06EE4 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0B19D7C12600D06EE4 /* Icon-Small.png */; };
-		1F50BE4719D7C12600D06EE4 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0C19D7C12600D06EE4 /* Icon-Small@2x.png */; };
-		1F50BE4819D7C12600D06EE4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0D19D7C12600D06EE4 /* Icon.png */; };
-		1F50BE4919D7C12600D06EE4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0E19D7C12600D06EE4 /* Icon@2x.png */; };
-		1F50BE4A19D7C12600D06EE4 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE0F19D7C12600D06EE4 /* iTunesArtwork */; };
-		1F50BE4B19D7C12600D06EE4 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE1019D7C12600D06EE4 /* iTunesArtwork@2x */; };
-		1F50BE4C19D7C12600D06EE4 /* CHCircleGaugeView_ExampleAnimation01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE1219D7C12600D06EE4 /* CHCircleGaugeView_ExampleAnimation01.gif */; };
-		1F50BE4D19D7C12600D06EE4 /* CHCircleGaugeView_ExampleAnimation02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE1319D7C12600D06EE4 /* CHCircleGaugeView_ExampleAnimation02.gif */; };
-		1F50BE4E19D7C12600D06EE4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1F50BE1419D7C12600D06EE4 /* README.md */; };
-		1F50BE5C19D7C15000D06EE4 /* CHCircleGaugeView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1F50BE5B19D7C15000D06EE4 /* CHCircleGaugeView.podspec */; };
 		1F5C137219D72B1F00746670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137119D72B1F00746670 /* main.m */; };
 		1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137619D72B1F00746670 /* Wearhacks.xcdatamodeld */; };
 		1F5C137E19D72B1F00746670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C137C19D72B1F00746670 /* Main.storyboard */; };
@@ -95,34 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F50BE5119D7C12600D06EE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F50BDBB19D7C12600D06EE4 /* CHCircleGaugeViewExample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4AC35DCD198A960700E9BE8B;
-			remoteInfo = CHCircleGaugeViewExample;
-		};
-		1F50BE5319D7C12600D06EE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F50BDBB19D7C12600D06EE4 /* CHCircleGaugeViewExample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4AC35DF1198A960700E9BE8B;
-			remoteInfo = CHCircleGaugeViewExampleTests;
-		};
-		1F50BE5719D7C12600D06EE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F50BDFA19D7C12600D06EE4 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9FF0F86B00974CC6A8F72593;
-			remoteInfo = Pods;
-		};
-		1F50BE5919D7C12600D06EE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F50BDFA19D7C12600D06EE4 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6641BF7AFB8C4553BD1C4BA6;
-			remoteInfo = "Pods-Color-Picker-for-iOS";
-		};
 		1F5C138919D72B1F00746670 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F5C136419D72B1E00746670 /* Project object */;
@@ -166,100 +80,6 @@
 		1F4D5C9B19D76A69002C40A2 /* RehabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RehabViewController.m; sourceTree = "<group>"; };
 		1F4D5C9D19D76A69002C40A2 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
 		1F4D5C9E19D76A69002C40A2 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
-		1F50BDA319D7C12600D06EE4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		1F50BDA519D7C12600D06EE4 /* CHCircleGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCircleGaugeView.h; sourceTree = "<group>"; };
-		1F50BDA619D7C12600D06EE4 /* CHCircleGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCircleGaugeView.m; sourceTree = "<group>"; };
-		1F50BDA719D7C12600D06EE4 /* CHCircleGaugeViewDebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCircleGaugeViewDebugMacros.h; sourceTree = "<group>"; };
-		1F50BDAB19D7C12600D06EE4 /* CHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
-		1F50BDAC19D7C12600D06EE4 /* CHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
-		1F50BDAD19D7C12600D06EE4 /* CHCircleGaugeViewExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CHCircleGaugeViewExample-Info.plist"; sourceTree = "<group>"; };
-		1F50BDAE19D7C12600D06EE4 /* CHCircleGaugeViewExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CHCircleGaugeViewExample-Prefix.pch"; sourceTree = "<group>"; };
-		1F50BDAF19D7C12600D06EE4 /* CHColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHColorPickerView.h; sourceTree = "<group>"; };
-		1F50BDB019D7C12600D06EE4 /* CHColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHColorPickerView.m; sourceTree = "<group>"; };
-		1F50BDB119D7C12600D06EE4 /* CHColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHColorPickerViewController.h; sourceTree = "<group>"; };
-		1F50BDB219D7C12600D06EE4 /* CHColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHColorPickerViewController.m; sourceTree = "<group>"; };
-		1F50BDB319D7C12600D06EE4 /* CHView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHView.h; sourceTree = "<group>"; };
-		1F50BDB419D7C12600D06EE4 /* CHView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHView.m; sourceTree = "<group>"; };
-		1F50BDB519D7C12600D06EE4 /* CHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHViewController.h; sourceTree = "<group>"; };
-		1F50BDB619D7C12600D06EE4 /* CHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHViewController.m; sourceTree = "<group>"; };
-		1F50BDB819D7C12600D06EE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1F50BDB919D7C12600D06EE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1F50BDBA19D7C12600D06EE4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F50BDBB19D7C12600D06EE4 /* CHCircleGaugeViewExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CHCircleGaugeViewExample.xcodeproj; sourceTree = "<group>"; };
-		1F50BDBE19D7C12600D06EE4 /* CHCircleGaugeViewExample.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = CHCircleGaugeViewExample.xcworkspace; sourceTree = "<group>"; };
-		1F50BDC019D7C12600D06EE4 /* CHCircleGaugeViewExampleTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CHCircleGaugeViewExampleTests-Info.plist"; sourceTree = "<group>"; };
-		1F50BDC119D7C12600D06EE4 /* CHCircleGaugeViewExampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCircleGaugeViewExampleTests.m; sourceTree = "<group>"; };
-		1F50BDC319D7C12600D06EE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1F50BDC419D7C12600D06EE4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		1F50BDC519D7C12600D06EE4 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
-		1F50BDC919D7C12600D06EE4 /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
-		1F50BDCA19D7C12600D06EE4 /* HRBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessSlider.h; sourceTree = "<group>"; };
-		1F50BDCB19D7C12600D06EE4 /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
-		1F50BDCC19D7C12600D06EE4 /* HRColorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorInfoView.h; sourceTree = "<group>"; };
-		1F50BDCD19D7C12600D06EE4 /* HRColorMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorMapView.h; sourceTree = "<group>"; };
-		1F50BDCE19D7C12600D06EE4 /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
-		1F50BDCF19D7C12600D06EE4 /* HRHSVColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHSVColorUtil.h; sourceTree = "<group>"; };
-		1F50BDD019D7C12600D06EE4 /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
-		1F50BDD319D7C12600D06EE4 /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
-		1F50BDD419D7C12600D06EE4 /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
-		1F50BDD519D7C12600D06EE4 /* HRBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessSlider.h; sourceTree = "<group>"; };
-		1F50BDD619D7C12600D06EE4 /* HRBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessSlider.m; sourceTree = "<group>"; };
-		1F50BDD719D7C12600D06EE4 /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
-		1F50BDD819D7C12600D06EE4 /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
-		1F50BDD919D7C12600D06EE4 /* HRColorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorInfoView.h; sourceTree = "<group>"; };
-		1F50BDDA19D7C12600D06EE4 /* HRColorInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorInfoView.m; sourceTree = "<group>"; };
-		1F50BDDB19D7C12600D06EE4 /* HRColorMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorMapView.h; sourceTree = "<group>"; };
-		1F50BDDC19D7C12600D06EE4 /* HRColorMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorMapView.m; sourceTree = "<group>"; };
-		1F50BDDD19D7C12600D06EE4 /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
-		1F50BDDE19D7C12600D06EE4 /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
-		1F50BDDF19D7C12600D06EE4 /* HRHSVColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHSVColorUtil.h; sourceTree = "<group>"; };
-		1F50BDE019D7C12600D06EE4 /* HRHSVColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRHSVColorUtil.m; sourceTree = "<group>"; };
-		1F50BDE119D7C12600D06EE4 /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
-		1F50BDE219D7C12600D06EE4 /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
-		1F50BDE319D7C12600D06EE4 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		1F50BDE419D7C12600D06EE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1F50BDE719D7C12600D06EE4 /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
-		1F50BDE819D7C12600D06EE4 /* HRBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessSlider.h; sourceTree = "<group>"; };
-		1F50BDE919D7C12600D06EE4 /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
-		1F50BDEA19D7C12600D06EE4 /* HRColorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorInfoView.h; sourceTree = "<group>"; };
-		1F50BDEB19D7C12600D06EE4 /* HRColorMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorMapView.h; sourceTree = "<group>"; };
-		1F50BDEC19D7C12600D06EE4 /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
-		1F50BDED19D7C12600D06EE4 /* HRHSVColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHSVColorUtil.h; sourceTree = "<group>"; };
-		1F50BDEE19D7C12600D06EE4 /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
-		1F50BDEF19D7C12600D06EE4 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
-		1F50BDF019D7C12600D06EE4 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1F50BDF119D7C12600D06EE4 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		1F50BDF219D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-Color-Picker-for-iOS-dummy.m"; sourceTree = "<group>"; };
-		1F50BDF319D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-Color-Picker-for-iOS-prefix.pch"; sourceTree = "<group>"; };
-		1F50BDF419D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-Private.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Color-Picker-for-iOS-Private.xcconfig"; sourceTree = "<group>"; };
-		1F50BDF519D7C12600D06EE4 /* Pods-Color-Picker-for-iOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Color-Picker-for-iOS.xcconfig"; sourceTree = "<group>"; };
-		1F50BDF619D7C12600D06EE4 /* Pods-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		1F50BDF719D7C12600D06EE4 /* Pods-environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		1F50BDF819D7C12600D06EE4 /* Pods-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		1F50BDF919D7C12600D06EE4 /* Pods.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
-		1F50BDFA19D7C12600D06EE4 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
-		1F50BDFD19D7C12600D06EE4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		1F50BE0019D7C12600D06EE4 /* CHCircleGauge_App_Icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = CHCircleGauge_App_Icon.psd; sourceTree = "<group>"; };
-		1F50BE0119D7C12600D06EE4 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
-		1F50BE0219D7C12600D06EE4 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
-		1F50BE0319D7C12600D06EE4 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
-		1F50BE0419D7C12600D06EE4 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
-		1F50BE0519D7C12600D06EE4 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		1F50BE0619D7C12600D06EE4 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
-		1F50BE0719D7C12600D06EE4 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
-		1F50BE0819D7C12600D06EE4 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
-		1F50BE0919D7C12600D06EE4 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
-		1F50BE0A19D7C12600D06EE4 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
-		1F50BE0B19D7C12600D06EE4 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		1F50BE0C19D7C12600D06EE4 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		1F50BE0D19D7C12600D06EE4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		1F50BE0E19D7C12600D06EE4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		1F50BE0F19D7C12600D06EE4 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		1F50BE1019D7C12600D06EE4 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
-		1F50BE1219D7C12600D06EE4 /* CHCircleGaugeView_ExampleAnimation01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CHCircleGaugeView_ExampleAnimation01.gif; sourceTree = "<group>"; };
-		1F50BE1319D7C12600D06EE4 /* CHCircleGaugeView_ExampleAnimation02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CHCircleGaugeView_ExampleAnimation02.gif; sourceTree = "<group>"; };
-		1F50BE1419D7C12600D06EE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1F50BE5B19D7C15000D06EE4 /* CHCircleGaugeView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHCircleGaugeView.podspec; sourceTree = "<group>"; };
 		1F5C136C19D72B1E00746670 /* Wearhacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wearhacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5C137019D72B1E00746670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5C137119D72B1F00746670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -412,245 +232,6 @@
 			path = Schedule;
 			sourceTree = "<group>";
 		};
-		1F50BDA119D7C12600D06EE4 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDA219D7C12600D06EE4 /* CHCircleGaugeView */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
-		1F50BDA219D7C12600D06EE4 /* CHCircleGaugeView */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDA319D7C12600D06EE4 /* .gitignore */,
-				1F50BE5B19D7C15000D06EE4 /* CHCircleGaugeView.podspec */,
-				1F50BDA419D7C12600D06EE4 /* CHCircleGaugeView */,
-				1F50BDA919D7C12600D06EE4 /* CHCircleGaugeViewExample */,
-				1F50BDFD19D7C12600D06EE4 /* LICENSE */,
-				1F50BDFE19D7C12600D06EE4 /* miscellaneous */,
-				1F50BE1419D7C12600D06EE4 /* README.md */,
-			);
-			path = CHCircleGaugeView;
-			sourceTree = "<group>";
-		};
-		1F50BDA419D7C12600D06EE4 /* CHCircleGaugeView */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDA519D7C12600D06EE4 /* CHCircleGaugeView.h */,
-				1F50BDA619D7C12600D06EE4 /* CHCircleGaugeView.m */,
-				1F50BDA719D7C12600D06EE4 /* CHCircleGaugeViewDebugMacros.h */,
-			);
-			path = CHCircleGaugeView;
-			sourceTree = "<group>";
-		};
-		1F50BDA919D7C12600D06EE4 /* CHCircleGaugeViewExample */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDAA19D7C12600D06EE4 /* CHCircleGaugeViewExample */,
-				1F50BDBB19D7C12600D06EE4 /* CHCircleGaugeViewExample.xcodeproj */,
-				1F50BDBE19D7C12600D06EE4 /* CHCircleGaugeViewExample.xcworkspace */,
-				1F50BDBF19D7C12600D06EE4 /* CHCircleGaugeViewExampleTests */,
-				1F50BDC419D7C12600D06EE4 /* Podfile */,
-				1F50BDC519D7C12600D06EE4 /* Podfile.lock */,
-				1F50BDC619D7C12600D06EE4 /* Pods */,
-			);
-			path = CHCircleGaugeViewExample;
-			sourceTree = "<group>";
-		};
-		1F50BDAA19D7C12600D06EE4 /* CHCircleGaugeViewExample */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDAB19D7C12600D06EE4 /* CHAppDelegate.h */,
-				1F50BDAC19D7C12600D06EE4 /* CHAppDelegate.m */,
-				1F50BDAD19D7C12600D06EE4 /* CHCircleGaugeViewExample-Info.plist */,
-				1F50BDAE19D7C12600D06EE4 /* CHCircleGaugeViewExample-Prefix.pch */,
-				1F50BDAF19D7C12600D06EE4 /* CHColorPickerView.h */,
-				1F50BDB019D7C12600D06EE4 /* CHColorPickerView.m */,
-				1F50BDB119D7C12600D06EE4 /* CHColorPickerViewController.h */,
-				1F50BDB219D7C12600D06EE4 /* CHColorPickerViewController.m */,
-				1F50BDB319D7C12600D06EE4 /* CHView.h */,
-				1F50BDB419D7C12600D06EE4 /* CHView.m */,
-				1F50BDB519D7C12600D06EE4 /* CHViewController.h */,
-				1F50BDB619D7C12600D06EE4 /* CHViewController.m */,
-				1F50BDB719D7C12600D06EE4 /* InfoPlist.strings */,
-				1F50BDB919D7C12600D06EE4 /* Images.xcassets */,
-				1F50BDBA19D7C12600D06EE4 /* main.m */,
-			);
-			path = CHCircleGaugeViewExample;
-			sourceTree = "<group>";
-		};
-		1F50BDBC19D7C12600D06EE4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BE5219D7C12600D06EE4 /* CHCircleGaugeViewExample.app */,
-				1F50BE5419D7C12600D06EE4 /* CHCircleGaugeViewExampleTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1F50BDBF19D7C12600D06EE4 /* CHCircleGaugeViewExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDC019D7C12600D06EE4 /* CHCircleGaugeViewExampleTests-Info.plist */,
-				1F50BDC119D7C12600D06EE4 /* CHCircleGaugeViewExampleTests.m */,
-				1F50BDC219D7C12600D06EE4 /* InfoPlist.strings */,
-			);
-			path = CHCircleGaugeViewExampleTests;
-			sourceTree = "<group>";
-		};
-		1F50BDC619D7C12600D06EE4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDC719D7C12600D06EE4 /* BuildHeaders */,
-				1F50BDD119D7C12600D06EE4 /* Color-Picker-for-iOS */,
-				1F50BDE519D7C12600D06EE4 /* Headers */,
-				1F50BDEF19D7C12600D06EE4 /* Manifest.lock */,
-				1F50BDF019D7C12600D06EE4 /* Pods-acknowledgements.markdown */,
-				1F50BDF119D7C12600D06EE4 /* Pods-acknowledgements.plist */,
-				1F50BDF219D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-dummy.m */,
-				1F50BDF319D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-prefix.pch */,
-				1F50BDF419D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-Private.xcconfig */,
-				1F50BDF519D7C12600D06EE4 /* Pods-Color-Picker-for-iOS.xcconfig */,
-				1F50BDF619D7C12600D06EE4 /* Pods-dummy.m */,
-				1F50BDF719D7C12600D06EE4 /* Pods-environment.h */,
-				1F50BDF819D7C12600D06EE4 /* Pods-resources.sh */,
-				1F50BDF919D7C12600D06EE4 /* Pods.xcconfig */,
-				1F50BDFA19D7C12600D06EE4 /* Pods.xcodeproj */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		1F50BDC719D7C12600D06EE4 /* BuildHeaders */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDC819D7C12600D06EE4 /* Color-Picker-for-iOS */,
-			);
-			path = BuildHeaders;
-			sourceTree = "<group>";
-		};
-		1F50BDC819D7C12600D06EE4 /* Color-Picker-for-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDC919D7C12600D06EE4 /* HRBrightnessCursor.h */,
-				1F50BDCA19D7C12600D06EE4 /* HRBrightnessSlider.h */,
-				1F50BDCB19D7C12600D06EE4 /* HRColorCursor.h */,
-				1F50BDCC19D7C12600D06EE4 /* HRColorInfoView.h */,
-				1F50BDCD19D7C12600D06EE4 /* HRColorMapView.h */,
-				1F50BDCE19D7C12600D06EE4 /* HRColorPickerView.h */,
-				1F50BDCF19D7C12600D06EE4 /* HRHSVColorUtil.h */,
-				1F50BDD019D7C12600D06EE4 /* UIImage+CoreGraphics.h */,
-			);
-			path = "Color-Picker-for-iOS";
-			sourceTree = "<group>";
-		};
-		1F50BDD119D7C12600D06EE4 /* Color-Picker-for-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDD219D7C12600D06EE4 /* ColorPicker */,
-				1F50BDE319D7C12600D06EE4 /* LICENSE.txt */,
-				1F50BDE419D7C12600D06EE4 /* README.md */,
-			);
-			path = "Color-Picker-for-iOS";
-			sourceTree = "<group>";
-		};
-		1F50BDD219D7C12600D06EE4 /* ColorPicker */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDD319D7C12600D06EE4 /* HRBrightnessCursor.h */,
-				1F50BDD419D7C12600D06EE4 /* HRBrightnessCursor.m */,
-				1F50BDD519D7C12600D06EE4 /* HRBrightnessSlider.h */,
-				1F50BDD619D7C12600D06EE4 /* HRBrightnessSlider.m */,
-				1F50BDD719D7C12600D06EE4 /* HRColorCursor.h */,
-				1F50BDD819D7C12600D06EE4 /* HRColorCursor.m */,
-				1F50BDD919D7C12600D06EE4 /* HRColorInfoView.h */,
-				1F50BDDA19D7C12600D06EE4 /* HRColorInfoView.m */,
-				1F50BDDB19D7C12600D06EE4 /* HRColorMapView.h */,
-				1F50BDDC19D7C12600D06EE4 /* HRColorMapView.m */,
-				1F50BDDD19D7C12600D06EE4 /* HRColorPickerView.h */,
-				1F50BDDE19D7C12600D06EE4 /* HRColorPickerView.m */,
-				1F50BDDF19D7C12600D06EE4 /* HRHSVColorUtil.h */,
-				1F50BDE019D7C12600D06EE4 /* HRHSVColorUtil.m */,
-				1F50BDE119D7C12600D06EE4 /* UIImage+CoreGraphics.h */,
-				1F50BDE219D7C12600D06EE4 /* UIImage+CoreGraphics.m */,
-			);
-			path = ColorPicker;
-			sourceTree = "<group>";
-		};
-		1F50BDE519D7C12600D06EE4 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDE619D7C12600D06EE4 /* Color-Picker-for-iOS */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		1F50BDE619D7C12600D06EE4 /* Color-Picker-for-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDE719D7C12600D06EE4 /* HRBrightnessCursor.h */,
-				1F50BDE819D7C12600D06EE4 /* HRBrightnessSlider.h */,
-				1F50BDE919D7C12600D06EE4 /* HRColorCursor.h */,
-				1F50BDEA19D7C12600D06EE4 /* HRColorInfoView.h */,
-				1F50BDEB19D7C12600D06EE4 /* HRColorMapView.h */,
-				1F50BDEC19D7C12600D06EE4 /* HRColorPickerView.h */,
-				1F50BDED19D7C12600D06EE4 /* HRHSVColorUtil.h */,
-				1F50BDEE19D7C12600D06EE4 /* UIImage+CoreGraphics.h */,
-			);
-			path = "Color-Picker-for-iOS";
-			sourceTree = "<group>";
-		};
-		1F50BDFB19D7C12600D06EE4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BE5819D7C12600D06EE4 /* libPods.a */,
-				1F50BE5A19D7C12600D06EE4 /* libPods-Color-Picker-for-iOS.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1F50BDFE19D7C12600D06EE4 /* miscellaneous */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BDFF19D7C12600D06EE4 /* AppIcon */,
-				1F50BE1119D7C12600D06EE4 /* screenshots */,
-			);
-			path = miscellaneous;
-			sourceTree = "<group>";
-		};
-		1F50BDFF19D7C12600D06EE4 /* AppIcon */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BE0019D7C12600D06EE4 /* CHCircleGauge_App_Icon.psd */,
-				1F50BE0119D7C12600D06EE4 /* Icon-40.png */,
-				1F50BE0219D7C12600D06EE4 /* Icon-40@2x.png */,
-				1F50BE0319D7C12600D06EE4 /* Icon-60.png */,
-				1F50BE0419D7C12600D06EE4 /* Icon-60@2x.png */,
-				1F50BE0519D7C12600D06EE4 /* Icon-72.png */,
-				1F50BE0619D7C12600D06EE4 /* Icon-72@2x.png */,
-				1F50BE0719D7C12600D06EE4 /* Icon-76.png */,
-				1F50BE0819D7C12600D06EE4 /* Icon-76@2x.png */,
-				1F50BE0919D7C12600D06EE4 /* Icon-Small-50.png */,
-				1F50BE0A19D7C12600D06EE4 /* Icon-Small-50@2x.png */,
-				1F50BE0B19D7C12600D06EE4 /* Icon-Small.png */,
-				1F50BE0C19D7C12600D06EE4 /* Icon-Small@2x.png */,
-				1F50BE0D19D7C12600D06EE4 /* Icon.png */,
-				1F50BE0E19D7C12600D06EE4 /* Icon@2x.png */,
-				1F50BE0F19D7C12600D06EE4 /* iTunesArtwork */,
-				1F50BE1019D7C12600D06EE4 /* iTunesArtwork@2x */,
-			);
-			path = AppIcon;
-			sourceTree = "<group>";
-		};
-		1F50BE1119D7C12600D06EE4 /* screenshots */ = {
-			isa = PBXGroup;
-			children = (
-				1F50BE1219D7C12600D06EE4 /* CHCircleGaugeView_ExampleAnimation01.gif */,
-				1F50BE1319D7C12600D06EE4 /* CHCircleGaugeView_ExampleAnimation02.gif */,
-			);
-			path = screenshots;
-			sourceTree = "<group>";
-		};
 		1F5C136319D72B1E00746670 = {
 			isa = PBXGroup;
 			children = (
@@ -677,7 +258,6 @@
 				580FD64019D76FBB00502C94 /* Storyboards */,
 				1F4D5C8019D76A69002C40A2 /* Categories */,
 				1F4D5C8B19D76A69002C40A2 /* Helper */,
-				1F50BDA119D7C12600D06EE4 /* Library */,
 				1F4D5C8E19D76A69002C40A2 /* ViewControllers */,
 				1F5C137F19D72B1F00746670 /* Images.xcassets */,
 				1F5C137619D72B1F00746670 /* Wearhacks.xcdatamodeld */,
@@ -812,16 +392,6 @@
 			mainGroup = 1F5C136319D72B1E00746670;
 			productRefGroup = 1F5C136D19D72B1E00746670 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 1F50BDBC19D7C12600D06EE4 /* Products */;
-					ProjectRef = 1F50BDBB19D7C12600D06EE4 /* CHCircleGaugeViewExample.xcodeproj */;
-				},
-				{
-					ProductGroup = 1F50BDFB19D7C12600D06EE4 /* Products */;
-					ProjectRef = 1F50BDFA19D7C12600D06EE4 /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1F5C136B19D72B1E00746670 /* Wearhacks */,
@@ -830,85 +400,17 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		1F50BE5219D7C12600D06EE4 /* CHCircleGaugeViewExample.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CHCircleGaugeViewExample.app;
-			remoteRef = 1F50BE5119D7C12600D06EE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1F50BE5419D7C12600D06EE4 /* CHCircleGaugeViewExampleTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CHCircleGaugeViewExampleTests.xctest;
-			remoteRef = 1F50BE5319D7C12600D06EE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1F50BE5819D7C12600D06EE4 /* libPods.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libPods.a;
-			remoteRef = 1F50BE5719D7C12600D06EE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1F50BE5A19D7C12600D06EE4 /* libPods-Color-Picker-for-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libPods-Color-Picker-for-iOS.a";
-			remoteRef = 1F50BE5919D7C12600D06EE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		1F5C136A19D72B1E00746670 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F50BE3819D7C12600D06EE4 /* Pods-resources.sh in Resources */,
-				1F50BE4C19D7C12600D06EE4 /* CHCircleGaugeView_ExampleAnimation01.gif in Resources */,
-				1F50BE4919D7C12600D06EE4 /* Icon@2x.png in Resources */,
-				1F50BE4219D7C12600D06EE4 /* Icon-76.png in Resources */,
-				1F50BE4519D7C12600D06EE4 /* Icon-Small-50@2x.png in Resources */,
-				1F50BE2F19D7C12600D06EE4 /* LICENSE.txt in Resources */,
-				1F50BE2519D7C12600D06EE4 /* Podfile in Resources */,
 				1F45E32319D7A673008A03FC /* Exercice.storyboard in Resources */,
-				1F50BE4719D7C12600D06EE4 /* Icon-Small@2x.png in Resources */,
-				1F50BE3F19D7C12600D06EE4 /* Icon-60@2x.png in Resources */,
-				1F50BE2419D7C12600D06EE4 /* InfoPlist.strings in Resources */,
-				1F50BE4619D7C12600D06EE4 /* Icon-Small.png in Resources */,
-				1F50BE4819D7C12600D06EE4 /* Icon.png in Resources */,
-				1F50BE1519D7C12600D06EE4 /* .gitignore in Resources */,
 				1F5C137E19D72B1F00746670 /* Main.storyboard in Resources */,
-				1F50BE5C19D7C15000D06EE4 /* CHCircleGaugeView.podspec in Resources */,
-				1F50BE3B19D7C12600D06EE4 /* CHCircleGauge_App_Icon.psd in Resources */,
-				1F50BE3C19D7C12600D06EE4 /* Icon-40.png in Resources */,
-				1F50BE4419D7C12600D06EE4 /* Icon-Small-50.png in Resources */,
-				1F50BE4B19D7C12600D06EE4 /* iTunesArtwork@2x in Resources */,
-				1F50BE3619D7C12600D06EE4 /* Pods-Color-Picker-for-iOS.xcconfig in Resources */,
-				1F50BE4019D7C12600D06EE4 /* Icon-72.png in Resources */,
 				1F45E32019D7A66C008A03FC /* Rehab.storyboard in Resources */,
-				1F50BE2619D7C12600D06EE4 /* Podfile.lock in Resources */,
-				1F50BE1F19D7C12600D06EE4 /* Images.xcassets in Resources */,
-				1F50BE4319D7C12600D06EE4 /* Icon-76@2x.png in Resources */,
-				1F50BE4A19D7C12600D06EE4 /* iTunesArtwork in Resources */,
-				1F50BE3119D7C12600D06EE4 /* Manifest.lock in Resources */,
 				1F5C138319D72B1F00746670 /* LaunchScreen.xib in Resources */,
-				1F50BE1919D7C12600D06EE4 /* CHCircleGaugeViewExample-Info.plist in Resources */,
 				1F5C138019D72B1F00746670 /* Images.xcassets in Resources */,
-				1F50BE3319D7C12600D06EE4 /* Pods-acknowledgements.plist in Resources */,
-				1F50BE2119D7C12600D06EE4 /* CHCircleGaugeViewExample.xcworkspace in Resources */,
-				1F50BE3A19D7C12600D06EE4 /* LICENSE in Resources */,
-				1F50BE3D19D7C12600D06EE4 /* Icon-40@2x.png in Resources */,
-				1F50BE2219D7C12600D06EE4 /* CHCircleGaugeViewExampleTests-Info.plist in Resources */,
-				1F50BE3919D7C12600D06EE4 /* Pods.xcconfig in Resources */,
 				580FD63F19D76FA200502C94 /* Schedule.storyboard in Resources */,
-				1F50BE3519D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-Private.xcconfig in Resources */,
-				1F50BE4119D7C12600D06EE4 /* Icon-72@2x.png in Resources */,
-				1F50BE3E19D7C12600D06EE4 /* Icon-60.png in Resources */,
-				1F50BE1E19D7C12600D06EE4 /* InfoPlist.strings in Resources */,
-				1F50BE4D19D7C12600D06EE4 /* CHCircleGaugeView_ExampleAnimation02.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -979,44 +481,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F50BE3219D7C12600D06EE4 /* Pods-acknowledgements.markdown in Sources */,
-				1F50BE2019D7C12600D06EE4 /* main.m in Sources */,
 				1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */,
 				1F4D5CA819D76A69002C40A2 /* RehabViewController.m in Sources */,
-				1F50BE3719D7C12600D06EE4 /* Pods-dummy.m in Sources */,
-				1F50BE2319D7C12600D06EE4 /* CHCircleGaugeViewExampleTests.m in Sources */,
 				1F4D5CA119D76A69002C40A2 /* UIImage+RoundedCorner.m in Sources */,
-				1F50BE1A19D7C12600D06EE4 /* CHColorPickerView.m in Sources */,
-				1F50BE3019D7C12600D06EE4 /* README.md in Sources */,
 				1F4D5CA619D76A69002C40A2 /* LoginViewController.m in Sources */,
-				1F50BE1D19D7C12600D06EE4 /* CHViewController.m in Sources */,
 				1F4D5CA019D76A69002C40A2 /* UIImage+Resize.m in Sources */,
 				1F8FBA1619D76C07001531C2 /* Constants.m in Sources */,
-				1F50BE2C19D7C12600D06EE4 /* HRColorPickerView.m in Sources */,
 				1F4D5CA719D76A69002C40A2 /* ProfileViewController.m in Sources */,
-				1F50BE2919D7C12600D06EE4 /* HRColorCursor.m in Sources */,
-				1F50BE1619D7C12600D06EE4 /* CHCircleGaugeView.m in Sources */,
-				1F50BE3419D7C12600D06EE4 /* Pods-Color-Picker-for-iOS-dummy.m in Sources */,
 				1F4D5C7F19D76A60002C40A2 /* StoryboardConstants.m in Sources */,
-				1F50BE1819D7C12600D06EE4 /* CHAppDelegate.m in Sources */,
-				1F50BE2E19D7C12600D06EE4 /* UIImage+CoreGraphics.m in Sources */,
-				1F50BE2A19D7C12600D06EE4 /* HRColorInfoView.m in Sources */,
-				1F50BE4E19D7C12600D06EE4 /* README.md in Sources */,
 				1F4D5C9F19D76A69002C40A2 /* UIImage+Alpha.m in Sources */,
-				1F50BE1B19D7C12600D06EE4 /* CHColorPickerViewController.m in Sources */,
 				1F4D5CA519D76A69002C40A2 /* HomeViewController.m in Sources */,
 				1F45E32919D7AA41008A03FC /* ExerciceViewController.m in Sources */,
 				1F45E32C19D7AEDE008A03FC /* GaugeAppearanceHelper.m in Sources */,
 				1F45E33219D7BC57008A03FC /* CHCircleGaugeView+Zentice.m in Sources */,
-				1F50BE2719D7C12600D06EE4 /* HRBrightnessCursor.m in Sources */,
-				1F50BE1C19D7C12600D06EE4 /* CHView.m in Sources */,
-				1F50BE2819D7C12600D06EE4 /* HRBrightnessSlider.m in Sources */,
 				1F4D5CA919D76A69002C40A2 /* ScheduleViewController.m in Sources */,
 				1F4D5CA219D76A69002C40A2 /* UIImageView+Border.m in Sources */,
 				1F45E32F19D7AFCD008A03FC /* UIColor+Zentice.m in Sources */,
-				1F50BE2D19D7C12600D06EE4 /* HRHSVColorUtil.m in Sources */,
 				1F5C137219D72B1F00746670 /* main.m in Sources */,
-				1F50BE2B19D7C12600D06EE4 /* HRColorMapView.m in Sources */,
 				1F4D5CA319D76A69002C40A2 /* WearHacksUtility.m in Sources */,
 				1F8FBA1919D76C18001531C2 /* AppDelegate.m in Sources */,
 			);
@@ -1055,22 +536,6 @@
 				1F45E32419D7A673008A03FC /* Base */,
 			);
 			name = Exercice.storyboard;
-			sourceTree = "<group>";
-		};
-		1F50BDB719D7C12600D06EE4 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F50BDB819D7C12600D06EE4 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1F50BDC219D7C12600D06EE4 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F50BDC319D7C12600D06EE4 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		1F5C137C19D72B1F00746670 /* Main.storyboard */ = {

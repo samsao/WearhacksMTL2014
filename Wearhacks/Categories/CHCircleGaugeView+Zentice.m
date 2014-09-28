@@ -8,6 +8,13 @@
 
 #import "CHCircleGaugeView.h"
 
-@implementation CHCircleGaugeView
+@implementation CHCircleGaugeView (Zentice)
+
+- (void)setRepetitionCounter:(NSNumber *)repetition {
+}
+
+- (void)setValueLabelWithNumber:(NSNumber *)value {
+    [self setValueLabel:[value floatValue] / 100];
+}
 
 @end
