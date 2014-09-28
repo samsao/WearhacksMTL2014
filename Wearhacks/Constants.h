@@ -7,6 +7,7 @@
 //
 
 extern NSString *const kWearHacksUserNameKey;
+extern NSString *const kWearHacksUserPhysioKey;
 extern NSString *const kWearHacksUserFacebookIDKey;
 extern NSString *const kWearHacksUserProfilePicSmallKey;
 extern NSString *const kWearHacksUserProfilePicMediumKey;

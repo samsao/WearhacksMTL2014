@@ -134,6 +134,7 @@
             
             NSString *facebookID = userData[@"id"];
             NSString *name = userData[@"name"];
+            NSNumber *physio = [NSNumber numberWithBool:NO];
             //            NSString *location = userData[@"location"][@"name"];
             //            NSString *gender = userData[@"gender"];
             //            NSString *birthday = userData[@"birthday"];
@@ -146,6 +147,8 @@
             
             user[kWearHacksUserNameKey] = name;
             user[kWearHacksUserFacebookIDKey] = facebookID;
+            user[kWearHacksUserPhysioKey] = physio;
+
             
             [user saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
                 

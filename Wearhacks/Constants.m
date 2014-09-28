@@ -9,6 +9,7 @@
 #pragma mark - User Class
 // Field keys
 NSString *const kWearHacksUserNameKey                                 = @"name";
+NSString *const kWearHacksUserPhysioKey                               = @"physio";
 NSString *const kWearHacksUserFacebookIDKey                           = @"facebookId";
 NSString *const kWearHacksUserProfilePicSmallKey                      = @"profilePictureSmall";
 NSString *const kWearHacksUserProfilePicMediumKey                     = @"profilePictureMedium";
