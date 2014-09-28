@@ -93,6 +93,9 @@
             NSLog(@"WStreamRootViewController Error: %@ %@", error, [error userInfo]);
         }
     }];
+    
+    PFObject * testExo = [WearHacksUtility exerciceForGab];
+    NSLog(@"TEST MOFOS %@", [testExo objectForKey:@"name"]);
 }
 
 #pragma mark - PFLogInViewControllerDelegate

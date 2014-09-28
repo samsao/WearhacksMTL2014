@@ -41,6 +41,14 @@
     return query;
 }
 
++ (PFObject *)exerciceForGab {
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"Exercice"];
+    PFObject * obj = [query getObjectWithId:@"tWhbidf52B"];
+    return obj;
+    
+}
+
 #pragma mark - Facebook
 
 + (void)processFacebookProfilePictureData:(NSData *)newProfilePictureData {
