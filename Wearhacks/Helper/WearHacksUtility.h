@@ -12,7 +12,7 @@
 
 + (PFQuery *)allExerciceDate;
 + (PFQuery *)allExercicesForExerciceDate:(PFObject *)injury;
-+ (PFQuery *)allDataForExercice:(PFObject *)exercice;
++ (PFQuery *)allDataForExerciceTypeID:(NSNumber *)typeID;
 + (PFQuery *)exerciseTypeForExercice:(PFObject *)exercice;
 
 //Facebook

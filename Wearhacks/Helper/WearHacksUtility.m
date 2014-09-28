@@ -32,10 +32,10 @@
     return query;
 }
 
-+ (PFQuery *)allDataForExercice:(PFObject *)exercice {
++ (PFQuery *)allDataForExerciceTypeID:(NSNumber *)typeID {
     
     PFQuery *query = [PFQuery queryWithClassName:@"ExerciceData"];
-    [query whereKey:@"exercise" containedIn:@[exercice]];
+    [query whereKey:@"typeID" equalTo:typeID];
     [query orderByDescending:@"createdAt"];
     
     return query;
