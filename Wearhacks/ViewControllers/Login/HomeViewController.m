@@ -15,6 +15,7 @@
     NSMutableData *_data;
 }
 
+@property (weak, nonatomic) IBOutlet UIButton *signOutButton;
 @end
 
 @implementation HomeViewController
@@ -235,6 +236,23 @@
  *  @param sender the button
  */
 - (IBAction)achievementsTouchUpInside:(id)sender {
+    
+}
+
+- (IBAction)signOutButtonTouchUpInside:(id)sender {
+    [PFUser logOut];
+    
+    
+    if (![PFUser currentUser]) {
+        // Customize the Log In View Controller
+        LoginViewController *logInViewController = [[LoginViewController alloc] init];
+        [logInViewController setDelegate:self];
+        [logInViewController setFacebookPermissions:[NSArray arrayWithObjects:@"friends_about_me", nil]];
+        [logInViewController setFields:  PFLogInFieldsFacebook];
+        
+        // Present Log In View Controller
+        [self presentViewController:logInViewController animated:YES completion:NULL];
+    }
 }
 
 @end

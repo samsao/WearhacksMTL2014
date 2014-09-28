@@ -46,7 +46,8 @@
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="120" id="h8v-yc-t6m"/>
                                             <constraint firstAttribute="height" constant="120" id="wn1-BK-rr8"/>
                                         </constraints>
-                                        <state key="normal" title="Schedule">
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="60" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Profile" backgroundImage="menu_background_1">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <variation key="default">
@@ -71,7 +72,8 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUB-F4-ivg">
                                         <rect key="frame" x="233" y="178" width="46" height="30"/>
-                                        <state key="normal" title="Profile">
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="-60" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Progress" backgroundImage="menu_background_3">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -80,7 +82,8 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1W-rS-edW">
                                         <rect key="frame" x="259" y="83" width="60" height="60"/>
-                                        <state key="normal" title="Progress">
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="60" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Schedule" backgroundImage="menu_background_2">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -89,7 +92,8 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UI1-jS-Qhh">
                                         <rect key="frame" x="36" y="178" width="46" height="30"/>
-                                        <state key="normal" title="Achievements">
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="-60" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Badges" backgroundImage="menu_background_4">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -227,4 +231,10 @@
             <point key="canvasLocation" x="-228" y="984"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="menu_background_1" width="105" height="113"/>
+        <image name="menu_background_2" width="111" height="113"/>
+        <image name="menu_background_3" width="105" height="104"/>
+        <image name="menu_background_4" width="111" height="104"/>
+    </resources>
 </document>

@@ -20,7 +20,6 @@
 		1F4D5CA919D76A69002C40A2 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D5C9E19D76A69002C40A2 /* ScheduleViewController.m */; };
 		1F5C137219D72B1F00746670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137119D72B1F00746670 /* main.m */; };
 		1F5C137819D72B1F00746670 /* Wearhacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C137619D72B1F00746670 /* Wearhacks.xcdatamodeld */; };
-		1F5C137E19D72B1F00746670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C137C19D72B1F00746670 /* Main.storyboard */; };
 		1F5C138019D72B1F00746670 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C137F19D72B1F00746670 /* Images.xcassets */; };
 		1F5C138319D72B1F00746670 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C138119D72B1F00746670 /* LaunchScreen.xib */; };
 		1F5C138F19D72B1F00746670 /* WearhacksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C138E19D72B1F00746670 /* WearhacksTests.m */; };
@@ -32,6 +31,7 @@
 		D26EF49D19D8560000046EBB /* UIViewRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF49C19D8560000046EBB /* UIViewRounded.m */; };
 		D26EF4A019D8561200046EBB /* UIButtonRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF49F19D8561200046EBB /* UIButtonRounded.m */; };
 		D26EF4A719D857C700046EBB /* UIStoryboard+WearHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF4A619D857C700046EBB /* UIStoryboard+WearHacks.m */; };
+		D26EF4AA19D85E6C00046EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26EF4A819D85E6C00046EBB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,6 @@
 		1F5C137019D72B1E00746670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5C137119D72B1F00746670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F5C137719D72B1F00746670 /* Wearhacks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wearhacks.xcdatamodel; sourceTree = "<group>"; };
-		1F5C137D19D72B1F00746670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F5C137F19D72B1F00746670 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1F5C138219D72B1F00746670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1F5C138819D72B1F00746670 /* WearhacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WearhacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +91,7 @@
 		D26EF49F19D8561200046EBB /* UIButtonRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonRounded.m; sourceTree = "<group>"; };
 		D26EF4A519D857C700046EBB /* UIStoryboard+WearHacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+WearHacks.h"; sourceTree = "<group>"; };
 		D26EF4A619D857C700046EBB /* UIStoryboard+WearHacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+WearHacks.m"; sourceTree = "<group>"; };
+		D26EF4A919D85E6C00046EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBC9213B26E4B0D8EA85374C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -292,8 +292,8 @@
 		580FD64019D76FBB00502C94 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				D26EF4A819D85E6C00046EBB /* Main.storyboard */,
 				1F5C138119D72B1F00746670 /* LaunchScreen.xib */,
-				1F5C137C19D72B1F00746670 /* Main.storyboard */,
 				1F8FBA1A19D76D64001531C2 /* Rehab.storyboard */,
 				580FD63D19D76FA200502C94 /* Schedule.storyboard */,
 			);
@@ -405,8 +405,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F5C137E19D72B1F00746670 /* Main.storyboard in Resources */,
 				1F8FBA1B19D76D64001531C2 /* Rehab.storyboard in Resources */,
+				D26EF4AA19D85E6C00046EBB /* Main.storyboard in Resources */,
 				1F5C138319D72B1F00746670 /* LaunchScreen.xib in Resources */,
 				1F5C138019D72B1F00746670 /* Images.xcassets in Resources */,
 				580FD63F19D76FA200502C94 /* Schedule.storyboard in Resources */,
@@ -518,14 +518,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1F5C137C19D72B1F00746670 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F5C137D19D72B1F00746670 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F5C138119D72B1F00746670 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -541,6 +533,14 @@
 			);
 			name = Schedule.storyboard;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		D26EF4A819D85E6C00046EBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26EF4A919D85E6C00046EBB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
