@@ -24,7 +24,7 @@
 
 + (PFQuery *)allExercicesForExerciceDate:(PFObject *)injury {
     
-    PFQuery *query = [PFQuery queryWithClassName:@"Exercise"];
+    PFQuery *query = [PFQuery queryWithClassName:@"Exercice"];
     [query whereKey:@"exerciceDate" containedIn:@[injury]];
     [query includeKey:@"type"];
     [query orderByDescending:@"createdAt"];
@@ -32,26 +32,13 @@
     return query;
 }
 
-+ (PFQuery *)allDataForExercice:(PFObject *)exercice {
++ (PFQuery *)allDataForExerciceTypeID:(NSNumber *)typeID {
     
     PFQuery *query = [PFQuery queryWithClassName:@"ExerciceData"];
-    [query whereKey:@"exercise" containedIn:@[exercice]];
+    [query whereKey:@"typeID" equalTo:typeID];
     [query orderByDescending:@"createdAt"];
     
     return query;
-}
-
-+ (PFQuery *)exerciseTypeForExercise:(PFObject *)exercise {
-    
-    PFQuery *query = [PFQuery queryWithClassName:@"ExerciseType"];
-
-    [query orderByDescending:@"createdAt"];
-    
-    //Only fetch the one I created
-    [query whereKey:@"user" equalTo:[PFUser currentUser]];
-    
-    return query;
-    
 }
 
 #pragma mark - Facebook

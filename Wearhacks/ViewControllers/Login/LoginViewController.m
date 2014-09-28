@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import <UIColor+HTMLColors.h>
 
 @interface LoginViewController ()
 
@@ -20,7 +21,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    self.view.backgroundColor = [UIColor colorWithRed:0.129412F green:0.713725F blue:0.737255F alpha:1.0F];
 }
 
 - (void)viewDidLayoutSubviews {
@@ -35,6 +35,18 @@
     [self.logInView setLogo:title];
     
     [title sizeToFit];
+    
+    [self.logInView.facebookButton setTitle:@"Sign with Facebook" forState:UIControlStateNormal];
+    [self.logInView.facebookButton setImageEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 70)];
+    
+    UIImageView * logo = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"login_logo"]];
+    [logo setCenter:CGPointMake(self.view.center.x, self.view.center.y - 180)];
+    
+    [self.logInView setLogo:nil];
+    [self.logInView addSubview:logo];
+    
+    self.view.backgroundColor = [UIColor colorWithHexString:@"#3e3e3e"];
+
     
 }
 
