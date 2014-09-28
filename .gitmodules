@@ -1,0 +1,3 @@
+[submodule "Wearhacks/Library/CHCircleGaugeView"]
+	path = Wearhacks/Library/CHCircleGaugeView
+	url = git@github.com:GabrielCartier/CHCircleGaugeView.git

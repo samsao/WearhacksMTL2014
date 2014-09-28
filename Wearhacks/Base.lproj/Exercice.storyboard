@@ -7,7 +7,7 @@
         <!--Exercice view controller-->
         <scene sceneID="Wwh-L1-84t">
             <objects>
-                <viewController title="Exercice view controller" id="60J-yI-SMe" sceneMemberID="viewController">
+                <viewController title="Exercice view controller" id="60J-yI-SMe" customClass="ExerciceViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Qw-wW-MvR"/>
                         <viewControllerLayoutGuide type="bottom" id="0Tq-b2-37a"/>
@@ -39,10 +39,16 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="S2v-XJ-orM" firstAttribute="leading" secondItem="DPE-Hd-oEG" secondAttribute="leading" id="AYY-yY-5aw"/>
-                                    <constraint firstAttribute="trailing" secondItem="S2v-XJ-orM" secondAttribute="trailing" id="Gye-rn-4sc"/>
+                                    <constraint firstItem="S2v-XJ-orM" firstAttribute="leading" secondItem="DPE-Hd-oEG" secondAttribute="leading" id="AYY-yY-5aw">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="20" symbolic="YES"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="S2v-XJ-orM" secondAttribute="trailing" id="Gye-rn-4sc">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="20" symbolic="YES"/>
+                                    </constraint>
                                     <constraint firstAttribute="height" constant="500" id="aS0-rv-ZVx"/>
-                                    <constraint firstItem="S2v-XJ-orM" firstAttribute="top" secondItem="DPE-Hd-oEG" secondAttribute="top" id="h6Z-D2-Whi"/>
+                                    <constraint firstItem="S2v-XJ-orM" firstAttribute="top" secondItem="DPE-Hd-oEG" secondAttribute="top" id="h6Z-D2-Whi">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="20" symbolic="YES"/>
+                                    </constraint>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="subviews">
@@ -95,6 +101,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="circleGaugeView" destination="S2v-XJ-orM" id="9Ou-7p-IOZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSi-bI-oOg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

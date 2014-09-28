@@ -12,4 +12,6 @@ pod 'SVProgressHUD', '~> 1.0'
 pod 'SDWebImage', '~> 3.x'
 pod 'PonyDebugger', :git => 'https://github.com/square/PonyDebugger.git'
 pod 'CHCircleGaugeView'
+pod 'UIColor-HTMLColors'
+
 
