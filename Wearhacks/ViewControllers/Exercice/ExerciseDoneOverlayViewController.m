@@ -44,10 +44,11 @@
     self.lineGraph = [[GKLineGraph alloc] initWithFrame:self.lineGraphView.frame];
     [self.lineGraphView addSubview:self.lineGraph];
     self.lineGraph.dataSource = self;
-    self.exerciseData = [NSArray new];
-
+    if (!self.exerciseData) {
+        self.exerciseData = [NSArray new];
+    }
     // Mock the exercise data
-    [self mockExerciseData];
+//    [self mockExerciseData];
 
     // Set the line graph width anbd draw it
     self.lineGraph.lineWidth = 3.0;
