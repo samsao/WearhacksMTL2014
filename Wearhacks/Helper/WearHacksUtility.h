@@ -13,7 +13,6 @@
 + (PFQuery *)allExerciceDate;
 + (PFQuery *)allExercicesForExerciceDate:(PFObject *)injury;
 + (PFQuery *)allDataForExerciceTypeID:(NSNumber *)typeID;
-+ (PFQuery *)exerciseTypeForExercice:(PFObject *)exercice;
 
 //Facebook
 + (void)processFacebookProfilePictureData:(NSData *)newProfilePictureData;

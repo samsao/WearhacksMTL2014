@@ -41,19 +41,6 @@
     return query;
 }
 
-+ (PFQuery *)exerciseTypeForExercice:(PFObject *)exercice {
-    
-    PFQuery *query = [PFQuery queryWithClassName:@"ExerciceType"];
-
-    [query orderByDescending:@"createdAt"];
-    
-    //Only fetch the one I created
-    [query whereKey:@"user" equalTo:[PFUser currentUser]];
-    
-    return query;
-    
-}
-
 #pragma mark - Facebook
 
 + (void)processFacebookProfilePictureData:(NSData *)newProfilePictureData {
