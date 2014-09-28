@@ -7,8 +7,16 @@
 //
 
 #import "ExerciseDetailViewController.h"
+#import "UIButtonRounded.h"
 
 @interface ExerciseDetailViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
+@property (weak, nonatomic) IBOutlet UIView *videoContainer;
+@property (weak, nonatomic) IBOutlet UIButtonRounded *startButton;
+
+@property (nonatomic, strong) NSURL *videoURL;
+@property (nonatomic, strong) UIImage *videoThumbnail;
 
 @end
 
@@ -16,24 +24,36 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    self.descriptionTextView.text = [self.exercise objectForKey:@"description"];
     
-    [self loadExerciseData];
+    PFFile *videoFile = [self.exercise objectForKey:@"video"];
+    
+    _videoURL = [NSURL URLWithString:videoFile.url];
+    MPMoviePlayerController *player = [[MPMoviePlayerController alloc] initWithContentURL:self.videoURL];
+    _videoThumbnail = [player thumbnailImageAtTime:1.0 timeOption:MPMovieTimeOptionNearestKeyFrame];
+    player = nil;
+    
+    UIImageView *thumbnailView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 255, 167)];
+    thumbnailView.image = self.videoThumbnail;
+    [self.videoContainer addSubview:thumbnailView];
     
 }
 
-- (void)loadExerciseData {
+
+
+- (void)viewWillAppear:(BOOL)animated {
     
-//    PFQuery *exerciseDataQuery = [WearHacksUtility allDataForExercice:self.exercise];
-//    [exerciseDataQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-//       
-//        if (!error) {
-//            
-//            NSLog(@"Exercise Data count : %lul", (unsigned long)objects.count);
-//            
-//        }
-//        
-//    }];
+    [super viewWillAppear:animated];
+
+    
+
+    
+}
+
+- (IBAction)startExercise:(id)sender {
+    
+    NSLog(@"Start Exercise button pressed");
     
 }
 

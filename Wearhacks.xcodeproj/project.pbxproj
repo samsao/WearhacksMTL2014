@@ -217,12 +217,12 @@
 		1F4D5C9C19D76A69002C40A2 /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
+				D26EF4AF19D8641500046EBB /* ScheduleTableViewController.h */,
+				D26EF4B019D8641500046EBB /* ScheduleTableViewController.m */,
 				D26EF4AB19D8641500046EBB /* DayDetailTableViewController.h */,
 				D26EF4AC19D8641500046EBB /* DayDetailTableViewController.m */,
 				D26EF4AD19D8641500046EBB /* ExerciseDetailViewController.h */,
 				D26EF4AE19D8641500046EBB /* ExerciseDetailViewController.m */,
-				D26EF4AF19D8641500046EBB /* ScheduleTableViewController.h */,
-				D26EF4B019D8641500046EBB /* ScheduleTableViewController.m */,
 			);
 			path = Schedule;
 			sourceTree = "<group>";
