@@ -14,5 +14,6 @@ pod 'PonyDebugger', :git => 'https://github.com/square/PonyDebugger.git'
 pod 'CHCircleGaugeView', :git => 'https://github.com/GabrielCartier/CHCircleGaugeView'
 pod 'UIColor-HTMLColors'
 pod 'BlurryModalSegue'
+pod 'GraphKit'
 
 

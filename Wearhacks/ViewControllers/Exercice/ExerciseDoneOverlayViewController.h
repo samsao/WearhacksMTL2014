@@ -7,12 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GKLineGraph.h>
 
 @protocol ExerciseDoneOverlayDelegate;
 
-@interface ExerciseDoneOverlayViewController : UIViewController
+@interface ExerciseDoneOverlayViewController : UIViewController <GKLineGraphDataSource>
 
+/**
+ *  Delegate for the view controller
+ */
 @property(weak, nonatomic) id<ExerciseDoneOverlayDelegate> delegate;
+
+/**
+ *  Array of exercise
+ */
+@property(strong, nonatomic) NSArray *exerciseData;
 
 @end
 
