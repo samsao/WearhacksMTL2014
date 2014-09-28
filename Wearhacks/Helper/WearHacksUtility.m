@@ -24,7 +24,7 @@
 
 + (PFQuery *)allExercicesForExerciceDate:(PFObject *)injury {
     
-    PFQuery *query = [PFQuery queryWithClassName:@"Exercise"];
+    PFQuery *query = [PFQuery queryWithClassName:@"Exercice"];
     [query whereKey:@"exerciceDate" containedIn:@[injury]];
     [query includeKey:@"type"];
     [query orderByDescending:@"createdAt"];
@@ -41,9 +41,9 @@
     return query;
 }
 
-+ (PFQuery *)exerciseTypeForExercise:(PFObject *)exercise {
++ (PFQuery *)exerciseTypeForExercice:(PFObject *)exercice {
     
-    PFQuery *query = [PFQuery queryWithClassName:@"ExerciseType"];
+    PFQuery *query = [PFQuery queryWithClassName:@"ExerciceType"];
 
     [query orderByDescending:@"createdAt"];
     
